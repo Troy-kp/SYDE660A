@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "008434",
+    "courseOfferNumber": 1,
+    "termCode": "1211",
+    "termName": "Winter 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "RUSS",
+    "catalogNumber": "101",
+    "title": "Elementary Russian I",
+    "descriptionAbbreviated": "Elementary Russian I",
+    "description": "A study of Russian grammar and composition with emphasis on oral practice and pronunciation.  [Note: RUSS 101 is not open to students with native, near-native, or similar advanced ability.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

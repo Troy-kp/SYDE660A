@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016326",
+    "courseOfferNumber": 1,
+    "termCode": "1241",
+    "termName": "Winter 2024",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "GRAD",
+    "associatedAcademicOrgCode": "GRAD",
+    "subjectCode": "NANO",
+    "catalogNumber": "602",
+    "title": "Structure and Spectroscopy of Nanoscale Materials",
+    "descriptionAbbreviated": "Struct & Spectr of Nanoscl Mat",
+    "description": "Introduction to structure of nanoscale materials (crystal, surface and electronic) from an interdisciplinary perspective. Fundamentals introduced and used to discuss the design and fabrication of electronic devices, more complex surfaces/interfaces and case studies. Covers electronic structure of nanoscale materials, including metals, insulators, semiconductors and conductive polymers, and methodologies and approaches to their spectroscopic study. Interaction of electro-magnetic radiation and quantum-mechanical particles and matter. Methodologies include optical, x-ray and electron spectroscopic/spectro-microscopic methods, including epifluorescence, confocal scanning microscopy, near-field scanning optical microscopy, scanning transmission x-ray microscopy and electron energy loss spectroscopy.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Antireq: NANO 701, Tpc 1 & NANO 702, Tpc 1"
+  }
+]

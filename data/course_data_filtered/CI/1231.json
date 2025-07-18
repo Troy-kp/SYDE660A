@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015149",
+    "courseOfferNumber": 2,
+    "termCode": "1231",
+    "termName": "Winter 2023",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "CI",
+    "catalogNumber": "200",
+    "title": "Transcultural Studies",
+    "descriptionAbbreviated": "Transcultural Studies",
+    "description": "This course provides an introduction to transcultural views of literature, film, language, and literature and media culture (e.g., fairy tales and their adaptation in other cultures, authors who work in multiple languages, transcultural comics, multilingual and transcultural films, local cultures' interaction with global arts and media scenes, etc.). [Note: Lectures and readings in English. No knowledge of German required.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

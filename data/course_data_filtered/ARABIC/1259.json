@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013338",
+    "courseOfferNumber": 1,
+    "termCode": "1259",
+    "termName": "Fall 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "REN",
+    "associatedAcademicOrgCode": "REN",
+    "subjectCode": "ARABIC",
+    "catalogNumber": "101R",
+    "title": "Introduction to Arabic 1",
+    "descriptionAbbreviated": "Intro Arabic 1",
+    "description": "This course is designed for students with no previous knowledge of Arabic. Students will study Modern Standard Arabic (MSA) with a focus on learning the alphabet and cursive writing. They will develop knowledge of basic vocabulary, construct simple sentences, and exchange basic conversations.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Placement test is required. Antireq: ARABIC 120/SI 120R, SI 101R; Not open to students with native. near-native or similar advanced ability"
+  }
+]

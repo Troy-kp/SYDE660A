@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "010724",
+    "courseOfferNumber": 1,
+    "termCode": "1251",
+    "termName": "Winter 2025",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "ENV",
+    "associatedAcademicOrgCode": "ENVDEAN",
+    "subjectCode": "TOUR",
+    "catalogNumber": "603",
+    "title": "Sustainable Tourism",
+    "descriptionAbbreviated": "Sustainable Tourism",
+    "description": "This course examines sustainability issues relevant to tourism. Conceptual and practical examples related to economic, environmental, and social/cultural sustainability of tourism are critically appraised, combined with reviews of policy and institutional effects on sustainability practices. The course also focuses on best practices in sustainable tourism within government, non-government and private sector.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

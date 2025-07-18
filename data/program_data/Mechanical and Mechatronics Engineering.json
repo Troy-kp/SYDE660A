@@ -1,0 +1,200 @@
+{
+  "_program_info": {
+    "program_name": "Master of Engineering (MEng) in Mechanical and Mechatronics Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/rkNjl10Rjn",
+    "total_courses": 8,
+    "program_length": "Full-time: 4 terms (16 months), Part-time: 8 terms (32 months)",
+    "funding_note": "The University of Waterloo does not provide funding for MEng in Mechanical and Mechatronics Engineering students, and the candidates are expected to be self-supporting."
+  },
+  "_degree_constraints": {
+    "level_constraints": {
+      "max_500_level": 2,
+      "description": "A maximum of 2 500-level courses may be counted for credit"
+    },
+    "departmental_constraints": {
+      "min_me_courses": 4,
+      "min_600_level_me": 2,
+      "description": "At least 4 out of the 8 required courses must be ME courses, and at least 2 of the 8 must be ME 600-level courses"
+    },
+    "faculty_constraints": {
+      "min_engineering_courses": 4,
+      "description": "At least half of the courses used for credit must normally be Faculty of Engineering courses and the other half need to be Mechanical and Mechatronics Engineering courses"
+    },
+    "grade_requirements": {
+      "minimum_average": 70,
+      "minimum_individual": 65,
+      "description": "The candidate must obtain a pass in all courses credited to their program, with a minimum overall average of 70% (a grade of less than 65% in any course counts as a failure)"
+    },
+    "emls_requirement": {
+      "description": "An English for Multilingual Speakers (EMLS) technical/professional course is normally required for all students who were not English Language Proficiency (ELP) exempt at the time of admission",
+      "waiver": "The EMLS communication course can be waived at the discretion of the Department"
+    }
+  },
+  "_milestone_requirements": {
+    "seminar_attendance": {
+      "required_seminars": 4,
+      "description": "Students must attend at least 4 Mechanical and Mechatronics Engineering research seminars"
+    }
+  },
+  "Mechanical_Mechatronics_MEng": {
+    "specified_fixed": [
+      "ME 600 - Engineering Practice, Research Methods, Ethics & Professional Development for MME Graduate Students (0.25 unit weight)"
+    ],
+    "elective": {
+      "min_count": 8,
+      "list": [
+        "8 graduate level courses (0.50 unit weight each)"
+      ],
+      "note": "Of the 8 courses, at least 4 must be Mechanical and Mechatronics Engineering courses, and at least 2 of the 8 must be ME 600-level courses. A maximum of 2 500-level courses may be counted for credit. An English for Multilingual Speakers (EMLS) course is normally required for all students who were not ELP exempt at the time of admission."
+    },
+    "total_courses": 8,
+    "description": "Core MEng program requiring ME 600 plus 8 graduate level courses with departmental and level constraints."
+  },
+  "Building_Systems": {
+    "note": "No more than 1 of the 4 courses may be 500-level.",
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "CIVE 507 - Building Science and Technology or CIVE 707 - Advanced Building Science",
+          "ME 567 - Fire Safety Engineering",
+          "ME 654 - Advanced Applied Thermal Engineering",
+          "ME 655 - Advanced Building Energy Analysis",
+          "ME 656 - Advanced HVAC Systems, Equipment, and Energy Efficiency"
+        ]
+      }
+    ],
+    "elective": {
+      "min_count": 2,
+      "list": [
+        "CIVE 507 - Building Science and Technology or CIVE 707 - Advanced Building Science",
+        "ME 567 - Fire Safety Engineering",
+        "ME 654 - Advanced Applied Thermal Engineering",
+        "ME 655 - Advanced Building Energy Analysis",
+        "ME 656 - Advanced HVAC Systems, Equipment, and Energy Efficiency",
+        "CIVE 601 - Engineering Risk and Reliability",
+        "ME 562 - Experimental Methods in Fluids",
+        "ME 566 - Computational Fluid Dynamics for Engineering Design",
+        "ME 651 - Heat Conduction",
+        "ME 652 - Convective Heat Transfer",
+        "ME 653 - Radiation Heat Transfer",
+        "ME 662 - Advanced Fluid Mechanics",
+        "ME 663 - Computational Fluid Dynamics",
+        "ME 671 - Fundamental Fire Dynamics",
+        "ME 672 - Advanced Fire Dynamics",
+        "ME 673 - Fire Modeling"
+      ]
+    },
+    "total_courses": 4,
+    "description": "Graduate Specialization in Building Systems. Choose 4 total between Set-A and Set-B. A minimum of 2 must be taken from Set-A."
+  },
+  "Materials_Advanced_Manufacturing": {
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "ME 531 - Physical Metallurgy Applied to Manufacturing",
+          "ME 559 - Finite Element Methods or ME 621 - Advanced Finite Element Method",
+          "ME 620 - Mechanics of Continua",
+          "ME 631 - Mechanical Metallurgy",
+          "ME 632 - Experimental Methods in Materials Engineering",
+          "ME 739 Manufacturing Processes Topics: Topic 15 - Additive Manufacturing Design"
+        ]
+      }
+    ],
+    "elective": {
+      "min_count": 2,
+      "list": [
+        "ME 526 - Fatigue and Fracture Analysis",
+        "ME 533 - Non-Metallic and Composite Materials",
+        "ME 535 - Welding Metallurgy",
+        "ME 538 - Welding Design, Fabrication and Quality Control",
+        "ME 596 Special Topics in Mechanical Engineering: Topic 12 - Manufacturing of Mechatronics Materials and Components",
+        "ME 627 - Fatigue Analysis and Design",
+        "ME 628 - Fracture Mechanics",
+        "ME 732 - Thermodynamics and Phase Transformations",
+        "ME 734 - Mechanics of Composite Materials",
+        "ME 735 Special Topics - Welding and Joining: Topic 2 - Advanced Materials Joining",
+        "ME 739 Manufacturing Processes Topics: Topic 15 - Additive Manufacturing",
+        "NANO 600 - Introduction to Nanotechnology",
+        "NANO 603 - Nanocomposites",
+        "NANO 605 - Design of MEMS and NEMS",
+        "NANO 606 - Advanced Microelectromechanical Systems: Physics, Design & Fabrication"
+      ]
+    },
+    "total_courses": 4,
+    "description": "Graduate Specialization with 2 courses from Set-A and 2 from Set-B. No more than 1 of the 4 courses may be 500-level."
+  },
+  "Mechatronic_Systems": {
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "ECE 602 - Introduction to Optimization",
+          "ECE 650 - Methods and Tools for Software Engineering",
+          "ME 547 - Robotic Manipulators: Kinematics, Dynamics and Control",
+          "ME 640 - Autonomous Mobile Robotics",
+          "ME 649 - Control of Machines and Processes",
+          "ME 780 Special Topics in Mechatronics: Topic 1 - Precision Control Systems",
+          "ME 780 Special Topics in Mechatronics: Topic 5 - Computational Intelligence"
+        ]
+      }
+    ],
+    "elective": {
+      "min_count": 2,
+      "list": [
+        "ECE 682 - Multivariable Control Systems",
+        "ECE 780 Special Topics in Control: Topic 11 - Model Predictive Control",
+        "ME 540 - Fundamentals in Neural and Rehabilitation Engineering",
+        "ME 780 Special Topics in Mechatronics: Topic 17 - Vehicle System Dynamics",
+        "ME 780 Special Topics in Mechatronics: Topic 14 - Electromagnetic Actuators",
+        "ME 780 Special Topics in Mechatronics: Topic 10 - Adaptive Control",
+        "ME 780 Special Topics in Mechatronics: Topic 37 - Human Movement Neuromechanics",
+        "ME 780 Special Topics in Mechatronics: Topic 38 - Design of a Mechatronic System",
+        "MTE 546 - Multi Sensor Data Fusion",
+        "SYDE 575 - Image Processing",
+        "SYDE 652 - Dynamics of Multibody Systems",
+        "SYDE 655 - Optimal and Learning-Based Control"
+      ]
+    },
+    "total_courses": 4,
+    "description": "Graduate Specialization with 2 courses from Set-A and 2 from Set-B. No more than 1 of the 4 courses may be 500-level."
+  },
+  "Sustainable_Energy": {
+    "specified_choose": [
+      {
+        "count": 1,
+        "options": [
+          "ME 654 - Advanced Applied Thermal Engineering",
+          "ME 659 - Energy and Environment"
+        ]
+      }
+    ],
+    "elective": {
+      "min_count": 3,
+      "list": [
+        "ME 655 - Advanced Building Energy Analysis",
+        "ME 751 - Fuel Cell Technology",
+        "ME 753 - Solar Energy",
+        "ME 760 Special Topics in Thermal Engineering: Energy Storage",
+        "ME 765 Special Topics in Fluid Mechanics: Topic 6 - Wind Energy",
+        "ME 562 - Experimental Methods in Fluids",
+        "ME 566 - Computational Fluid Dynamics for Engineering Design",
+        "ME 651 - Heat Conduction",
+        "ME 652 - Convective Heat Transfer",
+        "ME 653 - Radiation Heat Transfer",
+        "ME 662 - Advanced Fluid Mechanics",
+        "ME 663 - Computational Fluid Dynamics",
+        "ME 671 - Fundamental Fire Dynamics",
+        "ME 750 - Advanced Engineering Thermodynamics"
+      ]
+    },
+    "total_courses": 4,
+    "description": "Graduate Specialization with minimum 1 from Set-A, at least 3 total from Set-A and Set-B. No more than 1 of the 4 courses may be 500-level."
+  },
+  "_specialization_info": {
+    "selection_note": "Students may choose to pursue one of the Graduate Specializations as part of their MEng program",
+    "course_structure": "All MEng Graduate Specializations consist of at least 4 graduate (0.50 weight) level courses comprised of a mix of compulsory and elective courses",
+    "level_constraint": "No more than 1 of the 4 specialization courses may be 500-level for most specializations"
+  }
+}

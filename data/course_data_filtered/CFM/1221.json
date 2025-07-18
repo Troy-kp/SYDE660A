@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016182",
+    "courseOfferNumber": 1,
+    "termCode": "1221",
+    "termName": "Winter 2022",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "VPA",
+    "associatedAcademicOrgCode": "VPA",
+    "subjectCode": "CFM",
+    "catalogNumber": "301",
+    "title": "Financial Data Analytics",
+    "descriptionAbbreviated": "Financial Data Analytics",
+    "description": "This course covers financial data analytics in the areas of asset pricing, securities trading, and portfolio management. It covers data usage and application in basic testing of asset pricing theories, trading algorithms and strategies, back-testing techniques, and aspects of portfolio management associated with trading strategies.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: CFM 101, AFM 272/ACTSC 291; Computing and Financial Management students"
+  }
+]

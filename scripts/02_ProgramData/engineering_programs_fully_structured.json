@@ -1,0 +1,392 @@
+[
+  {
+        "program_name": "Master of Architecture (MArch)",
+        "department": "Architecture",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/SyogJRRi3?bc=true&bcCurrent=Master%20of%20Architecture%20(MArch)&bcGroup=Architecture&bcItemType=programs",
+        "structured_details": {
+            "Faculty": "Faculty of Engineering",
+            "Academic unit": "School of Architecture",
+            "Admit term(s)": ["Fall"],
+            "Delivery mode": "On-campus",
+            "Campus": "Cambridge",
+            "Registration option(s)": ["Full-time"],
+            "Study option(s)": ["Thesis"],
+            "Length of program": {
+                "description": "A two-year degree program with flexible completion timelines based on student's background.",
+                "timelines": [
+                    {
+                        "condition": "For students with a pre-professional BAS from Waterloo or equivalent",
+                        "duration_terms_min": 3,
+                        "duration_terms_max": 6
+                    },
+                    {
+                        "condition": "For all other students with a pre-professional Architecture degree",
+                        "duration_terms_max": 6,
+                        "notes": "Requires two terms of transitional coursework."
+                    }
+                ]
+            },
+            "Accreditation": {
+                "is_accredited": true,
+                "accrediting_body": "Canadian Architectural Certification Board (CACB)",
+                "term_of_accreditation_years": 6,
+                "notes": "The MArch in conjunction with the pre-professional Bachelor of Architectural Studies (BAS) constitutes an accredited professional education."
+            },
+            "Admission requirements": {
+                "minimum_gpa_percent": 75,
+                "required_degree": "A four-year, honours pre-professional undergraduate Architecture degree or professional Bachelor of Architecture degree.",
+                "portfolio_required": true,
+                "references": {
+                    "count": 2,
+                    "type": "academic"
+                },
+                "additional_requirements": [
+                    "Résumé/Curriculum vitae",
+                    "Supplementary information form (including statement of proposed research interest)",
+                    "Transcripts"
+                ],
+                "english_proficiency_notes": "May be required for applicants without three or more years of post-secondary work at a Canadian institution or where English was not the language of instruction."
+            },
+            "Degree requirements": {
+                "general_notes": "The Master of Architecture curriculum covers six key areas: Design; History; Theory; Building Technology; Media and Methods; Professional Practice.",
+                "options": [
+                    {
+                        "option_name": "Thesis option",
+                        "course_requirements": {
+                            "course_groups": [
+                                {
+                                    "group_name": "Year 1",
+                                    "courses": ["ARCH 690", "ARCH 673", "ARCH 642", "ARCH 671", "ARCH 691", "ARCH 662", "ARCH 640"]
+                                },
+                                {
+                                    "group_name": "Year 2: Fall",
+                                    "courses": ["ARCH 692", "ARCH 610", "ARCH 6XX"]
+                                },
+                                {
+                                    "group_name": "Year 2: Winter",
+                                    "courses": ["ARCH 693", "ARCH 655", "ARCH 6XX"]
+                                },
+                                {
+                                    "group_name": "Year 2: Spring",
+                                    "courses": ["ARCH 6XX"]
+                                }
+                            ],
+                            "notes": [
+                                "ARCH 6XX represents an open graduate elective.",
+                                "Students are encouraged to use elective courses to explore areas of specialization.",
+                                "Up to 1 half credit (0.50) elective may be taken in other departments.",
+                                "1 half credit (0.50) course may be an independent Reading Course."
+                            ]
+                        },
+                        "milestone_requirements": [
+                            {
+                                "name": "Master's Thesis in Design",
+                                "description": "Students must undertake and complete a research and design thesis. The thesis is developed within ARCH 692 and ARCH 693 and completed within the spring term. It must be presented and defended successfully."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+  },
+  {
+        "program_name": "Master of Architecture (MArch) - Co-operative Program",
+        "department": "Architecture",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/Bye6lyRRsh?bc=true&bcCurrent=Master%20of%20Architecture%20(MArch)%20-%20Co-operative%20Program&bcGroup=Architecture&bcItemType=programs",
+        "structured_details": {
+            "Faculty": "Faculty of Engineering",
+            "Academic unit": "School of Architecture",
+            "Admit term(s)": ["Fall"],
+            "Delivery mode": "On-campus",
+            "Campus": "Cambridge",
+            "Registration option(s)": ["Full-time"],
+            "Program type(s)": ["Co-operative"],
+            "Study option(s)": ["Thesis"],
+            "Length of program": {
+                "description": "A two-year degree program with flexible completion timelines based on student's background.",
+                "timelines": [
+                    {
+                        "condition": "For students with a pre-professional BAS from Waterloo or equivalent",
+                        "duration_terms_min": 3,
+                        "duration_terms_max": 6
+                    },
+                    {
+                        "condition": "For all other students with a pre-professional Architecture degree",
+                        "duration_terms_max": 6,
+                        "notes": "Requires two terms of transitional coursework."
+                    }
+                ]
+            },
+            "Accreditation": {
+                "is_accredited": true,
+                "accrediting_body": "Canadian Architectural Certification Board (CACB)",
+                "term_of_accreditation_years": 6,
+                "notes": "The MArch in conjunction with the pre-professional Bachelor of Architectural Studies (BAS) constitutes an accredited professional education."
+            },
+            "Admission requirements": {
+                "minimum_gpa_percent": 75,
+                "required_degree": "A four-year, honours pre-professional undergraduate Architecture degree or professional Bachelor of Architecture degree.",
+                "portfolio_required": true,
+                "references": {
+                    "count": 2,
+                    "type": "academic"
+                },
+                "additional_requirements": [
+                    "Résumé/Curriculum vitae",
+                    "Supplementary information form (including statement of proposed research interest)",
+                    "Transcripts"
+                ],
+                "english_proficiency_notes": "May be required for applicants without three or more years of post-secondary work at a Canadian institution or where English was not the language of instruction."
+            },
+            "Degree requirements": {
+                "general_notes": "The Master of Architecture curriculum covers six key areas: Design; History; Theory; Building Technology; Media and Methods; Professional Practice.",
+                "options": [
+                    {
+                        "option_name": "Thesis option",
+                        "course_requirements": {
+                            "course_groups": [
+                                {
+                                    "group_name": "Year 1",
+                                    "courses": ["ARCH 690", "ARCH 673", "ARCH 642", "ARCH 671", "ARCH 691", "ARCH 662", "ARCH 640"]
+                                },
+                                {
+                                    "group_name": "Co-op/Graduate Research Assistantship",
+                                    "courses": [],
+                                    "is_work_term": true
+                                },
+                                {
+                                    "group_name": "Year 2: Fall",
+                                    "courses": ["ARCH 692", "ARCH 610", "ARCH 6XX"]
+                                },
+                                {
+                                    "group_name": "Year 2: Winter",
+                                    "courses": ["ARCH 693", "ARCH 655", "ARCH 6XX"]
+                                },
+                                {
+                                    "group_name": "Year 2: Spring",
+                                    "courses": ["ARCH 6XX"]
+                                }
+                            ],
+                            "notes": [
+                                "ARCH 6XX represents an open graduate elective.",
+                                "Students are encouraged to use elective courses to explore areas of specialization in support of their thesis research.",
+                                "Up to 1 half credit (0.50) elective may be taken in other departments.",
+                                "1 half credit (0.50) course may be an independent Reading Course."
+                            ]
+                        },
+                        "milestone_requirements": [
+                            {
+                                "name": "Graduate Studies Work Report",
+                                "description": "Implicit requirement of the co-operative program."
+                            },
+                            {
+                                "name": "Master's Thesis in Design",
+                                "description": "Students must undertake and complete a research and design thesis (in Year 2: Spring). The thesis is developed within ARCH 692 and ARCH 693 and completed within the spring term. It must be presented and defended successfully before an Examining Committee."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+  },
+    {
+        "program_name": "Master of Architecture (MArch) - Water",
+        "department": "Architecture",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/ByZTx10Aoh?bc=true&bcCurrent=Master%20of%20Architecture%20(MArch)%20-%20Water&bcGroup=Architecture&bcItemType=programs",
+        "structured_details": {
+            "Faculty": "Faculty of Engineering",
+            "Academic unit": "School of Architecture",
+            "Admit term(s)": ["Fall"],
+            "Delivery mode": "On-campus",
+            "Campus": "Cambridge",
+            "Registration option(s)": ["Full-time"],
+            "Program type(s)": ["Collaborative"],
+            "Study option(s)": ["Thesis"],
+            "Length of program": {
+                "description": "A two-year degree program with flexible completion timelines based on student's background.",
+                "timelines": [
+                    {
+                        "condition": "For students with a pre-professional BAS from Waterloo or equivalent",
+                        "duration_terms_min": 3,
+                        "duration_terms_max": 6
+                    },
+                    {
+                        "condition": "For all other students with a pre-professional Architecture degree",
+                        "duration_terms_max": 6,
+                        "notes": "Requires two terms of transitional coursework."
+                    }
+                ]
+            },
+            "Accreditation": {
+                "is_accredited": true,
+                "accrediting_body": "Canadian Architectural Certification Board (CACB)",
+                "term_of_accreditation_years": 6,
+                "notes": "The MArch in conjunction with the pre-professional Bachelor of Architectural Studies (BAS) constitutes an accredited professional education."
+            },
+            "Admission requirements": {
+                "minimum_gpa_percent": 75,
+                "required_degree": "A four-year, honours pre-professional undergraduate Architecture degree or professional Bachelor of Architecture degree.",
+                "portfolio_required": true,
+                "references": {
+                    "count": 2,
+                    "type": "academic"
+                },
+                "additional_requirements": [
+                    "Résumé/Curriculum vitae",
+                    "Supplementary information form (including statement of proposed research interest)",
+                    "Transcripts"
+                ],
+                "english_proficiency_notes": "May be required for applicants without three or more years of post-secondary work at a Canadian institution or where English was not the language of instruction."
+            },
+            "Degree requirements": {
+                "general_notes": "Students must complete the course and milestone requirements listed below in addition to the Graduate Academic Integrity Module (Graduate AIM).",
+                "options": [
+                    {
+                        "option_name": "Thesis option",
+                        "course_requirements": {
+                            "description": "Students must complete the following courses in addition to 2 Water core courses:",
+                            "core_courses": ["WATER 601", "WATER 602"],
+                            "course_groups": [
+                                {
+                                    "group_name": "Year 1",
+                                    "courses": ["ARCH 690", "ARCH 673", "ARCH 642", "ARCH 671", "ARCH 691", "ARCH 662", "ARCH 640"]
+                                },
+                                {
+                                    "group_name": "Year 2: Fall",
+                                    "courses": ["ARCH 692", "ARCH 610", "ARCH 6XX"]
+                                },
+                                {
+                                    "group_name": "Year 2: Winter",
+                                    "courses": ["ARCH 693", "ARCH 655", "ARCH 6XX"]
+                                },
+                                {
+                                    "group_name": "Year 2: Spring",
+                                    "courses": ["ARCH 6XX"]
+                                }
+                            ],
+                            "notes": [
+                                "ARCH 6XX represents an open graduate elective.",
+                                "Students are encouraged to use elective courses to explore areas of specialization in support of their thesis research.",
+                                "1 half credit (0.50) may be an independent Reading Course.",
+                                "Up to 1 half credit (0.50) elective may be taken in other departments.",
+                                "1 half WATER credit (0.50) can be counted to fulfill 1 half (0.50) MArch elective requirement."
+                            ]
+                        },
+                        "milestone_requirements": [
+                            {
+                                "name": "Collaborative Research Seminar I",
+                                "description": "Students are required to present a seminar on their thesis or major paper research proposal and, if appropriate, early stage results to current and past Water students and Water Institute faculty members. Seminars will normally occur following the completion of WATER 601 and WATER 602."
+                            },
+                            {
+                                "name": "Master's Thesis in Design",
+                                "description": "Students must undertake and complete a research and design thesis (in Year 2: Spring). The thesis is developed within ARCH 692 and ARCH 693 and completed within the spring term. It must be presented and defended successfully before an Examining Committee."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "program_name": "Master of Applied Science (MASc) in Biomedical Engineering",
+        "department": "Biomedical Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/ByjKmY8eye?bc=true&bcCurrent=Master%20of%20Applied%20Science%20(MASc)%20in%20Biomedical%20Engineering&bcGroup=Biomedical%20Engineering&bcItemType=programs",
+        "structured_details": {
+            "Faculty": "Faculty of Engineering",
+            "Academic unit": "Dean of Engineering Office",
+            "Admit term(s)": ["Fall", "Winter", "Spring"],
+            "Delivery mode": "On-campus",
+            "Registration option(s)": ["Full-time"],
+            "Study option(s)": ["Thesis"],
+            "Length of program": {
+                "description": "Students are required to complete the program in accordance with the University program time limits."
+            },
+            "Graduate research fields": [
+                "Biomaterials, Tissue Engineering, and Drug Delivery",
+                "Biomechanics and Rehabilitation",
+                "Biomedical Signals and Devices",
+                "Biomedical Imaging Technology",
+                "Biomedical Informatics"
+            ],
+            "Admission requirements": {
+                "minimum_gpa_percent": 80,
+                "required_degree": "A bachelor’s degree (or equivalent) in any field of engineering or a related science discipline.",
+                "portfolio_required": false,
+                "references": {
+                    "count": 2,
+                    "type": "Academic",
+                    "notes": "Applicants who completed their degree five or more years before the application date may submit 1 academic and 1 professional reference."
+                },
+                "additional_requirements": [
+                    "Résumé",
+                    "Supplementary information form",
+                    "Transcript(s)"
+                ],
+                "notes": "Applicants who are deemed to have an inadequate depth of technical BME background may be directed to take additional foundational courses, to be specified at the time of admission."
+            },
+            "Degree requirements": {
+                "general_notes": "Students must complete the course and milestone requirements listed below in addition to the Graduate Academic Integrity Module (Graduate AIM).",
+                "options": [
+                    {
+                        "option_name": "Thesis option",
+                        "course_requirements": {
+                            "total_courses": 4,
+                            "description": "Students must complete the following 4 graduate level courses (0.50 unit weight per course) counting towards degree credit.",
+                            "course_groups": [
+                                {
+                                    "type": "choose_n_from_list",
+                                    "n_to_choose": 1,
+                                    "group_name": "Biomedical Engineering core courses",
+                                    "courses": ["BME 601", "BME 602", "BME 603"]
+                                },
+                                {
+                                    "type": "choose_n_from_list",
+                                    "n_to_choose": 1,
+                                    "group_name": "Field-specific courses",
+                                    "field_specific_courses": [
+                                        {"field": "Biomaterials, Tissue Engineering and Drug Delivery", "courses": ["BIOL 636", "CHE 601", "CHE 602", "CHE 612", "CHE 620", "CHE 640", "CHE 660", "CHE 663", "CHE 760", "ECE 601", "KIN 657", "PHARM 609", "PHARM 610", "PHARM 617", "SYDE 684"]},
+                                        {"field": "Biomechanics and Rehabilitation", "courses": ["AMATH 663", "BME 550", "BME 551", "BME 588", "KIN 601", "KIN 602", "KIN 603", "KIN 611", "KIN 613", "KIN 620", "ME 621", "ME 662", "ME 663", "ME 720", "ME 780", "PHYS 752", "SYDE 644"]},
+                                        {"field": "Biomedical Signals and Devices", "courses": ["ECE 730", "ECE 770", "KIN 653", "ME 720", "ME 739", "ME 765", "ME 780", "NANO 604", "SYDE 750"]},
+                                        {"field": "Biomedical Imaging Technology", "courses": ["ECE 607", "ECE 613", "ECE 675", "ME 720", "PHYS 751", "SYDE 671", "SYDE 672", "SYDE 675", "SYDE 677", "SYDE 780"]},
+                                        {"field": "Biomedical Informatics", "courses": ["AMATH 882", "BIOL 614", "HLTH 612", "HLTH 615", "HLTH 616", "HLTH 719", "KIN 613"]}
+                                    ]
+                                },
+                                {
+                                    "type": "elective",
+                                    "count": 2,
+                                    "group_name": "Elective courses"
+                                }
+                            ],
+                            "notes": [
+                                "One of the four courses shall be taken from outside the Faculty of Engineering.",
+                                "All courses must be completed by the end of term 4.",
+                                "All course selections are arranged by the supervisor(s) in consultation with the student and are subject to the approval of the Director or Associate Director, BME graduate program.",
+                                "These requirements are in addition to satisfactory completion of any transitional courses that may be specified at the time of admission.",
+                                "The Faculty of Engineering requires that no more than one-half of the courses used for credit toward a graduate degree may be taught by a candidate’s supervisor(s)."
+                            ]
+                        },
+                        "milestone_requirements": [
+                            {
+                                "name": "Professional Attributes and Competence Enhancement (PACE) Module",
+                                "components": [
+                                    {"name": "Seminar series including presenting a research seminar", "description": "Biweekly seminar series with students and internal and external BME speakers. Each student must attend a minimum of five seminars per term, except for their final term. Each student will be required to present a research seminar by the end of their final term."},
+                                    {"name": "PACE Days", "description": "Students are required to attend and participate in 2 PACE days at the beginning of terms 1, 2, and 3."},
+                                    {"name": "Annual BME Research Day", "description": "Students are required to attend and present at the Annual BME Research Day."}
+                                ]
+                            },
+                            {
+                                "name": "Master’s Thesis Proposal",
+                                "description": "Students must develop and defend a thesis proposal that will be examined and approved by their supervisor and committee. The thesis proposal must be completed by the end of term 3."
+                            },
+                            {
+                                "name": "Master’s Thesis",
+                                "description": "Upon approval of the thesis proposal, students will proceed to the research and writing of the thesis. Students must complete and orally defend the thesis by the end of term 6. The thesis and defence will be evaluated by the student’s Advisory Committee."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+
+]

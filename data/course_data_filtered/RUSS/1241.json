@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "008434",
+    "courseOfferNumber": 1,
+    "termCode": "1241",
+    "termName": "Winter 2024",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "RUSS",
+    "catalogNumber": "101",
+    "title": "Elementary Russian 1",
+    "descriptionAbbreviated": "Elementary Russian 1",
+    "description": "This course aims to bring Russian language, culture, and everyday life into the classroom. Students with little or no prior knowledge are introduced to the structure of Russian and develop their listening/comprehension, speaking, reading, and writing skills. Classes are communicative and emphasize interaction in Russian. [Note: RUSS 101 is not open to students with native, near-native, or similar advanced ability.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "014332",
+    "courseOfferNumber": 1,
+    "termCode": "1259",
+    "termName": "Fall 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ENG",
+    "associatedAcademicOrgCode": "ARCH",
+    "subjectCode": "PDARCH",
+    "catalogNumber": "2",
+    "title": "Co-op Fundamentals for Architects",
+    "descriptionAbbreviated": "Co-op Fundamentals",
+    "description": "This course will explore aspects of career development related to preparing for and being successful in co-op work terms, such as understanding Co-operative and Experiential Education policies and procedures, using Waterloo Works, preparing résumés, interviewing effectively, meeting employers' expectations, and preparing work-term reports.",
+    "gradingBasis": "CNC",
+    "courseComponentCode": "PRA",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: PDARCH 1; Level at least 2A Architecture students"
+  }
+]

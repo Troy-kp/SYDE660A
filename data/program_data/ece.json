@@ -1,0 +1,245 @@
+{
+  "_program_info": {
+    "program_name": "Master of Engineering (MEng) in Electrical and Computer Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/B17slJCRs3",
+    "total_courses": 8,
+    "program_length": "Full-time: 4 terms (16 months), Part-time: 8 terms (32 months)",
+    "funding_note": "Students are expected to be self-supporting as the University does not provide funding for MEng students."
+  },
+  "_degree_constraints": {
+    "departmental_constraints": {
+      "min_ece_courses": 5,
+      "max_outside_courses": 3,
+      "description": "A minimum of 5 courses must be taken from within the ECE Department. A maximum of 3 courses may be taken from outside the Department but must be from the faculties of Engineering, Mathematics and Science."
+    },
+    "grade_requirements": {
+      "minimum_average": 70,
+      "minimum_individual": 65,
+      "description": "A minimum grade of 65% in each of the 8 courses and a minimum cumulative average of 70% are required to remain in the program."
+    },
+    "special_notes": {
+      "business_leadership": "Students opting for the Graduate Specialization in Business Leadership are allowed to take a maximum of 4 courses from outside ECE",
+      "additional_courses": "Students who receive a grade of less than 65% may be permitted to take a maximum of 2 additional courses to meet the minimum averages"
+    }
+  },
+  "ECE_MEng": {
+    "elective": {
+      "min_count": 8,
+      "list": [
+        "8 one-term courses (0.50 unit weight) acceptable for credit by the Department"
+      ],
+      "note": "Students may register for any ECE course at the 600 or 700 levels. Minimum of 5 courses must be from ECE Department."
+    },
+    "total_courses": 8,
+    "description": "Core MEng program with flexible course selection from ECE and related departments."
+  },
+  "AI_ML": {
+    "specified_fixed": [
+      "ECE 657 - Tools of Intelligent Systems Design",
+      "ECE 657A - Data and Knowledge Modelling and Analysis"
+    ],
+    "elective": {
+      "min_count": 3,
+      "list": [
+        "ECE 602 - Introduction to Optimization",
+        "ECE 603 - Statistical Signal Processing",
+        "ECE 606 - Algorithm Design and Analysis",
+        "ECE 607 - Fundamentals of Ultrasonics",
+        "ECE 613 - Image Processing and Visual Communication",
+        "ECE 659 - Intelligent Sensors and Sensor Networks",
+        "ECE 700 Topic-7 - Game Theory with Engineering Applications",
+        "ECE 750 Topic-32 - Biology and Computation",
+        "ECE 750 Topic-33 - Embodied Intelligence",
+        "ECE 750 Topic-35 - Social Robotics",
+        "MSCI 718 - Statistical Methods for Data Analytics"
+      ]
+    },
+    "total_courses": 5,
+    "description": "Graduate Specialization focusing on AI and Machine Learning with 2 compulsory courses and 3 elective courses."
+  },
+  "Biomedical": {
+    "specified_fixed": [
+      "ECE 601 - Foundations of Biology in Engineering",
+      "ECE 608 - Quantitative Methods in Biomedical Engineering",
+      "ECE 609 - Engineering Analysis of Living Cells"
+    ],
+    "elective": {
+      "min_count": 2,
+      "list": [
+        "ECE 607 - Fundamentals of Ultrasonics",
+        "ECE 613 - Image Processing and Visual Communications",
+        "ECE 675 - Radiation and Propagation of Electromagnetic Fields",
+        "ECE 750 Topic-32 - Biology and Computation",
+        "ECE 750 Topic-33 - Embodied Intelligence",
+        "SYDE 677 - Medical Imaging"
+      ]
+    },
+    "total_courses": 5,
+    "description": "Graduate Specialization in Biomedical Engineering with 3 compulsory courses and 2 elective courses."
+  },
+  "Business_Leadership": {
+    "specified_fixed": [
+      "BE 600 - Management and Leadership",
+      "BE 601 - Introduction to Financial and Managerial Accounting"
+    ],
+    "elective": {
+      "min_count": 2,
+      "list": [
+        "BE 602 - Data Analysis and Management",
+        "BE 603 - Operations and Supply Chain Management",
+        "BE 604 - Marketing Management",
+        "BE 605 - Project Management",
+        "BE 606 - Entrepreneurship and Innovation",
+        "BE 610 - Special Topics in Business and Entrepreneurship",
+        "BE 660 - Negotiations",
+        "BE 680 - Consulting",
+        "ECE 657A - Data & Knowledge Modelling & Analysis",
+        "ECE 699 - Master of Engineering Project"
+      ]
+    },
+    "total_courses": 4,
+    "description": "Graduate Specialization in Business Leadership with 2 compulsory courses and 2 elective courses.",
+    "note": "A maximum of 4 courses from outside the Department of ECE is permitted to satisfy both the MEng in ECE and Graduate Specialization in Business Leadership requirements."
+  },
+  "Computer_Networking_Security": {
+    "specified_fixed": [
+      "ECE 610 - Broadband Communication Networks",
+      "ECE 628 - Computer Network Security",
+      "ECE 655 - Protocols, Software, and Issues in Mobile Systems"
+    ],
+    "elective": {
+      "min_count": 2,
+      "list": [
+        "ECE 606 - Algorithm Design and Analysis",
+        "ECE 611 - Digital Communications",
+        "ECE 612 - Information Theory",
+        "ECE 656 - Database Systems",
+        "ECE 657 - Tools of Intelligent Systems Design",
+        "ECE 659 - Intelligent Sensors & Wireless Sensor Network",
+        "ECE 715 - Wireless Communication Networks",
+        "ECE 716 - Communication Security"
+      ]
+    },
+    "total_courses": 5,
+    "description": "Graduate Specialization in Computer Networking and Security with 3 compulsory courses and 2 elective courses."
+  },
+  "Nanoelectronic_Circuits_Systems": {
+    "specified_fixed": [
+      "ECE 699A - Master of Engineering Project 1",
+      "ECE 699B - Master of Engineering Project 2"
+    ],
+    "elective": {
+      "min_count": 5,
+      "list": [
+        "ECE 621 - Computer Organization",
+        "ECE 627 - Register-transfer-level Digital Systems",
+        "ECE 630 - Physics & Models Semiconductor Devices",
+        "ECE 631 - Microelectronic Processing Technology",
+        "ECE 636 - Advanced Analog Integrated Circuits",
+        "ECE 637 - Digital Integrated Circuits",
+        "ECE 642 - Radio Frequency IC Design",
+        "ECE 671 - Microwave & RF Engineering",
+        "ECE 606 - Algorithm Design and Analysis",
+        "ECE 638 - CMOS Sensor Integrated Circuits",
+        "ECE 730 Topic-9 - VLSI Quality, Reliability and Yield Engineering",
+        "ECE 730 Topic-16 - Embedded Semiconductor RAM",
+        "ECE 730 Topic-30 - Advanced VLSI Devices",
+        "ECE 738 - VLSI Circuits for Wireless Communication",
+        "ECE 740 Topic-3 - CMOS Data Converters",
+        "ECE 770 Topic-22 - Radio and Wireless Systems"
+      ]
+    },
+    "total_courses": 7,
+    "description": "Graduate Specialization with 2 compulsory project courses and 5 elective courses. Minimum of 2 electives must be from Set-A.",
+    "note": "Students are required to complete the 5 elective courses prior to enrolling in the ECE 699A project course. Primarily designed for Fall term start."
+  },
+  "Nanoelectronic_Devices_Materials": {
+    "specified_fixed": [
+      "ECE 630 - Physics and Models of Semiconductor Devices",
+      "ECE 631 - Microelectronic Processing Technology"
+    ],
+    "elective": {
+      "min_count": 3,
+      "list": [
+        "ECE 632 - Photovoltaic Energy Conversion",
+        "ECE 633 - Nanoelectronics",
+        "ECE 634 - Organic Electronics",
+        "ECE 635 - Fabrication in the Nanoscale: Technology and Applications",
+        "ECE 672 - Optoelectronic Devices",
+        "NANO 600 - Introduction to Nanotechnology"
+      ]
+    },
+    "total_courses": 5,
+    "description": "Graduate Specialization in Nanoelectronic Devices and Materials with 2 compulsory courses and 3 elective courses."
+  },
+  "Quantum_Engineering": {
+    "specified_fixed": [
+      "ECE 676 - Quantum Information Processing Devices",
+      "ECE 677 - Applied Quantum Mechanics"
+    ],
+    "elective": {
+      "min_count": 3,
+      "list": [
+        "ECE 630 - Physics and Models of Semiconductor Devices",
+        "ECE 633 - Nanoelectronics",
+        "ECE 671 - Microwave and RF Engineering",
+        "ECE 676B - Experimental Quantum Engineering",
+        "ECE 676C - Programming of Quantum Computing Algorithms",
+        "ECE 676D - Superconducting Quantum Circuits",
+        "ECE 676E - Lab on Low-Temperature Quantum Engineering",
+        "QIC 710 - Quantum Information Processing",
+        "QIC 880 - Nanoelectronics for Quantum Information Processing"
+      ]
+    },
+    "total_courses": 5,
+    "description": "Graduate Specialization in Quantum Engineering with 2 compulsory courses and 3 elective courses."
+  },
+  "Software": {
+    "specified_fixed": [
+      "ECE 650 - Methods and Tools for Software Engineering",
+      "ECE 651 - Foundations of Software Engineering",
+      "ECE 653 - Software Testing, Quality Assurance and Maintenance"
+    ],
+    "elective": {
+      "min_count": 2,
+      "list": [
+        "ECE 606 - Algorithm Design and Analysis",
+        "ECE 655 - Protocols, Software, Issues in Mobile Systems",
+        "ECE 656 - Database Systems",
+        "ECE 657 - Tools of Intelligent Systems Design",
+        "ECE 658 - Component Based Software"
+      ]
+    },
+    "total_courses": 5,
+    "description": "Graduate Specialization in Software with 3 compulsory courses and 2 elective courses."
+  },
+  "Sustainable_Energy": {
+    "specified_fixed": [
+      "ECE 660 - Operation and Control of Future Integrated Energy Systems"
+    ],
+    "elective": {
+      "min_count": 4,
+      "list": [
+        "ECE 632 - Photovoltaic Energy Conversion",
+        "ECE 662 - Power System Analysis and Control",
+        "ECE 663 - Energy Processing",
+        "ECE 665 - High Voltage Engineering Applications",
+        "ECE 666 - Power Systems Operation",
+        "ECE 668 - Distribution System Engineering",
+        "ECE 669 - Dielectric Materials",
+        "ECE 761 - HVDC and FACTS",
+        "ECE 762 - Power System Components and Modelling",
+        "ECE 763 - Sustainable Distributed Power Generation",
+        "ECE 765 - Power System Protection and Relaying",
+        "ECE 768 - Power System Quality"
+      ]
+    },
+    "total_courses": 5,
+    "description": "Graduate Specialization in Sustainable Energy with 1 compulsory course and 4 elective courses."
+  },
+  "_specialization_info": {
+    "availability_note": "Not all elective courses for any given Graduate Specialization are guaranteed to be offered each year. Students are encouraged to take elective courses when they are offered and should plan accordingly.",
+    "business_leadership_special": "Students will be able to complete the Business Leadership Graduate Specialization along with 1 other ECE Graduate Specialization, noting that each course will only be counted towards one Graduate Specialization and the MEng degree.",
+    "course_increase": "The number of required courses for the MEng degree will increase from 8 to 9 or 10 depending on the requirements associated with the Graduate Specializations when combining Business Leadership with another specialization."
+  }
+}

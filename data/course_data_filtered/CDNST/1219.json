@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015692",
+    "courseOfferNumber": 2,
+    "termCode": "1219",
+    "termName": "Fall 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "STP",
+    "associatedAcademicOrgCode": "STP",
+    "subjectCode": "CDNST",
+    "catalogNumber": "201",
+    "title": "The Indigenous Experience in Canada",
+    "descriptionAbbreviated": "Indigenous Experience Canada",
+    "description": "An introduction to the Indigenous experience in Canada with a broad overview of history, culture, and contemporary issues. This course highlights the holism of Indigenous perspectives through assigned readings, discussions, projects, and sharing of personal experiences.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

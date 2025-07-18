@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013653",
+    "courseOfferNumber": 2,
+    "termCode": "1239",
+    "termName": "Fall 2023",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "REES",
+    "catalogNumber": "120",
+    "title": "Once Upon a Fairy Tale: Fairy Tales, Then and Now",
+    "descriptionAbbreviated": "Fairy Tales: Then & Now",
+    "description": "This course studies fairy tales in the broader context of the history of childhood and practices of education and socialization. The course will focus on fairy tales of German and Russian origins and consider their interpretations and reinterpretations in different historical periods. This may include figures from the Brothers Grimm and Alexander Afanasyev, such as Snow White, Sleeping Beauty, Red Riding Hood, and the Firebird. [Note: Taught in English.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

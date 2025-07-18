@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013415",
+    "courseOfferNumber": 1,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "SCI",
+    "associatedAcademicOrgCode": "PHARM",
+    "subjectCode": "PDPHRM",
+    "catalogNumber": "4",
+    "title": "Professional Development for Pharmacy Students 3",
+    "descriptionAbbreviated": "Prof Dev Pharm Students 3",
+    "description": "Through the PDPHRM series of courses students are exposed to and reflect on a number of pertinent pharmacy topics that they encounter during their academic courses and apply these concepts through each of their co-op work terms. Upon completing the PDPHRM series, all pharmacy students will have exposure and experience in drug distribution and direct patient care.",
+    "gradingBasis": "CNW",
+    "courseComponentCode": "RDG",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: PDPHRM 3; Pharmacy students only"
+  }
+]

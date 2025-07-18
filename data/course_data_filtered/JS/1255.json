@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "008298",
+    "courseOfferNumber": 2,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "RS",
+    "subjectCode": "JS",
+    "catalogNumber": "235",
+    "title": "Jesus: Life and Legacy",
+    "descriptionAbbreviated": "Jesus: Life & Legacy",
+    "description": "The life and death of Jesus of Nazareth, as experienced and interpreted by his followers and recorded in the New Testament and other ancient literature. Attention is given to Jesus' identity as a Jew in the Roman Empire in the first century, his teachings and actions, and his ongoing significance throughout history.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

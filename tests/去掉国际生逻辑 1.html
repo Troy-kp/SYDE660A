@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Selection Advisor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- 新增自定义样式 -->
+  <style>
+    /* 推荐课程动效 */
+    .recommendation-card {
+      @apply transition-all hover:scale-[1.02] hover:shadow-md;
+    }
+    /* 已添加课程样式 */
+    .added-course {
+      @apply opacity-50 pointer-events-none;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="flex min-h-screen">
+    <!-- Sidebar Navigation -->
+
+    <!-- 右侧主内容区 -->
+    <div class="flex-1 flex flex-col">
+       
+
+        <!-- Main Content Area -->
+        <main class="flex-1 p-6 space-y-6">
+            <header class="bg-gray-800 text-white p-4 text-xl font-bold rounded flex justify-between items-center">
+              <span>Course Selection Advisor</span>
+              <div class="flex space-x-3 text-sm">
+                <button class="text-white font-semibold hover:text-gray-300 transition-colors">
+                  EN
+                </button>
+                <span class="text-gray-400">|</span>
+                <button class="text-gray-400 hover:text-gray-300 transition-colors">
+                  FR
+                </button>
+              </div>
+        </header>
+
+        <!-- Section 1: Student Information -->
+        <section class="bg-white rounded-xl shadow p-4">
+            <h2 class="text-lg font-semibold mb-2">1. Student Information</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-3"> 
+                <div>
+                    <label class="block text-xs font-medium mb-1">Program:</label>
+                    <input type="text" 
+                            value="SYDE" 
+                            class="border rounded px-2 py-1.5 w-full bg-gray-100 text-sm" 
+                            readonly>
+                    </div>
+                    <div>
+                    <label class="block text-xs font-medium mb-1">Degree:</label>
+                    <input type="text" 
+                            value="Master" 
+                            class="border rounded px-2 py-1.5 w-full bg-gray-100 text-sm"
+                            readonly>
+                </div>
+                <div>
+                    <label class="block text-xs font-medium mb-1">Expected Graduation Term:</label>
+                    <select class="border rounded px-2 py-1.5 w-full text-sm">
+                    <option>Fall 2025</option>
+                    <option>Winter 2026</option>
+                    <option>Spring 2026</option>
+                    <option>Fall 2026</option>
+                    <option>Winter 2027</option>
+                    <option>Spring 2027</option>
+                    <option>Fall 2027</option>
+                    <option>Winter 2028</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-medium mb-1">Specialization Track:</label>
+                    <select class="border rounded px-2 py-1.5 w-full text-sm">
+                    <option>Artificial Intelligence and Machine Learning</option>
+                    <option>Biomedical Systems</option>
+                    <option>Human Factors</option>
+                    <option>Mechatronics and Physical Systems</option>
+                    <option>Vision, Image and Signal Processing</option>
+                    <option>None</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-medium mb-1">Additional Certificate:</label>
+                    <select class="border rounded px-2 py-1.5 w-full text-sm">
+                      <option>None</option>
+                      <option>English</option>
+                    </select>
+                  </div>
+                 <!-- 修改后的Student Type部分 -->
+            </div>
+        </section>
+
+        <!-- Section 2: Enrolled Courses -->
+        <section class="bg-white rounded-xl shadow p-4">
+            <h2 class="text-lg font-semibold mb-2">2. Enrolled Courses</h2>
+            <details open class="mb-2">
+            <summary class="cursor-pointer font-medium">2024</summary>
+            <table class="table-auto w-full mt-2 text-sm" id="enrolledCourses">
+                <thead class="bg-gray-100">
+                <tr>
+                    <th class="text-left p-2">Course</th>
+                    <th class="text-left p-2">Term</th>
+                    <th class="text-left p-2">Credits</th>
+                    <th class="text-left p-2">Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="p-2">SYDE 600</td>
+                    <td class="p-2">Fall 2024</td>
+                    <td class="p-2">0.5</td>
+                    <td class="p-2 text-green-700">Completed</td>
+                </tr>
+                <tr>
+                    <td class="p-2">SYDE 520</td>
+                    <td class="p-2">Fall 2024</td>
+                    <td class="p-2">0.5</td>
+                    <td class="p-2 text-green-700">Completed</td>
+                </tr>
+                </tbody>
+            </table>
+            </details>
+
+            <details class="mb-2">
+            <summary class="cursor-pointer font-medium">2025</summary>
+            <table class="table-auto w-full mt-2 text-sm">
+                <thead class="bg-gray-100">
+                <tr>
+                    <th class="text-left p-2">Course</th>
+                    <th class="text-left p-2">Term</th>
+                    <th class="text-left p-2">Credits</th>
+                    <th class="text-left p-2">Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- <tr>
+                    <td class="p-2">SYDE 675</td>
+                    <td class="p-2">Winter 2025</td>
+                    <td class="p-2">0.5</td>
+                    <td class="p-2 text-green-700">Completed</td>
+                </tr>
+                <tr>
+                    <td class="p-2">SYDE 727</td>
+                    <td class="p-2">Winter 2025</td>
+                    <td class="p-2">0.5</td>
+                    <td class="p-2 text-green-700">Completed</td>
+                </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                      <td class="p-2">SYDE 660A</td>
+                      <td class="p-2">Spring 2025</td>
+                      <td class="p-2">0.5</td>
+                      <td class="p-2 text-yellow-600">In Progress</td>
+                  </tr>
+                  <tr>
+                      <td class="p-2">ECE 657</td>
+                      <td class="p-2">Spring 2025</td>
+                      <td class="p-2">0.5</td>
+                      <td class="p-2 text-yellow-600">In Progress</td>
+                  </tr> -->
+                  </tbody>
+            </table>
+            </details>
+            <p class="mt-2 font-semibold">Total Credits: 3.0 / 4.0</p>
+        </section>
+
+        <!-- Section 3: Drag-and-Drop Planning -->
+        <section class="bg-white rounded-xl shadow p-4">
+            <h2 class="text-lg font-semibold mb-2">3. Drag-and-Drop Course Planning</h2>
+        
+            <div class="flex justify-between items-center mb-4">
+            <div id="recommendedTitle" class="text-blue-700 font-semibold text-base">Recommended Courses (0)</div>
+            <div class="step-buttons flex gap-2">
+                <button id="btn-required" class="px-3 py-1 border-2 border-blue-600 text-blue-600 rounded" disabled>必修课</button>
+                <button id="btn-elective" class="px-3 py-1 border-2 border-blue-600 text-blue-600 rounded" disabled>选修课</button>
+                <button id="btn-other" class="px-3 py-1 border-2 border-blue-600 text-blue-600 rounded" disabled>其他课程</button>
+            </div>
+            <div class="flex gap-2">
+                <button id="btn-prev" disabled class="px-3 py-1 border border-gray-400 rounded">⬅️ 上一步</button>
+                <button id="btn-next" disabled class="px-3 py-1 bg-blue-600 text-white rounded">下一步 ➡️</button>
+            </div>
+            </div>
+        
+            <!-- 课程池区域（支持拖回） -->
+            <div id="course-pool" class="flex gap-3 overflow-x-auto p-3 border-2 border-gray-300 rounded bg-white mb-6"
+                ondragover="allowDrop(event)" ondrop="dropToPool(event)">
+            <!-- 动态添加课程卡片 -->
+            </div>
+        
+            <!-- 拖拽到学期容器 -->
+            <div class="flex gap-4 justify-between">
+            <div class="flex-1 border-2 border-dashed border-gray-400 rounded p-3 min-h-[180px]" id="fall"
+                ondragover="allowDrop(event)" ondrop="drop(event)">
+                <h2 class="text-blue-600 font-semibold mb-2">🍂 Fall 2025</h2>
+            </div>
+            <div class="flex-1 border-2 border-dashed border-gray-400 rounded p-3 min-h-[180px]" id="winter"
+                ondragover="allowDrop(event)" ondrop="drop(event)">
+                <h2 class="text-blue-600 font-semibold mb-2">❄ Winter 2026</h2>
+            </div>
+            <div class="flex-1 border-2 border-dashed border-gray-400 rounded p-3 min-h-[180px]" id="spring"
+                ondragover="allowDrop(event)" ondrop="drop(event)">
+                <h2 class="text-blue-600 font-semibold mb-2">🌸 Spring 2026</h2>
+            </div>
+            </div>
+        
+            <p class="text-sm text-gray-500 mt-4 text-center">
+            💡 拖动课程从上方拖入学期栏，拖回课程池可取消安排。
+            </p>
+        </section>
+
+        <!-- Section 4: Semester Breakdown -->
+        <section class="bg-white rounded-xl shadow p-4" id="semesterBreakdown">
+            <h2 class="text-lg font-semibold mb-2">4. Semester Breakdown</h2>
+            <div id="semesterList">
+            <!-- 动态内容 -->
+            </div>
+        </section>
+
+        <!-- Section 5: Results & Suggestions -->
+        <section class="bg-white rounded-xl shadow p-4 mt-6">
+            <h2 class="text-lg font-semibold mb-2">5. Results & Suggestions</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li>Total Core Courses: <span id="resultCore">0</span></li>
+            <li>Total 500-level Courses: <span id="result500">0</span></li>
+            <li>Total Advanced Courses (600/700): <span id="resultAdvanced">0</span></li>
+            <li>Total Courses (Planned + Completed): <span id="resultTotal">0</span></li>
+            <li>Total Credits (Planned + Completed): <span id="resultCredits">0.0</span></li>
+            </ul>
+        </section>
+
+        <!-- Section 7: Actions -->
+        <section class="bg-white rounded-xl shadow p-4 text-center">
+            <button class="bg-green-600 text-white px-6 py-2 rounded mr-2">Save Report</button>
+            <button class="bg-gray-600 text-white px-6 py-2 rounded">Export PDF</button>
+        </section>
+
+        <!-- Section 8: Policy Resources -->
+        <section class="text-sm text-gray-600 mt-6 border-t pt-4">
+            <p class="font-medium mb-2">Related Resources:</p>
+            <ul class="list-disc ml-5">
+            <li><a href="https://uwaterloo.ca/systems-design-engineering/current-undergraduate-students/degree-requirements" class="text-blue-600 underline">SYDE Degree Requirements</a></li>
+            <li><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html" class="text-blue-600 underline">Post-Graduation Work Permit Overview</a></li>
+            <li><a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" class="text-blue-600 underline">PGWP Eligibility Criteria</a></li>
+            <li><a href="https://uwaterloo.ca/registrar/" class="text-blue-600 underline">Waterloo Registrar Credit System</a></li>
+            </ul>
+        </section>
+        </main>
+  </div>
+
+  <script>
+    const coursesData = {
+      required: [
+        {id:'SYDE610', code:'SYDE 610', name:'Optimization Methods', seasons:'Fall, Winter', credits:0.5, link:'#', specialization:true},
+        {id:'SYDE620', code:'SYDE 620', name:'Human Factors', seasons:'Fall', credits:0.5, link:'#', specialization:false}
+      ],
+      elective: [
+        {id:'SYDE630', code:'SYDE 630', name:'Systems Design', seasons:'Winter, Spring', credits:0.5, link:'#', specialization:false},
+        {id:'SYDE631', code:'SYDE 631', name:'Data Analytics', seasons:'Winter', credits:0.5, link:'#', specialization:true},
+        {id:'SYDE632', code:'SYDE 632', name:'Software Engineering', seasons:'Fall', credits:0.5, link:'#', specialization:false}
+      ],
+      other: [
+        {id:'SYDE700', code:'SYDE 700', name:'Final Project', seasons:'Fall, Winter, Spring', credits:1.0, link:'#', specialization:false},
+        {id:'SYDE752', code:'SYDE 752', name:'Machine Learning', seasons:'Spring', credits:0.5, link:'#', specialization:true}
+      ]
+    };
+  
+    let currentStep = 'required';
+    let semesters = {};
+    let completedCredits = 0;
+    const requiredCourses = ['SYDE 610', 'SYDE 620'];
+  
+    function formatCourseCode(code) {
+      return code.trim().toUpperCase().replace(/\s+/g, " ");
+    }
+  
+    function renderCoursePool() {
+      const pool = document.getElementById('course-pool');
+      pool.innerHTML = '';
+      const selectedIds = [];
+      ['fall','winter','spring'].forEach(id => {
+        document.getElementById(id).querySelectorAll('.course-card').forEach(card => {
+          selectedIds.push(card.dataset.courseId || card.id);
+        });
+      });
+      const available = coursesData[currentStep].filter(course => !selectedIds.includes(course.id));
+      document.getElementById('recommendedTitle').textContent = `Recommended Courses (${available.length})`;
+      available.forEach(course => {
+        const card = document.createElement('div');
+        card.className = 'course-card bg-blue-100 p-3 rounded shadow cursor-move';
+        card.setAttribute('draggable', 'true');
+        card.id = course.id;
+        card.dataset.courseId = course.id;
+        card.ondragstart = drag;
+        card.innerHTML = `
+          <div class="font-bold text-blue-700 mb-1">${course.code}: ${course.name}</div>
+          <div class="text-sm text-gray-700 mb-1"><strong>开放季节：</strong>${course.seasons}</div>
+          <div class="text-sm text-gray-700 mb-1"><strong>学分：</strong>${course.credits}</div>
+          <div><a class="text-blue-600 text-sm underline" href="${course.link}" target="_blank">课程介绍</a></div>
+          ${course.specialization ? '<div class="text-orange-600 text-xs font-semibold mt-1">涉及 Specialization</div>' : ''}
+        `;
+        pool.appendChild(card);
+      });
+    }
+  
+    function drag(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+      ev.target.classList.add('opacity-60');
+    }
+  
+    function allowDrop(ev) {
+      ev.preventDefault();
+    }
+  
+    function drop(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("text");
+      const dragged = document.getElementById(data);
+      if (!dragged) return;
+      dragged.classList.remove('opacity-60');
+      const target = ev.currentTarget;
+      const courseId = dragged.dataset.courseId || dragged.id;
+      const course = Object.values(coursesData).flat().find(c => c.id === courseId);
+      const seasonMap = { fall: 'Fall', winter: 'Winter', spring: 'Spring' };
+      if (!course.seasons.includes(seasonMap[target.id])) {
+        alert(`❌ ${course.code} 不在 ${seasonMap[target.id]} 开课`);
+        return;
+      }
+      dragged.remove();
+      dragged.dataset.courseId = course.id;
+      target.appendChild(dragged);
+      updateNextBtn();
+      renderCoursePool();
+      updateAll();
+    }
+  
+    function dropToPool(ev) {
+      ev.preventDefault();
+      const data = ev.dataTransfer.getData("text");
+      const dragged = document.getElementById(data);
+      if (!dragged) return;
+      dragged.classList.remove('opacity-60');
+      dragged.remove();
+      document.getElementById('course-pool').appendChild(dragged);
+      updateNextBtn();
+      renderCoursePool();
+      updateAll();
+    }
+  
+    function updateStepsUI() {
+      ['required','elective','other'].forEach(step => {
+        const btn = document.getElementById('btn-' + step);
+        if (!btn) return;
+        if (step === currentStep) {
+          btn.classList.add('bg-blue-600', 'text-white');
+          btn.classList.remove('text-blue-600');
+          btn.disabled = true;
+        } else {
+          btn.classList.remove('bg-blue-600', 'text-white');
+          btn.classList.add('text-blue-600');
+          btn.disabled = false;
+        }
+      });
+    }
+  
+    function checkStepCompleted() {
+      const allIds = coursesData[currentStep].map(c => c.id);
+      const selectedIds = [];
+      ['fall','winter','spring'].forEach(id => {
+        document.getElementById(id).querySelectorAll('.course-card').forEach(card => {
+          selectedIds.push(card.dataset.courseId || card.id);
+        });
+      });
+      if (currentStep === 'elective') {
+        return allIds.filter(id => selectedIds.includes(id)).length >= 2;
+      } else {
+        return allIds.every(id => selectedIds.includes(id));
+      }
+    }
+  
+    function updateNextBtn() {
+      const btn = document.getElementById('btn-next');
+      if (!btn) return;
+      btn.disabled = !checkStepCompleted();
+    }
+  
+    function updatePrevBtn() {
+      const btn = document.getElementById('btn-prev');
+      if (!btn) return;
+      btn.disabled = currentStep === 'required';
+    }
+  
+    function updateTotalCredits() {
+      semesters = {};
+      completedCredits = 0;
+  
+      document.querySelectorAll("section:nth-of-type(2) tbody tr").forEach(row => {
+        const term = row.querySelector("td:nth-child(2)")?.textContent.trim();
+        const code = formatCourseCode(row.querySelector("td:nth-child(1)")?.textContent.trim());
+        const credits = parseFloat(row.querySelector("td:nth-child(3)")?.textContent.trim()) || 0;
+        const status = row.querySelector("td:nth-child(4)")?.textContent.trim().toLowerCase();
+  
+        if (!term || !code || isNaN(credits)) return;
+  
+        if (!semesters[term]) semesters[term] = { courses: [], credits: 0 };
+        if (!semesters[term].courses.includes(code)) {
+          semesters[term].courses.push(code);
+          semesters[term].credits += credits;
+        }
+  
+        if (status === 'completed' || status === 'in progress') {
+          completedCredits += credits;
+        }
+      });
+  
+      ['fall','winter','spring'].forEach(seasonId => {
+        const termName = seasonId[0].toUpperCase() + seasonId.slice(1) + " 2025";
+        const column = document.getElementById(seasonId);
+        if (!column) return;
+  
+        column.querySelectorAll(".course-card").forEach(card => {
+          const courseId = card.dataset.courseId || card.id;
+          const course = Object.values(coursesData).flat().find(c => c.id === courseId);
+          const code = course?.code || '';
+          const credits = course?.credits || 0;
+          if (!semesters[termName]) semesters[termName] = { courses: [], credits: 0 };
+          if (!semesters[termName].courses.includes(code)) {
+            semesters[termName].courses.push(code);
+            semesters[termName].credits += credits;
+          }
+        });
+      });
+    }
+  
+    function updateSemesterBreakdown() {
+      const semTable = document.getElementById("semesterTable");
+      if (!semTable) return;
+      semTable.innerHTML = "";
+      Object.entries(semesters).forEach(([term, data]) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td class="border px-4 py-2">${term}</td>
+          <td class="border px-4 py-2">${data.courses.join(", ")}</td>
+          <td class="border px-4 py-2">${data.credits.toFixed(1)}</td>
+        `;
+        semTable.appendChild(row);
+      });
+    }
+  
+    function updateResults() {
+      const allCourses = [];
+  
+      document.querySelectorAll("section:nth-of-type(2) tbody tr").forEach(row => {
+        const code = formatCourseCode(row.querySelector("td:nth-child(1)").textContent.trim());
+        allCourses.push(code);
+      });
+  
+      ['fall','winter','spring'].forEach(seasonId => {
+        const column = document.getElementById(seasonId);
+        if (!column) return;
+        column.querySelectorAll(".course-card").forEach(card => {
+          const courseId = card.dataset.courseId || card.id;
+          const course = Object.values(coursesData).flat().find(c => c.id === courseId);
+          if (course) {
+            allCourses.push(course.code);
+          }
+        });
+      });
+  
+      const analysis = {
+        '500': [], '600': [], '700': [], coreCourses: [],
+        totalCredits: completedCredits
+      };
+  
+      allCourses.forEach(code => {
+        if (requiredCourses.includes(code)) {
+          analysis.coreCourses.push(code);
+          return;
+        }
+        const match = code.match(/[A-Z]+\s(\d{3})/);
+        if (match) {
+          const level = match[1][0] + '00';
+          if (['500', '600', '700'].includes(level)) {
+            analysis[level].push(code);
+          }
+        }
+      });
+  
+      ['fall','winter','spring'].forEach(seasonId => {
+        const column = document.getElementById(seasonId);
+        if (!column) return;
+        column.querySelectorAll(".course-card").forEach(card => {
+          const courseId = card.dataset.courseId || card.id;
+          const course = Object.values(coursesData).flat().find(c => c.id === courseId);
+          if (course) analysis.totalCredits += course.credits;
+        });
+      });
+  
+      document.getElementById("resultCore").textContent = analysis.coreCourses.length;
+      document.getElementById("result500").textContent = analysis['500'].length;
+      document.getElementById("resultAdvanced").textContent = analysis['600'].length + analysis['700'].length;
+      document.getElementById("resultTotal").textContent = allCourses.length;
+      document.getElementById("resultCredits").textContent = analysis.totalCredits.toFixed(1);
+    }
+  
+    function updateRecommendations() {
+      // 暂时不启用推荐，避免空指针错误
+    }
+  
+    function updateAll() {
+      updateTotalCredits();
+      updateSemesterBreakdown();
+      updateResults();
+      updateRecommendations();
+    }
+  
+    document.addEventListener('DOMContentLoaded', () => {
+      renderCoursePool();
+      updateStepsUI();
+      updateNextBtn();
+      updatePrevBtn();
+      updateAll();
+  
+      const btnNext = document.getElementById('btn-next');
+      if (btnNext) {
+        btnNext.addEventListener('click', () => {
+          if (currentStep === 'required') currentStep = 'elective';
+          else if (currentStep === 'elective') currentStep = 'other';
+          updateStepsUI();
+          renderCoursePool();
+          updateNextBtn();
+          updatePrevBtn();
+          updateAll();
+        });
+      }
+  
+      const btnPrev = document.getElementById('btn-prev');
+      if (btnPrev) {
+        btnPrev.addEventListener('click', () => {
+          if (currentStep === 'other') currentStep = 'elective';
+          else if (currentStep === 'elective') currentStep = 'required';
+          updateStepsUI();
+          renderCoursePool();
+          updateNextBtn();
+          updatePrevBtn();
+          updateAll();
+        });
+      }
+    });
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "014722",
+    "courseOfferNumber": 1,
+    "termCode": "1259",
+    "termName": "Fall 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "PSYCH",
+    "subjectCode": "COGSCI",
+    "catalogNumber": "300",
+    "title": "Intelligence in Machines, Humans, and Other Animals",
+    "descriptionAbbreviated": "Intelligence",
+    "description": "A comparison of the representations and processes that produce intelligent performance, such as problem-solving, learning, and language in natural and artificial systems.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: PHIL/PSYCH 256"
+  }
+]

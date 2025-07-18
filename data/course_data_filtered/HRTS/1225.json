@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015743",
+    "courseOfferNumber": 1,
+    "termCode": "1225",
+    "termName": "Spring 2022",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "STP",
+    "associatedAcademicOrgCode": "STP",
+    "subjectCode": "HRTS",
+    "catalogNumber": "101",
+    "title": "Introduction to Human Rights",
+    "descriptionAbbreviated": "Introduction to Human Rights",
+    "description": "An introduction to the subject of human rights and to the way it is studied. Questions to be examined include: What are human rights and where do they come from? How are they defined? How are they applied and enforced? What happens when they conflict? The course will draw on Canadian, Indigenous, and international ideas and examples.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

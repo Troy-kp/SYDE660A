@@ -1,0 +1,182 @@
+{
+    "program_name": "Master of Engineering (MEng) in Systems Design Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/r1fjl10Cj2",
+    "degree_rules": {
+        "total_courses": 8,
+        "level_constraints": { 
+            "max_500_level": 2,
+            "description": "At most 2 courses at the 500 level may be counted towards the degree."
+        },
+        "departmental_constraints": { 
+            "min_syde_courses": 2,
+            "description": "At least 2 Systems Design Engineering courses at the 500, 600 or 700 level."
+        },
+        "requirements": [
+            {
+                "type": "compulsory",
+                "courses": ["SYDE 600"],
+                "n_to_choose": 1,
+                "description": "Core systems theory course: SYDE 600 Systems Theory, Models, Research & Design"
+            },
+            {
+                "type": "compulsory_choice",
+                "courses": ["SYDE 660A", "SYDE 660B", "SYDE 660C", "SYDE 660D", "SYDE 660E", "SYDE 660"],
+                "n_to_choose": 1,
+                "description": "Systems Design Graduate Workshop 1 - Choose one workshop variant based on specialization or general workshop"
+            },
+            {
+                "type": "elective",
+                "courses": [],
+                "n_to_choose": 6,
+                "description": "6 Engineering graduate courses (0.50 unit weight per course) counting towards degree credit from the University of Waterloo. Must satisfy level and departmental constraints."
+            }
+        ]
+    },
+    "specializations": [
+        {
+            "name": "Artificial Intelligence and Machine Learning",
+            "total_courses": 4,
+            "description": "A Graduate Specialization consisting of 4 graduate (0.50 weight) level courses with a mix of specified and elective courses.",
+            "requirements": [
+                {
+                    "type": "specified",
+                    "courses": ["SYDE 660A"],
+                    "n_to_choose": 1,
+                    "description": "Required: SYDE 660A Systems Design Graduate Workshop 1 – AI and Machine Learning"
+                },
+                {
+                    "type": "specified",
+                    "courses": ["SYDE 675"],
+                    "n_to_choose": 1,
+                    "description": "Required: SYDE 675 Pattern Recognition"
+                },
+                {
+                    "type": "specified_choice",
+                    "courses": ["SYDE 522", "SYDE 552"],
+                    "n_to_choose": 1,
+                    "description": "AI Foundations: Choose 1 from SYDE 522 Machine Intelligence or SYDE 552 Computational Neurosciences"
+                },
+                {
+                    "type": "elective",
+                    "courses": ["SYDE 662", "SYDE 671", "SYDE 672", "SYDE 673", "SYDE 674"],
+                    "n_to_choose": 1,
+                    "description": "AI Electives: Choose at least 1 from the following list"
+                }
+            ]
+        },
+        {
+            "name": "Biomedical Systems",
+            "total_courses": 4,
+            "description": "A Graduate Specialization consisting of 4 graduate (0.50 weight) level courses with a mix of specified and elective courses.",
+            "requirements": [
+                {
+                    "type": "specified",
+                    "courses": ["SYDE 660B"],
+                    "n_to_choose": 1,
+                    "description": "Required: SYDE 660B Systems Design Graduate Workshop 1 – Biomedical Systems"
+                },
+                {
+                    "type": "specified_choice",
+                    "courses": ["SYDE 544", "SYDE 684", "SYDE 750"],
+                    "n_to_choose": 2,
+                    "description": "Choose at least 2 from: SYDE 544 Biomed Measure & SIP, SYDE 684 Materials Biocompatability, SYDE 750 Topic 20 Topics in Systems Modelling: Modeling of Biomechanical Systems, SYDE 750 Topic 36 Topics in Systems Modelling: Assistive Tech and Rehab Eng"
+                },
+                {
+                    "type": "elective",
+                    "courses": ["SYDE 552", "SYDE 556", "SYDE 652", "SYDE 662", "SYDE 677"],
+                    "n_to_choose": 1,
+                    "description": "Biomedical Electives: Choose at least 1 from the following list or an additional course from the Specified course list. Note: only one 500 level course may be used to satisfy the requirements of a Graduate Specialization."
+                }
+            ]
+        },
+        {
+            "name": "Human Factors",
+            "total_courses": 4,
+            "description": "A Graduate Specialization consisting of 4 graduate (0.50 weight) level courses with a mix of specified and elective courses.",
+            "requirements": [
+                {
+                    "type": "specified",
+                    "courses": ["SYDE 660C"],
+                    "n_to_choose": 1,
+                    "description": "Required: SYDE 660C Systems Design Graduate Workshop 1 – Human Factors"
+                },
+                {
+                    "type": "specified_choice",
+                    "courses": ["SYDE 542", "SYDE 543", "SYDE 642", "SYDE 644"],
+                    "n_to_choose": 2,
+                    "description": "Choose at least 2 from: SYDE 542 Interface Design or SYDE 543 Cognitive Ergonomics, SYDE 642 Cognitive Engineering Methods, SYDE 644 Human Factors Testing"
+                },
+                {
+                    "type": "elective",
+                    "courses": ["SYDE 533", "SYDE 662", "SYDE 740"],
+                    "n_to_choose": 1,
+                    "description": "Human Factors Electives: Choose at least 1 from the following list or an additional course from the Specified course list. Note: only one 500 level course may be used to satisfy the requirements of a Graduate Specialization."
+                }
+            ]
+        },
+        {
+            "name": "Mechatronic and Physical Systems",
+            "total_courses": 4,
+            "description": "A Graduate Specialization consisting of 4 graduate (0.50 weight) level courses with a mix of specified and elective courses.",
+            "requirements": [
+                {
+                    "type": "specified",
+                    "courses": ["SYDE 660D"],
+                    "n_to_choose": 1,
+                    "description": "Required: SYDE 660D Systems Design Graduate Workshop 1 - Mechatronic & Physical Systems"
+                },
+                {
+                    "type": "specified_choice",
+                    "courses": ["SYDE 553", "SYDE 652", "SYDE 655", "SYDE 682", "SYDE 683", "SYDE 750"],
+                    "n_to_choose": 2,
+                    "description": "Choose at least 2 from: SYDE 553 Advanced Dynamics, SYDE 652 Dynamics of Multibody Systems, SYDE 655 Optimal Control, SYDE 682 Advanced MEMS Physics Design & Fabrication, SYDE 683 Modelling Simulation & Design of MEMS, SYDE 750 Modelling Continuum Systems"
+                },
+                {
+                    "type": "elective",
+                    "courses": ["SYDE 531", "SYDE 631", "SYDE 661", "SYDE 662"],
+                    "n_to_choose": 1,
+                    "description": "Mechatronics Electives: Choose at least 1 from the following list or an additional course from the Specified course list. Note: only one 500 level course may be used to satisfy the requirements of a Graduate Specialization."
+                }
+            ]
+        },
+        {
+            "name": "Vision, Image and Signal Processing",
+            "total_courses": 4,
+            "description": "A Graduate Specialization consisting of 4 graduate (0.50 weight) level courses with a mix of specified and elective courses.",
+            "requirements": [
+                {
+                    "type": "specified",
+                    "courses": ["SYDE 660E"],
+                    "n_to_choose": 1,
+                    "description": "Required: SYDE 660E Systems Design Graduate Workshop 1 - Vision, Image & Signal Processing"
+                },
+                {
+                    "type": "specified_choice",
+                    "courses": ["SYDE 575", "SYDE 671", "SYDE 677"],
+                    "n_to_choose": 2,
+                    "description": "Choose at least 2 from: SYDE 575 Image Processing, SYDE 671 Advanced Image Processing, SYDE 677 Medical Imaging"
+                },
+                {
+                    "type": "elective",
+                    "courses": ["SYDE 544", "SYDE 633", "SYDE 662", "SYDE 672", "SYDE 673", "SYDE 674", "SYDE 675"],
+                    "n_to_choose": 1,
+                    "description": "Vision Electives: Choose at least 1 from the following list or an additional course from the Specified course list. Note: only one 500 level course may be used to satisfy the requirements of a Graduate Specialization."
+                }
+            ]
+        }
+    ],
+    "additional_requirements": {
+        "graduate_aim": {
+            "required": true,
+            "description": "Students must complete the Graduate Academic Integrity Module (Graduate AIM) in addition to course requirements."
+        },
+        "specialization_notes": [
+            "A Graduate Specialization is a University credential that is recognized on the student's transcript but not on the diploma.",
+            "A student will only obtain the Graduate Specialization on their transcript if they have completed the requirements associated with the MEng degree and the requirements associated with the Graduate Specialization.",
+            "All MEng Graduate Specializations in Systems Design Engineering consist of a set of 4 graduate (0.50 weight) level courses.",
+            "All course selections are arranged by the student.",
+            "These requirements are in addition to satisfactory completion of any transitional courses that may be specified at the time of admission."
+        ],
+        "level_constraint_note": "Note that only one 500 level course may be used to satisfy the requirements of a Graduate Specialization for most specializations."
+    }
+}

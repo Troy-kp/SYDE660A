@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "014093",
+    "courseOfferNumber": 1,
+    "termCode": "1215",
+    "termName": "Spring 2021",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "SIDB",
+    "subjectCode": "DEI",
+    "catalogNumber": "631",
+    "title": "Projects",
+    "descriptionAbbreviated": "Projects 3",
+    "description": "This final milestone course will serve as a capstone course for the program.  Student teams will work intensively on their project, applying lessons during the other courses and working closely with industry consultants and coaches to bring their project to the stages of delivery and implementation.",
+    "gradingBasis": "CNC",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "I",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

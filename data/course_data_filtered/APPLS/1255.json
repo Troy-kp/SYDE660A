@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016559",
+    "courseOfferNumber": 1,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "REN",
+    "associatedAcademicOrgCode": "REN",
+    "subjectCode": "APPLS",
+    "catalogNumber": "391",
+    "title": "Intermediate Special Topics in Applied Language Studies",
+    "descriptionAbbreviated": "Intermediate Topics",
+    "description": "This special topics course will be offered from time to time as announced by the Applied Language Studies program. The topics will focus on areas of faculty research and teaching interest.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: APPLS 205R"
+  }
+]

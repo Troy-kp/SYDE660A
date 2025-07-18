@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015861",
+    "courseOfferNumber": 1,
+    "termCode": "1221",
+    "termName": "Winter 2022",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "REN",
+    "associatedAcademicOrgCode": "REN",
+    "subjectCode": "MOHAWK",
+    "catalogNumber": "101R",
+    "title": "Mohawk Language 1",
+    "descriptionAbbreviated": "Mohawk Language 1",
+    "description": "An introductory course for students with little or no knowledge of Mohawk. The course is designed to develop basic reading, writing, listening, and speaking skills, however, emphasis will be placed on oral proficiency and comprehension. [Note: Conducted in Mohawk. No prior knowledge of Mohawk is expected. Not open to students with advanced ability in Mohawk.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Antireq: ARTS 190 (LEC 002) taken fall 2017, ARTS 190 (LEC 003) taken winter 2018, ARTS 190 (LEC 001) taken fall 2018"
+  }
+]

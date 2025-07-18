@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016110",
+    "courseOfferNumber": 1,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ENV",
+    "associatedAcademicOrgCode": "KI",
+    "subjectCode": "INTEG",
+    "catalogNumber": "499",
+    "title": "Independent Studies",
+    "descriptionAbbreviated": "Independent Studies",
+    "description": "An independent studies course provides opportunities for students to work one on one with faculty members in an area of interest to the student.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "I",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

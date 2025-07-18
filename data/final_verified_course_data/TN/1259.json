@@ -1,0 +1,23 @@
+[
+    {
+        "courseId": "013355",
+        "courseOfferNumber": 1,
+        "termCode": "1259",
+        "termName": "Fall 2025",
+        "associatedAcademicCareer": "GRD",
+        "associatedAcademicGroupCode": "ART",
+        "associatedAcademicOrgCode": "GRAD",
+        "subjectCode": "TN",
+        "catalogNumber": "700",
+        "title": "Theoretical Neuroscience Research Seminar",
+        "descriptionAbbreviated": "Theoretical Neurosci Rsrch Sem",
+        "description": "Satisfaction of the requirements of this course consists of attendance at a prescribed number (10-12) of colloquia and seminars presented by the Centre.  These will include presentations by students, faculty and visiting researchers.",
+        "gradingBasis": "CNC",
+        "courseComponentCode": "SEM",
+        "enrollConsentCode": "N",
+        "enrollConsentDescription": "No Consent Required",
+        "dropConsentCode": "N",
+        "dropConsentDescription": "No Consent Required",
+        "requirementsDescription": null
+    }
+]

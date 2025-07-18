@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "014333",
+    "courseOfferNumber": 1,
+    "termCode": "1245",
+    "termName": "Spring 2024",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ENG",
+    "associatedAcademicOrgCode": "ARCH",
+    "subjectCode": "PDARCH",
+    "catalogNumber": "1",
+    "title": "Portfolio Development",
+    "descriptionAbbreviated": "Portfolio Development",
+    "description": "This course will elaborate upon the graphic and communication conventions established in the fundamental architecture curriculum. Intermediate investigations in two dimensional representation and photographic manipulation are developed to enhance presentation skills within a professional and academic context. The topics covered in the course culminate in the generation of an architecture portfolio in readiness for job interviews. [Note: This course will be graded on a CR/NCR basis. Offered: S]",
+    "gradingBasis": "CNC",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Level at least 1B Architecture students.  Antireq: ARCH 114"
+  }
+]

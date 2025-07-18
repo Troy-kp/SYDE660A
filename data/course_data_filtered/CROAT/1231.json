@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "004346",
+    "courseOfferNumber": 1,
+    "termCode": "1231",
+    "termName": "Winter 2023",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "CROAT",
+    "catalogNumber": "102",
+    "title": "Elementary Croatian 2",
+    "descriptionAbbreviated": "Elementary Croatian 2",
+    "description": "A continuation of CROAT 101. [Note: CROAT 102 is not open to students with native, near-native, or similar advanced ability.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: CROAT 101"
+  }
+]

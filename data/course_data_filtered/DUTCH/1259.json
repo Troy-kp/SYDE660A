@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "004742",
+    "courseOfferNumber": 1,
+    "termCode": "1259",
+    "termName": "Fall 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "DUTCH",
+    "catalogNumber": "101",
+    "title": "Elementary Dutch 1",
+    "descriptionAbbreviated": "Elementary Dutch 1",
+    "description": "The basic elements of Dutch grammar with emphasis on oral practice and pronunciation. Introduction to aspects of Dutch culture.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

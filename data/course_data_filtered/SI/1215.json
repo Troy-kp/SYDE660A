@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "014876",
+    "courseOfferNumber": 1,
+    "termCode": "1215",
+    "termName": "Spring 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "REN",
+    "associatedAcademicOrgCode": "REN",
+    "subjectCode": "SI",
+    "catalogNumber": "231R",
+    "title": "Calligraphy to Conceptual Art: Text as an Image in Islamic and East Asian Visual Arts",
+    "descriptionAbbreviated": "Calligraphy to Conceptual Art",
+    "description": "Exploring the history of Islamic and East Asian calligraphic arts and the study of Eastern and Western artists, this course examines multiple ways in which writing and other forms of visible language are incorporated into visual arts. Through studio projects, students explore conceptual approaches to text-based image making.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Level at least 2A. Antireq: FINE 204 (STU 001) taken winter 2014 or SI 375R (LEC 001) taken winter 2014"
+  }
+]

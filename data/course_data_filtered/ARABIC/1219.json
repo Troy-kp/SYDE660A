@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013338",
+    "courseOfferNumber": 1,
+    "termCode": "1219",
+    "termName": "Fall 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "REN",
+    "associatedAcademicOrgCode": "REN",
+    "subjectCode": "ARABIC",
+    "catalogNumber": "101R",
+    "title": "Introduction to Arabic 1",
+    "descriptionAbbreviated": "Introduction to Arabic 1",
+    "description": "This course is designed for students with no previous knowledge of Arabic. It focuses on recognizing the Arabic alphabet and cursive writing. Students will build up basic vocabulary and construct simple sentences. Students will exchange basic conversations in Modern Standard Arabic and be exposed to Egyptian and Levantine colloquial Arabic. [Note: Not open to students with native, near-native, or similar advanced ability. Completion of student assessment required. Formerly SI 101R.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Antireq: ARABIC 120R, SI 101R, SI 120R, AB 101W"
+  }
+]

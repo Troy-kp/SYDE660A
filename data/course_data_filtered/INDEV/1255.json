@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "014684",
+    "courseOfferNumber": 1,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ENV",
+    "associatedAcademicOrgCode": "SEED",
+    "subjectCode": "INDEV",
+    "catalogNumber": "476",
+    "title": "Contemporary Issues in Development Practice",
+    "descriptionAbbreviated": "Contemp Issues in Dev Pract",
+    "description": "This course focuses on contemporary development issues - environment, gender, migration, climate change, democracy, to name several. It also highlights the ways and means for students to respond to one or more of these issues, particularly as they relate to their field placements.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Level at least 4A; Honours International Development students only"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "012446",
+    "courseOfferNumber": 1,
+    "termCode": "1221",
+    "termName": "Winter 2022",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "REES",
+    "catalogNumber": "260",
+    "title": "Special Topics",
+    "descriptionAbbreviated": "Special Topics",
+    "description": "Selected topics in Russian and East European Studies chosen by the instructor in consultation with the department. The topics chosen introduce students to important issues in eastern European culture. [Note: This is a repeatable course, subject to different content; it may be completed a total of three times.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

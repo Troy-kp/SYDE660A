@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016181",
+    "courseOfferNumber": 1,
+    "termCode": "1219",
+    "termName": "Fall 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "VPA",
+    "associatedAcademicOrgCode": "VPA",
+    "subjectCode": "CFM",
+    "catalogNumber": "101",
+    "title": "Introduction to Financial Markets and Data Analytics",
+    "descriptionAbbreviated": "Intro to Fin. Markets & Data A",
+    "description": "This course introduces financial markets and institutions, commonly used financial data, and data schema and visualization therein. It covers fundamental functions of financial institutions and their usage of data, and basic financial data management techniques. The course will focus on buy side institutions and stock market data.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Computing and Financial Management students. Antireq: AFM 121"
+  }
+]

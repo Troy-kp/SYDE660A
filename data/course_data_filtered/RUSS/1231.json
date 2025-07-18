@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "008436",
+    "courseOfferNumber": 1,
+    "termCode": "1231",
+    "termName": "Winter 2023",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "RUSS",
+    "catalogNumber": "102",
+    "title": "Elementary Russian 2",
+    "descriptionAbbreviated": "Elementary Russian 2",
+    "description": "A continuation of RUSS 101. [Note: RUSS 102 is not open to students with native, near-native, or similar advanced ability.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: RUSS 101"
+  }
+]

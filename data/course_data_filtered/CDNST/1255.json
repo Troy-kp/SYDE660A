@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016331",
+    "courseOfferNumber": 1,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "STP",
+    "associatedAcademicOrgCode": "STP",
+    "subjectCode": "CDNST",
+    "catalogNumber": "101",
+    "title": "Introduction to Canadian Studies",
+    "descriptionAbbreviated": "Intro Canadian Studies",
+    "description": "A multidisciplinary overview of the broad range of topics covered in Canadian Studies including Indigenous-settler relations, Quebec and French Canada, bilingualism and multiculturalism, regionalism, Canada's place in the world, and the quest for a distinctive Canadian culture and identity in the midst of diversity.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

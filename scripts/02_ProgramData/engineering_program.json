@@ -1,0 +1,168 @@
+[
+    {
+        "program_name": "Master of Engineering (MEng) in Chemical Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/Bysg1CAon?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Chemical%20Engineering&bcGroup=Chemical%20Engineering&bcItemType=programs",
+        "specializations": [
+            {
+                "name": "Biological Engineering",
+                "compulsory": [ "CHE 562", "CHE 660", "CHE 663" ],
+                "electives": {
+                    "type": "choose_n_from_list",
+                    "n_to_choose": 1,
+                    "courses": [ "CHE 561", "CHE 564" ]
+                }
+            },
+            {
+                "name": "Entrepreneurship",
+                "compulsory": [ "BE 600", "BE 605", "BE 606", "CHE 651" ],
+                "electives": {}
+            },
+            {
+                "name": "Polymer Science and Engineering",
+                "compulsory": [ "CHE 541", "CHE 621" ],
+                "electives": {
+                    "type": "choose_n_from_list",
+                    "n_to_choose": 2,
+                    "courses": [ "CHE 543", "CHE 640", "CHE 641" ]
+                }
+            },
+            {
+                "name": "Process Systems Engineering",
+                "compulsory": [ "CHE 620", "CHE 621" ],
+                "electives": {
+                    "type": "choose_n_from_list",
+                    "n_to_choose": 2,
+                    "courses": [ "CHE 520", "CHE 521", "CHE 522" ]
+                }
+            }
+        ]
+    },
+    {
+        "program_name": "Master of Engineering (MEng) in Civil Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/Syig1A0s3?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Civil%20Engineering&bcGroup=Civil%20and%20Environmental%20Engineering&bcItemType=programs",
+        "specializations": [
+            {
+                "name": "Architectural Engineering",
+                "compulsory": [ "AE 601" ],
+                "electives": {
+                    "type": "complex",
+                    "description": "At least 2 from Compulsory list, and 1 from Elective list. Or 4 from Compulsory list.",
+                    "compulsory_list": ["ARCH 642", "CIVE 507", "CIVE 630"],
+                    "elective_list": ["ARCH 684", "CIVE 505", "CIVE 512", "CIVE 596", "CIVE 601", "CIVE 602", "CIVE 603", "CIVE 604", "CIVE 622", "CIVE 700", "CIVE 704", "CIVE 710", "CIVE 790R", "ME 671", "ME 672", "ME 673", "ME 656", "SYDE 532"]
+                }
+            },
+            {
+                "name": "Environmental and Water Resources Engineering",
+                "compulsory": [],
+                "electives": {
+                    "type": "complex",
+                    "description": "At least 2 from Compulsory list, and 2 from Elective list. Or 4 from Compulsory list.",
+                    "compulsory_list": ["ENVE 573", "ENVE 577", "ENVE 585", "CIVE 671", "CIVE 680"],
+                    "elective_list": ["CIVE 583", "ENVE 583", "CIVE 670", "CIVE 682", "CIVE 770", "CIVE 771", "CIVE 781", "CIVE 790R", "EARTH 691"]
+                }
+            },
+            {
+                "name": "Sustainable Structural Systems",
+                "compulsory": [],
+                "electives": {
+                    "type": "complex",
+                    "description": "At least 2 from Compulsory list, and 2 from Elective list. Or 4 from Compulsory list.",
+                    "compulsory_list": ["CIVE 505", "CIVE 507", "CIVE 596", "CIVE 601", "CIVE 622"],
+                    "elective_list": ["CIVE 512", "CIVE 602", "CIVE 603", "CIVE 604", "CIVE 700", "CIVE 710", "CIVE 790R"]
+                }
+            },
+            {
+                "name": "Transportation Engineering",
+                "compulsory": [],
+                "electives": {
+                    "type": "complex",
+                    "description": "At least 2 from Compulsory list, and 2 from Elective list. Or 4 from Compulsory list.",
+                    "compulsory_list": ["CIVE 542", "CIVE 640", "CIVE 641", "CIVE 642", "CIVE 643"],
+                    "elective_list": ["CIVE 644", "CIVE 645", "CIVE 646", "CIVE 742"]
+                }
+            }
+        ]
+    },
+    {
+        "program_name": "Master of Engineering (MEng) in Electrical and Computer Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/B17slJCRs3?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Electrical%20and%20Computer%20Engineering&bcGroup=Electrical%20and%20Computer%20Engineering&bcItemType=programs",
+        "specializations": [
+            {
+                "name": "Artificial Intelligence and Machine Learning",
+                "compulsory": [ "ECE 657", "ECE 657A" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 3, "courses": [ "ECE 602", "ECE 603", "ECE 606", "ECE 607", "ECE 613", "ECE 659", "ECE 700", "ECE 750", "MSCI 718" ] }
+            },
+            {
+                "name": "Biomedical Engineering",
+                "compulsory": [ "ECE 601", "ECE 608", "ECE 609" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 2, "courses": [ "ECE 607", "ECE 613", "ECE 675", "ECE 750", "SYDE 677" ] }
+            },
+            {
+                "name": "Business Leadership",
+                "compulsory": [ "BE 600", "BE 601" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 2, "courses": [ "BE 602", "BE 603", "BE 604", "BE 605", "BE 606", "BE 610", "BE 660", "BE 680", "ECE 657A", "ECE 699" ] }
+            },
+            {
+                "name": "Computer Networking and Security",
+                "compulsory": [ "ECE 610", "ECE 628", "ECE 655" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 2, "courses": [ "ECE 606", "ECE 611", "ECE 612", "ECE 656", "ECE 657", "ECE 659", "ECE 715", "ECE 716" ] }
+            },
+            {
+                "name": "Nanoelectronic Circuits and Systems",
+                "compulsory": [ "ECE 699A", "ECE 699B" ],
+                "electives": { "type": "complex", "description": "Choose 5 total between Set-A and Set-B. A minimum of 2 of the 5 electives must be taken from Set-A.", "set_a": ["ECE 621", "ECE 627", "ECE 630", "ECE 631", "ECE 636", "ECE 637", "ECE 642", "ECE 671"], "set_b": ["ECE 606", "ECE 638", "ECE 730", "ECE 738", "ECE 740", "ECE 770"] }
+            },
+            {
+                "name": "Nanoelectronic Devices and Materials",
+                "compulsory": [ "ECE 630", "ECE 631" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 3, "courses": [ "ECE 632", "ECE 633", "ECE 634", "ECE 635", "ECE 672", "NANO 600" ] }
+            },
+            {
+                "name": "Quantum Engineering",
+                "compulsory": [ "ECE 676", "ECE 677" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 3, "courses": [ "ECE 630", "ECE 633", "ECE 671", "ECE 676B", "ECE 676C", "ECE 676D", "ECE 676E", "QIC 710", "QIC 880" ] }
+            },
+            {
+                "name": "Software",
+                "compulsory": [ "ECE 650", "ECE 651", "ECE 653" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 2, "courses": [ "ECE 606", "ECE 655", "ECE 656", "ECE 657", "ECE 658" ] }
+            },
+            {
+                "name": "Sustainable Energy",
+                "compulsory": [ "ECE 660" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 4, "courses": [ "ECE 632", "ECE 662", "ECE 663", "ECE 665", "ECE 666", "ECE 668", "ECE 669", "ECE 761", "ECE 762", "ECE 763", "ECE 765", "ECE 768" ] }
+            }
+        ]
+    },
+    {
+        "program_name": "Master of Engineering (MEng) in Systems Design Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/r1fjl10Cj2?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Systems%20Design%20Engineering&bcGroup=Systems%20Design%20Engineering&bcItemType=programs",
+        "specializations": [
+            {
+                "name": "Artificial Intelligence and Machine Learning",
+                "compulsory": [ "SYDE 522", "SYDE 552", "SYDE 660A", "SYDE 675" ],
+                "electives": { "type": "choose_n_from_list", "n_to_choose": 1, "courses": [ "SYDE 662", "SYDE 671", "SYDE 672", "SYDE 673", "SYDE 674" ] }
+            },
+            {
+                "name": "Biomedical Systems",
+                "compulsory": [ "SYDE 660B" ],
+                "electives": { "type": "complex", "description": "At least 2 from Specified list, and at least 1 from Elective list.", "specified_list": ["SYDE 544", "SYDE 684", "SYDE 750"], "elective_list": ["SYDE 552", "SYDE 556", "SYDE 652", "SYDE 662", "SYDE 677"] }
+            },
+            {
+                "name": "Human Factors",
+                "compulsory": [ "SYDE 660C" ],
+                "electives": { "type": "complex", "description": "At least 2 from Specified list, and at least 1 from Elective list.", "specified_list": ["SYDE 542", "SYDE 543", "SYDE 642", "SYDE 644"], "elective_list": ["SYDE 533", "SYDE 662", "SYDE 740"] }
+            },
+            {
+                "name": "Mechatronic and Physical Systems",
+                "compulsory": [ "SYDE 660D" ],
+                "electives": { "type": "complex", "description": "At least 2 from Specified list, and at least 1 from Elective list.", "specified_list": ["SYDE 553", "SYDE 652", "SYDE 655", "SYDE 682", "SYDE 683", "SYDE 750"], "elective_list": ["SYDE 531", "SYDE 631", "SYDE 661", "SYDE 662"] }
+            },
+            {
+                "name": "Vision, Image and Signal Processing",
+                "compulsory": [ "SYDE 660E" ],
+                "electives": { "type": "complex", "description": "At least 2 from Specified list, and at least 1 from Elective list.", "specified_list": ["SYDE 575", "SYDE 671", "SYDE 677"], "elective_list": ["SYDE 544", "SYDE 633", "SYDE 662", "SYDE 672", "SYDE 673", "SYDE 674", "SYDE 675"] }
+            }
+        ]
+    }
+]

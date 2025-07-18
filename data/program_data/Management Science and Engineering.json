@@ -1,0 +1,19 @@
+{
+  "Management_Science_Management_of_Technology": {
+    "specified_fixed": [
+      "MSE 602 - Strategic Management of Technological Innovation",
+      "MSE 603 - Principles of Operations Research",
+      "MSE 605 - Organizational Behaviour",
+      "MSE 606 - Foundations of Senior Management",
+      "MSE 607 - Applied Economics for Management",
+      "MSE 609 - Quantitative Data Analysis for Management Sciences"
+    ],
+    "elective": {
+      "min_count": 2,
+      "list": [
+        "2 additional courses at the 600 or 700 level"
+      ],
+      "note": "Students must maintain an overall average of at least 73% at the end of each term, with no more than two failed courses overall."
+    }
+  }
+}

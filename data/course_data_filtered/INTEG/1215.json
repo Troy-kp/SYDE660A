@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016062",
+    "courseOfferNumber": 1,
+    "termCode": "1215",
+    "termName": "Spring 2021",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "ENV",
+    "associatedAcademicOrgCode": "KI",
+    "subjectCode": "INTEG",
+    "catalogNumber": "640",
+    "title": "Computational Social Science",
+    "descriptionAbbreviated": "Computational Social Science",
+    "description": "The explosion of digital data is revolutionizing the way we learn about the world.  This course focuses on the knowledge and skills necessary for doing high-quality social scientific research with digital data.  Students will be introduced to the programming language Python, and will earn to collect and analyze digital data using computational methods.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

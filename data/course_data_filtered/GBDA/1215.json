@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015617",
+    "courseOfferNumber": 1,
+    "termCode": "1215",
+    "termName": "Spring 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "SIDB",
+    "subjectCode": "GBDA",
+    "catalogNumber": "312",
+    "title": "Internship",
+    "descriptionAbbreviated": "Internship",
+    "description": "Students must complete a paid internship, normally in the spring term after their 3B term. The content of the internship will be tied to the student's program of study and will be 16 weeks of full-time employment or equivalent. All self-arranged or shorter internships must be approved by your co-op advisor. [Note: Course will be graded on a CR/NCR basis.]",
+    "gradingBasis": "CNC",
+    "courseComponentCode": "PRA",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Level at least 3B Global Business and Digital Arts students"
+  }
+]

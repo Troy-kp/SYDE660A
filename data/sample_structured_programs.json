@@ -1,0 +1,265 @@
+[
+  {
+    "program_name": "Master of Engineering (MEng) in Chemical Engineering",
+    "department": "Chemical Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/Bysg1CAon",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "CHE 600"
+      ],
+      "compulsory_choices": [
+        {
+          "n_to_choose": 1,
+          "group_name": "Core Transport/Reactor",
+          "courses": [
+            "CHE 601",
+            "CHE 602"
+          ],
+          "description": "Either CHE 601 Theory and Application of Transport Phenomena or CHE 602 Chemical Reactor Analysis"
+        }
+      ],
+      "elective_requirements": [
+        {
+          "type": "general_graduate",
+          "n_to_choose": 7,
+          "group_name": "Graduate Electives",
+          "description": "7 graduate level electives of which 4 must be CHE courses"
+        }
+      ],
+      "constraints": {
+        "level_constraints": {
+          "max_500_level": 2,
+          "description": "No more than 2 may be 500 level courses"
+        },
+        "departmental_constraints": {
+          "min_che_courses": 4,
+          "description": "At least 4 of the 7 electives must be CHE courses"
+        },
+        "special_constraints": {
+          "max_reading_courses": 1,
+          "description": "No more than 1 may be a reading course"
+        },
+        "grade_requirements": {
+          "minimum_average": 70,
+          "minimum_individual": 65,
+          "description": "Minimum cumulative average of 70%. Minimum grade of 65% in each individual course."
+        }
+      }
+    },
+    "specializations": [
+      {
+        "name": "Biological Engineering",
+        "requirements": {
+          "total_courses": 4,
+          "compulsory_courses": [
+            "CHE 562",
+            "CHE 660",
+            "CHE 663"
+          ],
+          "compulsory_choices": [],
+          "elective_requirements": [
+            {
+              "type": "choose_n_from_list",
+              "n_to_choose": 1,
+              "group_name": "Biological Engineering Electives",
+              "courses": [
+                "CHE 561",
+                "CHE 564"
+              ],
+              "description": "Choose 1 from: CHE 561 Biomaterials & Biomedical Design, CHE 564 Food Process Engineering"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Entrepreneurship",
+        "requirements": {
+          "total_courses": 4,
+          "compulsory_courses": [
+            "BE 600",
+            "BE 605",
+            "BE 606",
+            "CHE 651"
+          ],
+          "compulsory_choices": [],
+          "elective_requirements": [],
+          "notes": [
+            "Students must obtain approval from the Chemical Engineering Graduate Officer",
+            "Students required to submit a short proposal following matriculation describing their entrepreneurship idea"
+          ]
+        }
+      },
+      {
+        "name": "Polymer Science and Engineering",
+        "requirements": {
+          "total_courses": 4,
+          "compulsory_courses": [
+            "CHE 541",
+            "CHE 621"
+          ],
+          "compulsory_choices": [],
+          "elective_requirements": [
+            {
+              "type": "choose_n_from_list",
+              "n_to_choose": 2,
+              "group_name": "Polymer Electives",
+              "courses": [
+                "CHE 543",
+                "CHE 640",
+                "CHE 641"
+              ],
+              "description": "Choose 2 from: CHE 543 Polymer Production: Polymer Reaction Engineering, CHE 640 Polymer Property Characterization, CHE 641 Fundamentals of Polymer Processing Operations"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Process Systems Engineering",
+        "requirements": {
+          "total_courses": 4,
+          "compulsory_courses": [
+            "CHE 620",
+            "CHE 621"
+          ],
+          "compulsory_choices": [],
+          "elective_requirements": [
+            {
+              "type": "choose_n_from_list",
+              "n_to_choose": 2,
+              "group_name": "Process Systems Electives",
+              "courses": [
+                "CHE 520",
+                "CHE 521",
+                "CHE 522"
+              ],
+              "description": "Choose 2 from: CHE 520 Process Flowsheet Analysis, CHE 521 Process Optimization, CHE 522 Advanced Process Dynamics and Control"
+            }
+          ]
+        }
+      }
+    ],
+    "milestone_requirements": {
+      "seminar_attendance": {
+        "required_seminars": 12,
+        "description": "Over the course of their degree program, all students must attend 12 seminars from departments and research institutions where Chemical Engineering faculty members have a membership"
+      }
+    }
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Electrical and Computer Engineering",
+    "department": "Electrical and Computer Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/B17slJCRs3",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [],
+      "compulsory_choices": [],
+      "elective_requirements": [
+        {
+          "type": "general_graduate",
+          "n_to_choose": 8,
+          "group_name": "Graduate Courses",
+          "description": "8 one-term courses (0.50 unit weight) acceptable for credit by the Department"
+        }
+      ],
+      "constraints": {
+        "departmental_constraints": {
+          "min_ece_courses": 5,
+          "max_outside_courses": 3,
+          "description": "A minimum of 5 courses must be taken from within the ECE Department. A maximum of 3 courses may be taken from outside the Department"
+        },
+        "grade_requirements": {
+          "minimum_individual": 65,
+          "minimum_average": 70,
+          "description": "A minimum grade of 65% in each of the 8 courses and a minimum cumulative average of 70%"
+        }
+      }
+    },
+    "specializations": [
+      {
+        "name": "Artificial Intelligence and Machine Learning",
+        "requirements": {
+          "total_courses": 5,
+          "compulsory_courses": [
+            "ECE 657",
+            "ECE 657A"
+          ],
+          "compulsory_choices": [],
+          "elective_requirements": [
+            {
+              "type": "choose_n_from_list",
+              "n_to_choose": 3,
+              "group_name": "AI/ML Electives",
+              "courses": [
+                "ECE 602",
+                "ECE 603",
+                "ECE 606",
+                "ECE 607",
+                "ECE 613",
+                "ECE 659",
+                "ECE 700",
+                "ECE 750",
+                "MSCI 718"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Computer Networking and Security",
+        "requirements": {
+          "total_courses": 5,
+          "compulsory_courses": [
+            "ECE 610",
+            "ECE 628",
+            "ECE 655"
+          ],
+          "compulsory_choices": [],
+          "elective_requirements": [
+            {
+              "type": "choose_n_from_list",
+              "n_to_choose": 2,
+              "group_name": "Networking/Security Electives",
+              "courses": [
+                "ECE 606",
+                "ECE 611",
+                "ECE 612",
+                "ECE 656",
+                "ECE 657",
+                "ECE 659",
+                "ECE 715",
+                "ECE 716"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Software",
+        "requirements": {
+          "total_courses": 5,
+          "compulsory_courses": [
+            "ECE 650",
+            "ECE 651",
+            "ECE 653"
+          ],
+          "compulsory_choices": [],
+          "elective_requirements": [
+            {
+              "type": "choose_n_from_list",
+              "n_to_choose": 2,
+              "group_name": "Software Electives",
+              "courses": [
+                "ECE 606",
+                "ECE 655",
+                "ECE 656",
+                "ECE 657",
+                "ECE 658"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

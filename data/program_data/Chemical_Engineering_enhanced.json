@@ -1,0 +1,168 @@
+{
+  "program_name": "Master of Engineering (MEng) in Chemical Engineering",
+  "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/Bysg1CAon",
+  "degree_rules": {
+    "total_courses": 8,
+    "level_constraints": {
+      "max_500_level": 2,
+      "description": "No more than 2 may be 500 level courses."
+    },
+    "departmental_constraints": {
+      "min_che_courses": 4,
+      "description": "Of the 7 electives, 4 must be CHE courses."
+    },
+    "grade_requirements": {
+      "minimum_average": 70,
+      "minimum_individual": 65,
+      "description": "Minimum cumulative average of 70%. Minimum grade of 65% in each individual course."
+    },
+    "additional_constraints": {
+      "max_reading_courses": 1,
+      "course_validity_years": 5,
+      "description": "No more than 1 may be a reading course. Only courses taken within five years prior to the completion of the MEng degree may be counted for credit."
+    },
+    "requirements": [
+      {
+        "type": "compulsory",
+        "courses": [
+          "CHE 600"
+        ],
+        "n_to_choose": 1,
+        "description": "CHE 600 Engineering and Research Methods, Ethics, Practice, and Law (0.25 credit weight)",
+        "credit_weight": 0.25
+      },
+      {
+        "type": "compulsory_choice",
+        "courses": [
+          "CHE 601",
+          "CHE 602"
+        ],
+        "n_to_choose": 1,
+        "description": "Either CHE 601 Theory and Application of Transport Phenomena or CHE 602 Chemical Reactor Analysis"
+      },
+      {
+        "type": "elective",
+        "courses": [],
+        "n_to_choose": 7,
+        "description": "7 graduate level electives of which 4 must be CHE courses. Subject to level and reading course constraints."
+      }
+    ]
+  },
+  "specializations": [
+    {
+      "name": "Biological Engineering",
+      "total_courses": 4,
+      "description": "Graduate Specialization consisting of 4 graduate (0.50 weight) level courses with mix of compulsory and elective courses.",
+      "requirements": [
+        {
+          "type": "specified",
+          "courses": [
+            "CHE 562",
+            "CHE 660",
+            "CHE 663"
+          ],
+          "n_to_choose": 3,
+          "description": "Compulsory courses: CHE 562 Advanced Bioprocess Engineering, CHE 660 Principles of Biochemical Engineering, CHE 663 Bioseparations"
+        },
+        {
+          "type": "elective",
+          "courses": [
+            "CHE 561",
+            "CHE 564"
+          ],
+          "n_to_choose": 1,
+          "description": "Choose 1 from elective list: CHE 561 Biomaterials & Biomedical Design, CHE 564 Food Process Engineering"
+        }
+      ]
+    },
+    {
+      "name": "Entrepreneurship",
+      "total_courses": 4,
+      "description": "Graduate Specialization requiring approval from Chemical Engineering Graduate Officer.",
+      "special_requirements": [
+        "Students must obtain approval from the Chemical Engineering Graduate Officer",
+        "Students required to submit a short proposal following matriculation describing their entrepreneurship idea and suitability to pursue it"
+      ],
+      "requirements": [
+        {
+          "type": "specified",
+          "courses": [
+            "BE 600",
+            "BE 605",
+            "BE 606",
+            "CHE 651"
+          ],
+          "n_to_choose": 4,
+          "description": "All 4 compulsory courses: BE 600 Management and Leadership, BE 605 Project Management, BE 606 Entrepreneurship and Innovation, CHE 651 Technology Entrepreneurship Project"
+        }
+      ]
+    },
+    {
+      "name": "Polymer Science and Engineering",
+      "total_courses": 4,
+      "description": "Graduate Specialization with 2 compulsory and 2 elective courses.",
+      "requirements": [
+        {
+          "type": "specified",
+          "courses": [
+            "CHE 541",
+            "CHE 621"
+          ],
+          "n_to_choose": 2,
+          "description": "Compulsory courses: CHE 541 Introduction to Polymer Science and Properties, CHE 621 Model Building and Response Surface Methodology"
+        },
+        {
+          "type": "elective",
+          "courses": [
+            "CHE 543",
+            "CHE 640",
+            "CHE 641"
+          ],
+          "n_to_choose": 2,
+          "description": "Choose 2 from: CHE 543 Polymer Production: Polymer Reaction Engineering, CHE 640 Polymer Property Characterization, CHE 641 Fundamentals of Polymer Processing Operations"
+        }
+      ]
+    },
+    {
+      "name": "Process Systems Engineering",
+      "total_courses": 4,
+      "description": "Graduate Specialization with 2 compulsory and 2 elective courses.",
+      "requirements": [
+        {
+          "type": "specified",
+          "courses": [
+            "CHE 620",
+            "CHE 621"
+          ],
+          "n_to_choose": 2,
+          "description": "Compulsory courses: CHE 620 Applied Engineering Mathematics, CHE 621 Model Building and Response Surface Methodology"
+        },
+        {
+          "type": "elective",
+          "courses": [
+            "CHE 520",
+            "CHE 521",
+            "CHE 522"
+          ],
+          "n_to_choose": 2,
+          "description": "Choose 2 from: CHE 520 Process Flowsheet Analysis, CHE 521 Process Optimization, CHE 522 Advanced Process Dynamics and Control"
+        }
+      ]
+    }
+  ],
+  "milestone_requirements": {
+    "seminar_attendance": {
+      "required_seminars": 12,
+      "description": "Over the course of their degree program, all students must attend 12 seminars from departments and research institutions where Chemical Engineering faculty members have a membership.",
+      "documentation_note": "At Chemical Engineering seminars, attendance is documented. At other approved seminars, students must complete an attendance form and get it signed by the seminar organizer."
+    }
+  },
+  "additional_information": {
+    "funding": "Applicants to the MEng program are expected to be entirely self funded. No financial assistance will be provided from the Department of Chemical Engineering or the University of Waterloo.",
+    "program_length": {
+      "full_time": "4 terms (16 months)",
+      "part_time": "8 terms (32 months)"
+    },
+    "specialization_limit": "Students are limited to one Graduate Specialization designation for their MEng in Chemical Engineering degree."
+  }
+}

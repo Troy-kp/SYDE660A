@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "012198",
+    "courseOfferNumber": 1,
+    "termCode": "1259",
+    "termName": "Fall 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "REN",
+    "associatedAcademicOrgCode": "REN",
+    "subjectCode": "APPLS",
+    "catalogNumber": "205R",
+    "title": "Second Language Acquisition",
+    "descriptionAbbreviated": "Second Language Acquisition",
+    "description": "This course introduces major theories of second language acquisition along with reasons for variations in the speed and accuracy of learner progress. It addresses such issues as error analysis, grammatical accuracy, and the effectiveness of bilingual or immersion education.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Level at least 2A"
+  }
+]

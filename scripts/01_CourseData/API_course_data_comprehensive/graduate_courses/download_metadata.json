@@ -1,0 +1,1137 @@
+{
+  "download_timestamp": "2025-07-01T15:56:51.567634",
+  "config": {
+    "mode_recommended": {
+      "enabled": true,
+      "start_year": 2021,
+      "end_year": 2025,
+      "description": "推荐配置：基于实际课程表验证的最佳数据范围"
+    },
+    "mode_custom": {
+      "enabled": false,
+      "start_year": 2020,
+      "end_year": 2025,
+      "description": "完整有效范围：包含所有验证有效的学期"
+    },
+    "mode_all_historical": {
+      "enabled": false,
+      "description": "完整历史：获取所有74年数据（需要很长时间）"
+    },
+    "mode_recent_only": {
+      "enabled": false,
+      "start_year": 2025,
+      "end_year": 2025,
+      "description": "仅最新：只获取2025年数据进行快速测试"
+    },
+    "mode_verified_complete": {
+      "enabled": false,
+      "start_year": 2020,
+      "end_year": 2025,
+      "description": "完整验证：包含所有经过课程表验证的有效学期 (17个学期)"
+    },
+    "graduate_only": true,
+    "include_undergraduate": false,
+    "data_validation": "Based on schedule data verification"
+  },
+  "statistics": {
+    "total_available_terms": 220,
+    "downloaded_terms": 15,
+    "total_subjects": 258
+  },
+  "terms_downloaded": [
+    {
+      "term_code": "1211",
+      "term_name": "Winter 2021"
+    },
+    {
+      "term_code": "1221",
+      "term_name": "Winter 2022"
+    },
+    {
+      "term_code": "1219",
+      "term_name": "Fall 2021"
+    },
+    {
+      "term_code": "1231",
+      "term_name": "Winter 2023"
+    },
+    {
+      "term_code": "1215",
+      "term_name": "Spring 2021"
+    },
+    {
+      "term_code": "1229",
+      "term_name": "Fall 2022"
+    },
+    {
+      "term_code": "1235",
+      "term_name": "Spring 2023"
+    },
+    {
+      "term_code": "1239",
+      "term_name": "Fall 2023"
+    },
+    {
+      "term_code": "1225",
+      "term_name": "Spring 2022"
+    },
+    {
+      "term_code": "1241",
+      "term_name": "Winter 2024"
+    },
+    {
+      "term_code": "1251",
+      "term_name": "Winter 2025"
+    },
+    {
+      "term_code": "1245",
+      "term_name": "Spring 2024"
+    },
+    {
+      "term_code": "1249",
+      "term_name": "Fall 2024"
+    },
+    {
+      "term_code": "1255",
+      "term_name": "Spring 2025"
+    },
+    {
+      "term_code": "1259",
+      "term_name": "Fall 2025"
+    }
+  ],
+  "subjects": [
+    {
+      "code": "AADMS",
+      "name": "Arts Adm Spec Seminar"
+    },
+    {
+      "code": "AB",
+      "name": "Arabic (WLU)"
+    },
+    {
+      "code": "ACC",
+      "name": "Accounting"
+    },
+    {
+      "code": "ACINTY",
+      "name": "Academic Integrity"
+    },
+    {
+      "code": "ACTSC",
+      "name": "Actuarial Science"
+    },
+    {
+      "code": "ADMGT",
+      "name": "Advanced  Management"
+    },
+    {
+      "code": "AE",
+      "name": "Architectural Engineering"
+    },
+    {
+      "code": "AES",
+      "name": "Applied Environmental Studies"
+    },
+    {
+      "code": "AFM",
+      "name": "Accounting & Financial Manag't"
+    },
+    {
+      "code": "AHS",
+      "name": "Applied Health Sciences"
+    },
+    {
+      "code": "AMATH",
+      "name": "Applied Mathematics"
+    },
+    {
+      "code": "ANTH",
+      "name": "Anthropology"
+    },
+    {
+      "code": "APPLS",
+      "name": "Applied Language Studies"
+    },
+    {
+      "code": "ARBUS",
+      "name": "Arts and Business"
+    },
+    {
+      "code": "ARCH",
+      "name": "Architecture"
+    },
+    {
+      "code": "ARCHL",
+      "name": "Archeology (WLU)"
+    },
+    {
+      "code": "ARTS",
+      "name": "Arts"
+    },
+    {
+      "code": "ASIAN",
+      "name": "Asian Studies"
+    },
+    {
+      "code": "ASTRN",
+      "name": "Astronomy (WLU)"
+    },
+    {
+      "code": "AVIA",
+      "name": "Aviation"
+    },
+    {
+      "code": "BASE",
+      "name": "Bridge Academic Success Engl"
+    },
+    {
+      "code": "BE",
+      "name": "Business Entrepreneurship"
+    },
+    {
+      "code": "BET",
+      "name": "Bus, Entrepreneurship & Tech"
+    },
+    {
+      "code": "BIOL",
+      "name": "Biology"
+    },
+    {
+      "code": "BME",
+      "name": "Biomedical Engineering"
+    },
+    {
+      "code": "BUS",
+      "name": "Business"
+    },
+    {
+      "code": "CCIV",
+      "name": "Classical Civilization"
+    },
+    {
+      "code": "CDNST",
+      "name": "Canadian Studies"
+    },
+    {
+      "code": "CEDEV",
+      "name": "Children's Educ'n &Development"
+    },
+    {
+      "code": "CHE",
+      "name": "Chemical Engineering"
+    },
+    {
+      "code": "CHEM",
+      "name": "Chemistry"
+    },
+    {
+      "code": "CHINA",
+      "name": "Chinese"
+    },
+    {
+      "code": "CIVE",
+      "name": "Civil Engineering"
+    },
+    {
+      "code": "CLAS",
+      "name": "Classical Studies"
+    },
+    {
+      "code": "CM",
+      "name": "Computational Mathematics"
+    },
+    {
+      "code": "CMW",
+      "name": "Church Music and Worship"
+    },
+    {
+      "code": "CO",
+      "name": "Combinatorics & Optimization"
+    },
+    {
+      "code": "COGSCI",
+      "name": "Cognitive Science"
+    },
+    {
+      "code": "COMM",
+      "name": "Commerce"
+    },
+    {
+      "code": "COMPT",
+      "name": "Computing (WLU)"
+    },
+    {
+      "code": "COMST",
+      "name": "Communication Studies (WLU)"
+    },
+    {
+      "code": "CONST",
+      "name": "Contemporary Studies(WLU)"
+    },
+    {
+      "code": "COOP",
+      "name": "Co-op"
+    },
+    {
+      "code": "CRGC",
+      "name": "Chrstn Std Glbl Citizshp(WLU)"
+    },
+    {
+      "code": "CROAT",
+      "name": "Croatian"
+    },
+    {
+      "code": "CS",
+      "name": "Computer Science"
+    },
+    {
+      "code": "CT",
+      "name": "Catholic Thought"
+    },
+    {
+      "code": "CULMG",
+      "name": "Cultural Management"
+    },
+    {
+      "code": "CULT",
+      "name": "Cultural Studies"
+    },
+    {
+      "code": "DAC",
+      "name": "Digital Arts Communication"
+    },
+    {
+      "code": "DANCE",
+      "name": "Dance"
+    },
+    {
+      "code": "DEI",
+      "name": "Digital Experience Innovation"
+    },
+    {
+      "code": "DEVIS",
+      "name": "Develop & Int'l Studies (WLU)"
+    },
+    {
+      "code": "DM",
+      "name": "Design and Manufacturing"
+    },
+    {
+      "code": "DRAMA",
+      "name": "Drama"
+    },
+    {
+      "code": "DUTCH",
+      "name": "Dutch"
+    },
+    {
+      "code": "EARTH",
+      "name": "Earth Science"
+    },
+    {
+      "code": "EASIA",
+      "name": "East Asian Studies"
+    },
+    {
+      "code": "ECDEV",
+      "name": "Economic Development"
+    },
+    {
+      "code": "ECE",
+      "name": "Electrical & Computer Engineer"
+    },
+    {
+      "code": "ECON",
+      "name": "Economics"
+    },
+    {
+      "code": "EFAS",
+      "name": "English for Academic Success"
+    },
+    {
+      "code": "ELE",
+      "name": "Electrical Engineering"
+    },
+    {
+      "code": "ELPE",
+      "name": "English Language Prof Exam"
+    },
+    {
+      "code": "EMLS",
+      "name": "English for Multilingual Speak"
+    },
+    {
+      "code": "ENBUS",
+      "name": "Environment and Business"
+    },
+    {
+      "code": "ENGL",
+      "name": "English"
+    },
+    {
+      "code": "ENTR",
+      "name": "Entrepreneurship"
+    },
+    {
+      "code": "ENVE",
+      "name": "Environmental Engineering"
+    },
+    {
+      "code": "ENVS",
+      "name": "Environmental Studies"
+    },
+    {
+      "code": "ERS",
+      "name": "Enviro, Resources & Sust"
+    },
+    {
+      "code": "ESL",
+      "name": "English as a Second Language"
+    },
+    {
+      "code": "EVSY",
+      "name": "Environment and Society"
+    },
+    {
+      "code": "FILM",
+      "name": "Film (WLU)"
+    },
+    {
+      "code": "FINAN",
+      "name": "Finance"
+    },
+    {
+      "code": "FINE",
+      "name": "Fine Arts"
+    },
+    {
+      "code": "FR",
+      "name": "French Studies"
+    },
+    {
+      "code": "FRCS",
+      "name": "French Cultural Studies"
+    },
+    {
+      "code": "GBDA",
+      "name": "Global Business & Digital Arts"
+    },
+    {
+      "code": "GEMCC",
+      "name": "Geog & Env. Mgmt, Climate Chng"
+    },
+    {
+      "code": "GENE",
+      "name": "General Engineering"
+    },
+    {
+      "code": "GEOE",
+      "name": "Geological Engineering"
+    },
+    {
+      "code": "GEOG",
+      "name": "Geography"
+    },
+    {
+      "code": "GEOL",
+      "name": "Geology (WLU)"
+    },
+    {
+      "code": "GER",
+      "name": "German"
+    },
+    {
+      "code": "GERON",
+      "name": "Gerontology"
+    },
+    {
+      "code": "GGOV",
+      "name": "Global Governance"
+    },
+    {
+      "code": "GLOBAL",
+      "name": "Global Studies (WLU)"
+    },
+    {
+      "code": "GRAD",
+      "name": "Continuing Graduate Studies"
+    },
+    {
+      "code": "GRK",
+      "name": "Greek"
+    },
+    {
+      "code": "GS",
+      "name": "Graduate Studies"
+    },
+    {
+      "code": "HBIO",
+      "name": "Human Biology"
+    },
+    {
+      "code": "HEBRW",
+      "name": "Hebrew (WLU)"
+    },
+    {
+      "code": "HIST",
+      "name": "History"
+    },
+    {
+      "code": "HLTH",
+      "name": "Health Studies"
+    },
+    {
+      "code": "HRCS",
+      "name": "Human Relatns & Counselling St"
+    },
+    {
+      "code": "HRM",
+      "name": "Human Resources Management"
+    },
+    {
+      "code": "HS",
+      "name": "High School"
+    },
+    {
+      "code": "HSG",
+      "name": "Health Studies and Gerontology"
+    },
+    {
+      "code": "HUMSC",
+      "name": "Human Sciences"
+    },
+    {
+      "code": "HUNGN",
+      "name": "Hungarian"
+    },
+    {
+      "code": "INDEV",
+      "name": "International Development"
+    },
+    {
+      "code": "INDG",
+      "name": "Indigenous Studies"
+    },
+    {
+      "code": "INTEG",
+      "name": "Integrated Studies"
+    },
+    {
+      "code": "INTERN",
+      "name": "Internship"
+    },
+    {
+      "code": "INTST",
+      "name": "International Studies"
+    },
+    {
+      "code": "INTTS",
+      "name": "International Trade Seminars"
+    },
+    {
+      "code": "IS",
+      "name": "Independent Studies"
+    },
+    {
+      "code": "ISS",
+      "name": "Interdisciplinary Social Scien"
+    },
+    {
+      "code": "ITAL",
+      "name": "Italian"
+    },
+    {
+      "code": "ITALST",
+      "name": "Italian Studies"
+    },
+    {
+      "code": "JAPAN",
+      "name": "Japanese"
+    },
+    {
+      "code": "JS",
+      "name": "Jewish Studies"
+    },
+    {
+      "code": "KIN",
+      "name": "Kinesiology"
+    },
+    {
+      "code": "KOREA",
+      "name": "Korean"
+    },
+    {
+      "code": "KPE",
+      "name": "Kinesiology & Phys Ed (WLU)"
+    },
+    {
+      "code": "LANG",
+      "name": "Language (WLU)"
+    },
+    {
+      "code": "LAT",
+      "name": "Latin"
+    },
+    {
+      "code": "LATAM",
+      "name": "Latin American Studies"
+    },
+    {
+      "code": "LED",
+      "name": "Local Economic Development"
+    },
+    {
+      "code": "LS",
+      "name": "Legal Studies"
+    },
+    {
+      "code": "LSC",
+      "name": "Legal Studies and Criminology"
+    },
+    {
+      "code": "MATBUS",
+      "name": "Mathematical Business"
+    },
+    {
+      "code": "MATH",
+      "name": "Mathematics"
+    },
+    {
+      "code": "ME",
+      "name": "Mechanical Engineering"
+    },
+    {
+      "code": "MEDST",
+      "name": "Media Studies (WLU)"
+    },
+    {
+      "code": "MEDVL",
+      "name": "Medieval Studies"
+    },
+    {
+      "code": "MENV",
+      "name": "Man Environment"
+    },
+    {
+      "code": "MES",
+      "name": "Middle Eastern Studies"
+    },
+    {
+      "code": "MGMT",
+      "name": "Management"
+    },
+    {
+      "code": "MI",
+      "name": "Mediterranean Studies (WLU)"
+    },
+    {
+      "code": "MISC",
+      "name": "Miscellaneous"
+    },
+    {
+      "code": "MNS",
+      "name": "Materials and Nano-Sciences"
+    },
+    {
+      "code": "MSCI",
+      "name": "Management Sciences"
+    },
+    {
+      "code": "MTE",
+      "name": "Mechatronics Engineering"
+    },
+    {
+      "code": "MTHEL",
+      "name": "Mathematics Elective"
+    },
+    {
+      "code": "MUSIC",
+      "name": "Music"
+    },
+    {
+      "code": "NANO",
+      "name": "Nanotechnology"
+    },
+    {
+      "code": "NATST",
+      "name": "Native Studies"
+    },
+    {
+      "code": "NE",
+      "name": "Nanotechnology Engineering"
+    },
+    {
+      "code": "NES",
+      "name": "Near Eastern Studies (WLU)"
+    },
+    {
+      "code": "OPTOM",
+      "name": "Optometry"
+    },
+    {
+      "code": "ORLD",
+      "name": "Leadership"
+    },
+    {
+      "code": "PACS",
+      "name": "Peace & Conflict Studies"
+    },
+    {
+      "code": "PAS",
+      "name": "Personnel & Admin Studies"
+    },
+    {
+      "code": "PD",
+      "name": "Professional Development"
+    },
+    {
+      "code": "PDARCH",
+      "name": "Prof Development for Architect"
+    },
+    {
+      "code": "PDENG",
+      "name": "Prof Development for Eng"
+    },
+    {
+      "code": "PDPHRM",
+      "name": "Prof Development for Pharmacy"
+    },
+    {
+      "code": "PED",
+      "name": "Physical Education (WLU)"
+    },
+    {
+      "code": "PERST",
+      "name": "Personnel Studies"
+    },
+    {
+      "code": "PHARM",
+      "name": "Pharmacy"
+    },
+    {
+      "code": "PHIL",
+      "name": "Philosophy"
+    },
+    {
+      "code": "PHS",
+      "name": "Public Health Sciences"
+    },
+    {
+      "code": "PHYS",
+      "name": "Physics"
+    },
+    {
+      "code": "PLAN",
+      "name": "Planning"
+    },
+    {
+      "code": "PLCG",
+      "name": "Policing (WLU)"
+    },
+    {
+      "code": "PMATH",
+      "name": "Pure Mathematics"
+    },
+    {
+      "code": "POLSH",
+      "name": "Polish"
+    },
+    {
+      "code": "PORT",
+      "name": "Portuguese"
+    },
+    {
+      "code": "PS",
+      "name": "Public Service"
+    },
+    {
+      "code": "PSCI",
+      "name": "Political Science"
+    },
+    {
+      "code": "PSYCH",
+      "name": "Psychology"
+    },
+    {
+      "code": "QIC",
+      "name": "Quantum Info & Computation"
+    },
+    {
+      "code": "REC",
+      "name": "Recreation & Leisure Studies"
+    },
+    {
+      "code": "REES",
+      "name": "Russian & Eastern European St"
+    },
+    {
+      "code": "RELC",
+      "name": "Religion & Culture (WLU)"
+    },
+    {
+      "code": "RS",
+      "name": "Religious Studies"
+    },
+    {
+      "code": "RSCH",
+      "name": "Research"
+    },
+    {
+      "code": "RUSS",
+      "name": "Russian"
+    },
+    {
+      "code": "SCBUS",
+      "name": "Science and Business"
+    },
+    {
+      "code": "SCI",
+      "name": "Science"
+    },
+    {
+      "code": "SDS",
+      "name": "Social Development Studies"
+    },
+    {
+      "code": "SE",
+      "name": "Software Engineering"
+    },
+    {
+      "code": "SEQ",
+      "name": "Co-op Sequence"
+    },
+    {
+      "code": "SI",
+      "name": "Studies in Islam"
+    },
+    {
+      "code": "SIPAR",
+      "name": "Studies inPersonality&Religion"
+    },
+    {
+      "code": "SMF",
+      "name": "Sexuality, Marriage & Family"
+    },
+    {
+      "code": "SOC",
+      "name": "Sociology"
+    },
+    {
+      "code": "SOCE",
+      "name": "Social Entrepreneurship"
+    },
+    {
+      "code": "SOCIN",
+      "name": "Social Innovation"
+    },
+    {
+      "code": "SOCWK",
+      "name": "Social Work"
+    },
+    {
+      "code": "SOCWL",
+      "name": "Social Welfare (WLU)"
+    },
+    {
+      "code": "SPAN",
+      "name": "Spanish"
+    },
+    {
+      "code": "SPCOM",
+      "name": "Speech Communication"
+    },
+    {
+      "code": "SPD",
+      "name": "Spirituality & Personal Dev"
+    },
+    {
+      "code": "STAT",
+      "name": "Statistics"
+    },
+    {
+      "code": "STV",
+      "name": "Society, Technology & Values"
+    },
+    {
+      "code": "SUSM",
+      "name": "Sustainability Management"
+    },
+    {
+      "code": "SVENT",
+      "name": "Social Venture Entrepreneur"
+    },
+    {
+      "code": "SWK",
+      "name": "Social Work"
+    },
+    {
+      "code": "SWREN",
+      "name": "Social Work (BSW)"
+    },
+    {
+      "code": "SYDE",
+      "name": "Systems Design Engineering"
+    },
+    {
+      "code": "TAX",
+      "name": "Taxation"
+    },
+    {
+      "code": "THPERF",
+      "name": "Theatre and Performance"
+    },
+    {
+      "code": "THTRE",
+      "name": "Theatre (WLU)"
+    },
+    {
+      "code": "TN",
+      "name": "Theoretical Neuroscience"
+    },
+    {
+      "code": "TOUR",
+      "name": "Tourism"
+    },
+    {
+      "code": "TPM",
+      "name": "Technical Presentation"
+    },
+    {
+      "code": "TPPE",
+      "name": "Tech Presentation Profcy Req"
+    },
+    {
+      "code": "TS",
+      "name": "Theological Studies"
+    },
+    {
+      "code": "UKRAN",
+      "name": "Ukrainian"
+    },
+    {
+      "code": "UN",
+      "name": "Nuclear Engineering"
+    },
+    {
+      "code": "UNIV",
+      "name": "University"
+    },
+    {
+      "code": "URBAN",
+      "name": "Urban Studies (WLU)"
+    },
+    {
+      "code": "UU",
+      "name": "Interdisciplinary Studies (WLU"
+    },
+    {
+      "code": "UWNC",
+      "name": "UWaterloo Non Credit Courses"
+    },
+    {
+      "code": "VCULT",
+      "name": "Visual Culture"
+    },
+    {
+      "code": "WATER",
+      "name": "Water"
+    },
+    {
+      "code": "WHMIS",
+      "name": "Workplace Haz Materials Info"
+    },
+    {
+      "code": "WKRPT",
+      "name": "Work Report"
+    },
+    {
+      "code": "WS",
+      "name": "Women's Studies"
+    },
+    {
+      "code": "ASL",
+      "name": "American Sign Language"
+    },
+    {
+      "code": "CI",
+      "name": "Cultural Identity"
+    },
+    {
+      "code": "GESC",
+      "name": "Geog & Environmental Studies"
+    },
+    {
+      "code": "GSJ",
+      "name": "Gender and Social Justice"
+    },
+    {
+      "code": "HESC",
+      "name": "Health Sciences"
+    },
+    {
+      "code": "HUMN",
+      "name": "Interdisciplinary Studies (WLU"
+    },
+    {
+      "code": "IDAT",
+      "name": "Integrated Design Arts & Tech"
+    },
+    {
+      "code": "MENN",
+      "name": "Mennonite Studies"
+    },
+    {
+      "code": "NAST",
+      "name": "North American Studies"
+    },
+    {
+      "code": "SCCOM",
+      "name": "Communications in Science"
+    },
+    {
+      "code": "CC",
+      "name": "Criminology"
+    },
+    {
+      "code": "HRTS",
+      "name": "Human Rights"
+    },
+    {
+      "code": "OLRD",
+      "name": "Leadership (WLU)"
+    },
+    {
+      "code": "EDMI",
+      "name": "Education Minor"
+    },
+    {
+      "code": "MOHAWK",
+      "name": "Mohawk Language"
+    },
+    {
+      "code": "UX",
+      "name": "User Experience Design (WLU)"
+    },
+    {
+      "code": "ARABIC",
+      "name": "Arabic"
+    },
+    {
+      "code": "INDS",
+      "name": "Interdisciplinary Studies"
+    },
+    {
+      "code": "DATSC",
+      "name": "Data Science"
+    },
+    {
+      "code": "GC",
+      "name": "Christ Stud & Glob Citizenship"
+    },
+    {
+      "code": "CFM",
+      "name": "Computing and Financial Mgmt"
+    },
+    {
+      "code": "INDENT",
+      "name": "Indigenous Entrepreneurship"
+    },
+    {
+      "code": "SFM",
+      "name": "Sustainability and Fin Mgmt"
+    },
+    {
+      "code": "GBDA",
+      "name": "Global Business & Digital Arts"
+    },
+    {
+      "code": "BLKST",
+      "name": "Black Studies"
+    },
+    {
+      "code": "MLST",
+      "name": "Medieval Studies (WLU)"
+    },
+    {
+      "code": "ENVS",
+      "name": "Environment"
+    },
+    {
+      "code": "HEALTH",
+      "name": "Health"
+    },
+    {
+      "code": "HLTH",
+      "name": "Public Health Sciences"
+    },
+    {
+      "code": "COMMST",
+      "name": "Communication Studies"
+    },
+    {
+      "code": "HHUM",
+      "name": "Health Humanities"
+    },
+    {
+      "code": "COMMST",
+      "name": "Communication Studies"
+    },
+    {
+      "code": "HHUM",
+      "name": "Health Humanities"
+    },
+    {
+      "code": "EVST",
+      "name": "Environmental Studies (WLU)"
+    },
+    {
+      "code": "YC",
+      "name": "Youth & Children Studies (WLU)"
+    },
+    {
+      "code": "DEI",
+      "name": "Digital Experience Innovation"
+    },
+    {
+      "code": "UNDC",
+      "name": "Global Crime and Justice"
+    },
+    {
+      "code": "YC",
+      "name": "Youth & Children Studies (WLU)"
+    },
+    {
+      "code": "SOCE",
+      "name": "Social Entrepreneurship (WLU)"
+    },
+    {
+      "code": "SOCENT",
+      "name": "Social Entrepreneurship"
+    },
+    {
+      "code": "FCIT",
+      "name": "Future Cities"
+    },
+    {
+      "code": "FCIT",
+      "name": "Future Cities"
+    },
+    {
+      "code": "INNOV",
+      "name": "Innovation"
+    },
+    {
+      "code": "UCR",
+      "name": "UG Communications Requirement"
+    },
+    {
+      "code": "SRF",
+      "name": "Sexuality, Relationship&Family"
+    },
+    {
+      "code": "MSE",
+      "name": "Management Science & ENG"
+    }
+  ]
+}

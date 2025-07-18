@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013823",
+    "courseOfferNumber": 1,
+    "termCode": "1215",
+    "termName": "Spring 2021",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "GRAD",
+    "associatedAcademicOrgCode": "GRAD",
+    "subjectCode": "QIC",
+    "catalogNumber": "823",
+    "title": "Quantum Algorithms",
+    "descriptionAbbreviated": "Quantum Algorithms",
+    "description": "An investigation of algorithms that allow quantum computers to solve problems faster than classical computers.  The quantum circuit model, Quantum Fourier transform, phase estimation, computing discrete logarithms, period finding, and quantum algorithms for number fields.  The hidden subgroup framework and the non-Abelian hidden subgroup problem.  Quantum search, amplitude amplification, and quantum walk algorithms.  Limitations on the power of quantum computers. Selected current topics in quantum algorithms.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "012445",
+    "courseOfferNumber": 1,
+    "termCode": "1211",
+    "termName": "Winter 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "REES",
+    "catalogNumber": "230",
+    "title": "The Devil",
+    "descriptionAbbreviated": "The Devil",
+    "description": "An examination of the Devil and demonic figures in the Russian and Slavic cultural traditions based on examples drawn from literature, music, the visual arts, and film.  Connections to a larger Western cultural context are also explored.  [Note:  Taught in English.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

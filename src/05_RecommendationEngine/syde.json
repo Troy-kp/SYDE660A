@@ -1,0 +1,94 @@
+{
+  "AI_ML": {
+    "specified_fixed": ["SYDE 660A", "SYDE 675"],
+    "specified_choose": [
+      { "count": 1, "options": ["SYDE 522", "SYDE 552"] }
+    ],
+    "elective": {
+      "min_count": 1,
+      "list": ["SYDE 662", "SYDE 671", "SYDE 672", "SYDE 673", "SYDE 674"]
+    }
+  },
+
+  "Biomedical": {
+    "specified_fixed": ["SYDE 660B"],
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "SYDE 544",
+          "SYDE 684",
+          "SYDE 750 Topic 20",
+          "SYDE 750 Topic 36"
+        ]
+      }
+    ],
+    "elective": {
+      "min_count": 1,
+      "list": [
+        "SYDE 552",
+        "SYDE 556",
+        "SYDE 652",
+        "SYDE 662",
+        "SYDE 677"
+      ]
+    }
+  },
+
+  "Human_Factors": {
+    "specified_fixed": ["SYDE 660C"],
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": ["SYDE 542", "SYDE 543", "SYDE 642", "SYDE 644"]
+      }
+    ],
+    "elective": {
+      "min_count": 1,
+      "list": ["SYDE 533", "SYDE 662", "SYDE 740"]
+    }
+  },
+
+  "Mechatronics_Physical": {
+    "specified_fixed": ["SYDE 660D"],
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "SYDE 553",
+          "SYDE 652",
+          "SYDE 655",
+          "SYDE 682",
+          "SYDE 683",
+          "SYDE 750 Modelling Continuum Systems"
+        ]
+      }
+    ],
+    "elective": {
+      "min_count": 1,
+      "list": ["SYDE 531", "SYDE 631", "SYDE 661", "SYDE 662"]
+    }
+  },
+
+  "Vision_Image_Signal": {
+    "specified_fixed": ["SYDE 660E"],
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": ["SYDE 575", "SYDE 671", "SYDE 677"]
+      }
+    ],
+    "elective": {
+      "min_count": 1,
+      "list": [
+        "SYDE 544",
+        "SYDE 633",
+        "SYDE 662",
+        "SYDE 672",
+        "SYDE 673",
+        "SYDE 674",
+        "SYDE 675"
+      ]
+    }
+  }
+}

@@ -1,0 +1,201 @@
+[
+    {
+        "program_name": "Master of Applied Science (MASc) in Systems Design Engineering",
+        "department": "Systems Design Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/S1fjeJAAih",
+        "degree_rules": {
+            "total_courses": 4,
+            "level_constraints": {
+                "max_500_level": 1
+            },
+            "departmental_constraints": {
+                "min_syde_courses": 2,
+                "min_syde_core_methods": 1,
+                "max_outside_engineering": 2,
+                "allowed_outside_faculties": ["Mathematics", "Health", "Environment", "Science"]
+            },
+            "notes": "All course selections are arranged by the supervisor(s) and subject to the approval of the Associate Chair for Graduate Studies."
+        },
+        "core_methods_list": ["SYDE 600", "SYDE 620", "SYDE 631", "SYDE 640", "SYDE 675"],
+        "specializations": []
+    },
+    {
+        "program_name": "Master of Applied Science (MASc) in Systems Design Engineering - Aeronautics",
+        "department": "Systems Design Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/SJWig1ACjn",
+        "degree_rules": {
+            "total_courses": 5,
+             "level_constraints": {
+                "max_500_level": 1
+            },
+            "departmental_constraints": {
+                "min_syde_courses": 2,
+                "min_syde_core_methods": 1,
+                "max_outside_engineering": 1,
+                "allowed_outside_faculties": ["Mathematics", "Health", "Environment", "Science"]
+            },
+            "compulsory_courses": ["AVIA 601", "AVIA 602"],
+            "notes": "This is a Collaborative Program in Aeronautics."
+        },
+        "core_methods_list": ["SYDE 600", "SYDE 620", "SYDE 631", "SYDE 640", "SYDE 675"],
+        "specializations": []
+    },
+    {
+        "program_name": "Master of Applied Science (MASc) in Systems Design Engineering - Nanotechnology",
+        "department": "Systems Design Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/B1oeyAAjh",
+        "degree_rules": {
+            "total_courses": 4,
+             "level_constraints": {
+                "max_500_level": 1
+            },
+            "departmental_constraints": {
+                "min_syde_courses": 2,
+                "min_syde_core_methods": 1,
+                "min_nano_electives": 1,
+                "max_outside_engineering": 2,
+                "allowed_outside_faculties": ["Mathematics", "Health", "Environment", "Science"]
+            },
+            "compulsory_courses": ["NANO 600"],
+            "notes": [
+                "This is a Collaborative Program in Nanotechnology.",
+                "Students with a BASc in Nanotechnology Engineering or MASc in Nanotechnology from Waterloo cannot take NANO 600 and must choose an additional course from the nanotechnology elective list."
+            ]
+        },
+        "core_methods_list": ["SYDE 600", "SYDE 620", "SYDE 631", "SYDE 640", "SYDE 675"],
+        "nanotechnology_elective_list": ["NANO 601", "NANO 602", "NANO 603", "NANO 604", "NANO 605", "SYDE 683", "NANO 606", "SYDE 682", "NANO 707"],
+        "specializations": []
+    },
+    {
+        "program_name": "Master of Engineering (MEng) in Systems Design Engineering",
+        "department": "Systems Design Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/r1fjl10Cj2",
+        "degree_rules": {
+            "total_courses": 8,
+            "compulsory_courses": ["SYDE 600"],
+            "compulsory_choices": [
+                {"n_to_choose": 1, "group_name": "Graduate Workshop 1", "courses": ["SYDE 660A", "SYDE 660B", "SYDE 660C", "SYDE 660D", "SYDE 660E", "SYDE 660"]}
+            ],
+             "level_constraints": { "max_500_level": 2 },
+            "departmental_constraints": { "min_syde_courses": 2 }
+        },
+        "specializations": [
+            {
+                "name": "Artificial Intelligence and Machine Learning",
+                "requirements": {
+                    "total_courses": 4,
+                    "compulsory_courses": ["SYDE 660A", "SYDE 675"],
+                    "compulsory_choices": [{"n_to_choose": 1, "group_name": "AI Foundations", "courses": ["SYDE 522", "SYDE 552"]}],
+                    "elective_rules": [{"type": "choose_n_from_list", "n_to_choose": 1, "group_name": "AI Electives", "courses": ["SYDE 662", "SYDE 671", "SYDE 672", "SYDE 673", "SYDE 674"]}]
+                }
+            },
+            {
+                "name": "Biomedical Systems",
+                "requirements": {
+                    "total_courses": 4,
+                    "compulsory_courses": ["SYDE 660B"],
+                    "elective_rules": [{"type": "complex", "description": "At least 2 from Specified list, and at least 1 from Elective list. Only one 500-level course can be used.", "specified_list": ["SYDE 544", "SYDE 684", "SYDE 750"], "elective_list": ["SYDE 552", "SYDE 556", "SYDE 652", "SYDE 662", "SYDE 677"]}]
+                }
+            },
+            {
+                "name": "Human Factors",
+                "requirements": {
+                    "total_courses": 4,
+                    "compulsory_courses": ["SYDE 660C"],
+                    "elective_rules": [{"type": "complex", "description": "At least 2 from Specified list, and at least 1 from Elective list. Only one 500-level course can be used.", "specified_list": ["SYDE 542", "SYDE 543", "SYDE 642", "SYDE 644"], "elective_list": ["SYDE 533", "SYDE 662", "SYDE 740"]}]
+                }
+            },
+            {
+                "name": "Mechatronic and Physical Systems",
+                "requirements": {
+                    "total_courses": 4,
+                    "compulsory_courses": ["SYDE 660D"],
+                    "elective_rules": [{"type": "complex", "description": "At least 2 from Specified list, and at least 1 from Elective list. Only one 500-level course can be used.", "specified_list": ["SYDE 553", "SYDE 652", "SYDE 655", "SYDE 682", "SYDE 683", "SYDE 750"], "elective_list": ["SYDE 531", "SYDE 631", "SYDE 661", "SYDE 662"]}]
+                }
+            },
+            {
+                "name": "Vision, Image and Signal Processing",
+                "requirements": {
+                    "total_courses": 4,
+                    "compulsory_courses": ["SYDE 660E"],
+                    "elective_rules": [{"type": "complex", "description": "At least 2 from Specified list, and at least 1 from Elective list. Only one 500-level course can be used.", "specified_list": ["SYDE 575", "SYDE 671", "SYDE 677"], "elective_list": ["SYDE 544", "SYDE 633", "SYDE 662", "SYDE 672", "SYDE 673", "SYDE 674", "SYDE 675"]}]
+                }
+            }
+        ]
+    },
+    {
+        "program_name": "Doctor of Philosophy (PhD) in Systems Design Engineering",
+        "department": "Systems Design Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/rkgol1ARo2",
+        "degree_rules": {
+            "conditional_course_plans": [
+                {
+                    "condition": "Students with a Master's degree",
+                    "total_courses": 3,
+                    "departmental_constraints": { "min_syde_core_methods": 1, "max_outside_engineering": 1, "allowed_outside_faculties": ["Mathematics", "Health", "Science"]}
+                },
+                {
+                    "condition": "Students without a Master's degree or direct transfer",
+                    "total_courses": 7,
+                    "departmental_constraints": { "min_engineering_courses": 5, "min_syde_courses": 2, "min_syde_core_methods": 1, "max_outside_engineering": 2, "allowed_outside_faculties": ["Mathematics", "Health", "Environment", "Science"]},
+                    "notes": ["Students with a Master's in SYDE from Waterloo do not need to take a core methods course."]
+                }
+            ]
+        },
+        "core_methods_list": ["SYDE 600", "SYDE 620", "SYDE 631", "SYDE 640", "SYDE 675"],
+        "specializations": []
+    },
+    {
+        "program_name": "Doctor of Philosophy (PhD) in Systems Design Engineering - Aeronautics",
+        "department": "Systems Design Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/H1goxJRRo2",
+        "degree_rules": {
+             "conditional_course_plans": [
+                {
+                    "condition": "Students with a Master's degree",
+                    "total_courses": 4,
+                    "compulsory_courses": ["AVIA 601", "AVIA 802"],
+                    "departmental_constraints": { "min_syde_core_methods": 1, "max_outside_engineering": 1, "allowed_outside_faculties": ["Mathematics", "Health", "Science"]}
+                },
+                {
+                    "condition": "Students without a Master's degree or direct transfer",
+                    "total_courses": 8,
+                    "compulsory_courses": ["AVIA 601", "AVIA 802"],
+                    "departmental_constraints": { "min_engineering_courses": 4, "min_syde_courses": 2, "min_syde_core_methods": 1, "max_outside_engineering": 2, "allowed_outside_faculties": ["Mathematics", "Health", "Environment", "Science"]},
+                    "notes": ["Students with a Master's in Aeronautics or SYDE from Waterloo have different requirements."]
+                }
+            ]
+        },
+        "core_methods_list": ["SYDE 600", "SYDE 620", "SYDE 631", "SYDE 640", "SYDE 675"],
+        "specializations": []
+    },
+    {
+        "program_name": "Doctor of Philosophy (PhD) in Systems Design Engineering - Nanotechnology",
+        "department": "Systems Design Engineering",
+        "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/By-jlyRCin",
+        "degree_rules": {
+            "conditional_course_plans": [
+                {
+                    "condition": "Students with a Master's degree",
+                    "total_courses": 3,
+                    "compulsory_courses": ["NANO 600"],
+                    "departmental_constraints": { "min_nano_electives": 1, "min_syde_core_methods": 1 }
+                },
+                {
+                    "condition": "Students without a Master's degree or direct transfer",
+                    "total_courses": 7,
+                    "compulsory_courses": ["NANO 600"],
+                    "departmental_constraints": { "min_syde_courses": 2, "min_nano_electives": 1, "min_syde_core_methods": 1, "max_outside_engineering": 2, "allowed_outside_faculties": ["Mathematics", "Health", "Environment", "Science"]},
+                    "level_constraints": { "max_500_level": 2 }
+                }
+            ],
+             "notes": [
+                "Students with a BASc in Nanotechnology Engineering or MASc in Nanotechnology from Waterloo cannot take NANO 600 and must choose an additional course from the nanotechnology elective list.",
+                "Students with a Master's in SYDE from Waterloo do not need to take a core methods course."
+            ]
+        },
+        "core_methods_list": ["SYDE 600", "SYDE 620", "SYDE 631", "SYDE 640", "SYDE 675"],
+        "nanotechnology_elective_list": ["NANO 601", "NANO 602", "NANO 603", "NANO 604", "NANO 605", "SYDE 683", "NANO 606", "SYDE 682", "NANO 707"],
+        "specializations": []
+    }
+]

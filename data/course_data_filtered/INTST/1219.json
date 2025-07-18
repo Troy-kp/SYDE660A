@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "012277",
+    "courseOfferNumber": 1,
+    "termCode": "1219",
+    "termName": "Fall 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "PSCI",
+    "subjectCode": "INTST",
+    "catalogNumber": "101",
+    "title": "Introduction to International Studies",
+    "descriptionAbbreviated": "Intro to International Studies",
+    "description": "Conflict and cooperation have been the central problems of international politics throughout history, and remain so today. This course introduces aspects of these problems and attempted solutions. Specific topics and approaches vary by instructor.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

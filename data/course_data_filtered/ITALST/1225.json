@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "006530",
+    "courseOfferNumber": 2,
+    "termCode": "1225",
+    "termName": "Spring 2022",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "STJ",
+    "associatedAcademicOrgCode": "STJ",
+    "subjectCode": "ITALST",
+    "catalogNumber": "281",
+    "title": "Italian Cinema and the Novel",
+    "descriptionAbbreviated": "Italian Cinema and the Novel",
+    "description": "A survey of some of the principal novels of 20th century Italy as they have been adapted in film by Italian directors. Students will study literary and cinematic representations of themes such as the rise of the Italian bourgeoisie, the economic boom of the 1960s, domestic violence, and organized crime.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

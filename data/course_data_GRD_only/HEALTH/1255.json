@@ -1,0 +1,23 @@
+[
+    {
+        "courseId": "013715",
+        "courseOfferNumber": 1,
+        "termCode": "1255",
+        "termName": "Spring 2025",
+        "associatedAcademicCareer": "GRD",
+        "associatedAcademicGroupCode": "AHS",
+        "associatedAcademicOrgCode": "AHSDEAN",
+        "subjectCode": "HEALTH",
+        "catalogNumber": "782",
+        "title": "Selected Topics in Health",
+        "descriptionAbbreviated": "Selected Topics in Health",
+        "description": "Doctoral students will complete an analysis of specific topics of interest in Health under the (co)-supervison of faculty member(s) with the appropriate expertise from another department, school or faculty. The form of study may involve a review of literature or the planning and execution of an independent study resulting in a paper for possible publications.",
+        "gradingBasis": "NUM",
+        "courseComponentCode": "RDG",
+        "enrollConsentCode": "N",
+        "enrollConsentDescription": "No Consent Required",
+        "dropConsentCode": "N",
+        "dropConsentDescription": "No Consent Required",
+        "requirementsDescription": null
+    }
+]

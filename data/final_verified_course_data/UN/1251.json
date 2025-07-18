@@ -1,0 +1,23 @@
+[
+    {
+        "courseId": "012254",
+        "courseOfferNumber": 1,
+        "termCode": "1251",
+        "termName": "Winter 2025",
+        "associatedAcademicCareer": "GRD",
+        "associatedAcademicGroupCode": "ENG",
+        "associatedAcademicOrgCode": "CIVE",
+        "subjectCode": "UN",
+        "catalogNumber": "799",
+        "title": "Special Topics in Nuclear Engineering",
+        "descriptionAbbreviated": "Topics in Nuclear Engineering",
+        "description": "The course will cover special topics related to the field of Nuclear Engineering.",
+        "gradingBasis": "NUM",
+        "courseComponentCode": "LAB",
+        "enrollConsentCode": "D",
+        "enrollConsentDescription": "No Consent Required",
+        "dropConsentCode": "N",
+        "dropConsentDescription": "No Consent Required",
+        "requirementsDescription": null
+    }
+]

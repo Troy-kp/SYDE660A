@@ -1,0 +1,86 @@
+{
+    "success": true,
+    "program": "Master of Engineering (MEng) in Systems Design Engineering",
+    "specialization": "Biomedical Systems",
+    "planning_window": [
+        "Winter 2025",
+        "Spring 2025",
+        "Fall 2025"
+    ],
+    "degree_rules": {
+        "total_courses": 8,
+        "compulsory_courses": [
+            "SYDE 600"
+        ],
+        "compulsory_choices": [
+            {
+                "n_to_choose": 1,
+                "group_name": "Graduate Workshop 1",
+                "courses": [
+                    "SYDE 660A",
+                    "SYDE 660B",
+                    "SYDE 660C",
+                    "SYDE 660D",
+                    "SYDE 660E",
+                    "SYDE 660"
+                ]
+            }
+        ],
+        "level_constraints": {
+            "max_500_level": 2
+        },
+        "departmental_constraints": {
+            "min_syde_courses": 2
+        }
+    },
+    "course_pool": {
+        "compulsory_fixed": [
+            {
+                "code": "SYDE 600",
+                "title": "Systems Theory, Models, Research & Design",
+                "offered_in": [
+                    {
+                        "term": "1251",
+                        "status": "Confirmed",
+                        "title": "Systems Theory, Models, Research & Design"
+                    },
+                    {
+                        "term": "1259",
+                        "status": "Confirmed",
+                        "title": "Systems Theory, Models, Research & Design"
+                    }
+                ]
+            },
+            {
+                "code": "SYDE 660B",
+                "title": "Systems Design Graduate Workshop 1 - Biomedical Systems",
+                "offered_in": [
+                    {
+                        "term": "1255",
+                        "status": "Confirmed",
+                        "title": "Systems Design Graduate Workshop 1 - Biomedical Systems"
+                    }
+                ]
+            }
+        ],
+        "compulsory_choices": [],
+        "electives": [
+            {
+                "type": "complex",
+                "description": "At least 2 from Specified list, and at least 1 from Elective list. Only one 500-level course can be used.",
+                "specified_list": [
+                    "SYDE 544",
+                    "SYDE 684",
+                    "SYDE 750"
+                ],
+                "elective_list": [
+                    "SYDE 552",
+                    "SYDE 556",
+                    "SYDE 652",
+                    "SYDE 662",
+                    "SYDE 677"
+                ]
+            }
+        ]
+    }
+}

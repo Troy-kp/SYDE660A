@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "011205",
+    "courseOfferNumber": 1,
+    "termCode": "1251",
+    "termName": "Winter 2025",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "PSYCH",
+    "subjectCode": "COGSCI",
+    "catalogNumber": "600",
+    "title": "Seminar in Cognitive Science",
+    "descriptionAbbreviated": "Seminar in Cognitive Science",
+    "description": "Cognitive Science is the interdisciplinary study of mind and intelligence. This seminar will discuss controversial topics concerning the nature of human and computer intelligence.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

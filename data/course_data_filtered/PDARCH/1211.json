@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "014334",
+    "courseOfferNumber": 1,
+    "termCode": "1211",
+    "termName": "Winter 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ENG",
+    "associatedAcademicOrgCode": "ARCH",
+    "subjectCode": "PDARCH",
+    "catalogNumber": "3",
+    "title": "Electronic Communications and Web Design",
+    "descriptionAbbreviated": "Electronic Comm & Web Design",
+    "description": "This course will elaborate upon digital skills introduced in PDARCH 2. Students will learn the fundamentals of web design and will create a living, interactive, digital portfolio. Students will learn how to structure, design and manage web sites and web logs. [Note: This course will be graded on a CR/NCR basis. Offered: W]",
+    "gradingBasis": "CNC",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: PDARCH 2"
+  }
+]

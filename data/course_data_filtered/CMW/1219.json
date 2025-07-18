@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "007051",
+    "courseOfferNumber": 3,
+    "termCode": "1219",
+    "termName": "Fall 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "CGC",
+    "associatedAcademicOrgCode": "CGC",
+    "subjectCode": "CMW",
+    "catalogNumber": "363",
+    "title": "The Christian Hymn",
+    "descriptionAbbreviated": "The Christian Hymn",
+    "description": "The origins of the Christian hymn and its development up to the present. The course considers the hymn as theological, poetic, musical, cultural, and spiritual expression, and the use of hymns in a variety of worship settings.  [Note: This course fulfils an Area 2 requirement for Religious Studies majors.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

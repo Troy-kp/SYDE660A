@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015757",
+    "courseOfferNumber": 1,
+    "termCode": "1251",
+    "termName": "Winter 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "DUTCH",
+    "catalogNumber": "271",
+    "title": "Dutch Culture and Society",
+    "descriptionAbbreviated": "Dutch Culture & Society",
+    "description": "An introduction to Dutch society and culture, as it is and has been expressed in art, literature, religion, and philosophy. Political-historical, economic, and urban planning discourses will be discussed. The course explores key concepts informing Dutch cultural identities. Students will gain skills in transcultural analysis and research.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

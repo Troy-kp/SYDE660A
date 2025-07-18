@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015277",
+    "courseOfferNumber": 1,
+    "termCode": "1259",
+    "termName": "Fall 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "REN",
+    "associatedAcademicOrgCode": "REN",
+    "subjectCode": "SI",
+    "catalogNumber": "131R",
+    "title": "Arab Culture",
+    "descriptionAbbreviated": "Arab Culture",
+    "description": "Integrating elements of Arab history, geography, language, literature (prose and poetry), art, music, theatre, cinema, politics, press, humour, dance, fashion, and food, this course explores varied expressions of Arab culture. Students will also study the phenomenon of Orientalism and the impact of European colonialism upon the Arabs.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Antireq: ARTS 190 taken spring 2016"
+  }
+]

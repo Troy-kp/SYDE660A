@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016617",
+    "courseOfferNumber": 1,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "STP",
+    "associatedAcademicOrgCode": "STP",
+    "subjectCode": "INNOV",
+    "catalogNumber": "201",
+    "title": "Social Innovation for Global Impact",
+    "descriptionAbbreviated": "Social Innovation Global",
+    "description": "This course will introduce students to the global dimension of social innovation as a fundamental attribute of this approach. How social innovations respond to global challenges and achieve transformative impacts on a global scale will be the focus of this course. This course will use a mixture of written case studies, active learning, and experiential field visits with local social innovation-based initiatives to introduce students to the relationship between local activities and global challenges. It will enable students to deepen their knowledge of social innovation concepts and methods in a broader comparative and global context.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

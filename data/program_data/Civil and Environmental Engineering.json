@@ -1,0 +1,149 @@
+{
+  "Civil_Engineering_MEng": {
+    "elective": {
+      "min_count": 8,
+      "list": [
+        "4 courses from the Department of Civil and Environmental Engineering",
+        "4 graduate level electives"
+      ],
+      "note": "A maximum of 2 500 level courses may be counted for credit. At least half of the courses used for credit must normally be Faculty of Engineering courses. An English for Multilingual Speakers (EMLS) technical/professional writing course for Engineers is required for all students who were not English Language Proficiency (ELP) exempt at the time of admission."
+    }
+  },
+  "Architectural_Engineering": {
+    "note": "Alternatively, students have the option to complete 4 courses from the compulsory courses list. If students have already successfully completed the compulsory courses, they must complete alternate courses that are approved by the Department Associate Chair, Graduate Studies.",
+    "specified_fixed": [
+      "AE 601 - Comprehensive Building Design Studio"
+    ],
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "ARCH 642 - Modernism to the 21st Century",
+          "CIVE 507 - Building Science and Technology",
+          "CIVE 630 - Advanced Building Energy Analysis"
+        ]
+      },
+      {
+        "count": 1,
+        "options": [
+          "ARCH 684 - Special Topics in Architecture",
+          "CIVE 505 - Structural Dynamics",
+          "CIVE 512 - Rehabilitation of Structures",
+          "CIVE 596 - Construction Engineering",
+          "CIVE 601 - Risk and Reliability",
+          "CIVE 602 - Prestressed Concrete",
+          "CIVE 603 - Reinforced Concrete Mechanics and Design",
+          "CIVE 604 - Advanced Structural Steel Design",
+          "CIVE 622 - Finite Element Analysis",
+          "CIVE 700 Topics in Structural Engineering: Topic 15 - Earthquake Engineering",
+          "CIVE 700 Topics in Structural Engineering: Topic 25 - Timber Design",
+          "CIVE 700 Topics in Structural Engineering: Topic 27 - Design of Structural Concrete Systems",
+          "CIVE 700 Topics in Structural Engineering: Topic 33 - Smart Structure Technology",
+          "CIVE 700 Topics in Structural Engineering: Topic 34 - Scientific Machine Learning for Engineers",
+          "CIVE 700 Topics in Structural Engineering: Topic 35 - Fire and Structures",
+          "CIVE 700 Topics in Structural Engineering: Topic 36 - Sustainable Buildings and Environment",
+          "CIVE 700 Topics in Structural Engineering: Topic 39 - Circular Engineering and the Built Environment",
+          "CIVE 704 - Bridge Design",
+          "CIVE 710 - Advanced Project Management",
+          "CIVE 790R - Master of Engineering Project",
+          "ME 671 - Fundamental Fire Dynamics",
+          "ME 672 - Advanced Fire Dynamics",
+          "ME 673 - Fire Modeling",
+          "ME 656 - Advanced HVAC Systems, Equipment and Energy Efficiency",
+          "SYDE 532 - Introduction to Complex Systems"
+        ]
+      }
+    ]
+  },
+  "Environmental_Water_Resources_Engineering": {
+    "note": "Alternatively, students have the option to complete 4 courses from the compulsory courses list.",
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "ENVE 573 - Contaminant Transport",
+          "ENVE 577 - Engineering for Solid Waste Management",
+          "ENVE 585 - Air Quality Engineering & Impacts",
+          "CIVE 671 - Aquatic Chemistry",
+          "CIVE 680 - Water Management"
+        ]
+      },
+      {
+        "count": 2,
+        "options": [
+          "CIVE 583/ENVE 583 - Design of Urban Water Systems",
+          "CIVE 670 - Physico-Chemical Processes of Water and Wastewater Treatment",
+          "CIVE 682 - Free Surface Hydraulics",
+          "CIVE 770 Topics in Environmental Engineering: Topic 24 - River Restoration",
+          "CIVE 770 Topics in Environmental Engineering: Topic 41 - Atmospheric Emissions to Impacts",
+          "CIVE 770 Topics in Environmental Engineering: Topic 45 - Environmental Fate of Organic Pollutants",
+          "CIVE 770 Topics in Environmental Engineering: Topic 53 - Environmental and Water Resources Simulation Model Calibration",
+          "CIVE 771 - Biological Wastewater Treatment: Theory and Practice",
+          "CIVE 781 - Principles of Hydrologic Modelling",
+          "CIVE 790R - Master of Engineering Project",
+          "EARTH 691 Special Studies for MSc Students: Topic 159 - Geothermal Energy",
+          "EARTH 691 Special Studies for MSc Students: Topic 161 - Energy Geomechanics"
+        ]
+      }
+    ]
+  },
+  "Sustainable_Structural_Systems": {
+    "note": "Alternatively, students have the option to complete 4 courses from the compulsory courses list.",
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "CIVE 505 - Structural Dynamics",
+          "CIVE 507 - Building Science and Technology",
+          "CIVE 596 - Construction Engineering",
+          "CIVE 601 - Engineering Risk and Reliability",
+          "CIVE 622 - Finite Element Analysis"
+        ]
+      },
+      {
+        "count": 2,
+        "options": [
+          "CIVE 512 - Rehabilitation of Structures",
+          "CIVE 602 - Prestressed Concrete",
+          "CIVE 603 - Reinforced Concrete Mechanics and Design",
+          "CIVE 604 - Advanced Structural Steel Design",
+          "CIVE 700 Topics in Structural Engineering: Topic 15 - Earthquake Engineering",
+          "CIVE 700 Topics in Structural Engineering: Topic 21 - Building Energy Analysis",
+          "CIVE 700 Topics in Structural Engineering: Topic 25 - Timber Design",
+          "CIVE 700 Topics in Structural Engineering: Topic 27 - Design of Structural Concrete Systems",
+          "CIVE 700 Topics in Structural Engineering: Topic 33 - Smart Structure Technology",
+          "CIVE 700 Topics in Structural Engineering: Topic 34 - Scientific Machine Learning for Engineers",
+          "CIVE 700 Topics in Structural Engineering: Topic 35 - Fire and Structures",
+          "CIVE 700 Topics in Structural Engineering: Topic 36 - Sustainable Buildings and Environment",
+          "CIVE 700 Topics in Structural Engineering: Topic 39 - Circular Engineering and the Built Environment",
+          "CIVE 710 - Advanced Project Management",
+          "CIVE 790R - Master of Engineering Project"
+        ]
+      }
+    ]
+  },
+  "Transportation_Engineering": {
+    "note": "Alternatively, students have the option to complete 4 courses from the compulsory courses list.",
+    "specified_choose": [
+      {
+        "count": 2,
+        "options": [
+          "CIVE 542 - Pavement Structural Design",
+          "CIVE 640 - Urban Transportation Planning Models: Principles & Applications",
+          "CIVE 641 - Advances in Public Transportation Planning, Operations & Control",
+          "CIVE 642 - Pavement Design and Management I",
+          "CIVE 643 - Fundamentals of Traffic Flow Theory"
+        ]
+      },
+      {
+        "count": 2,
+        "options": [
+          "CIVE 644 - Innovative and Sustainable Infrastructure Materials",
+          "CIVE 645 - Modeling Transportation, Land Use and Spatial Economics",
+          "CIVE 646 - Computer Applications in Transportation Engineering",
+          "CIVE 742 - Pavement Design and Management II"
+        ]
+      }
+    ]
+  }
+}

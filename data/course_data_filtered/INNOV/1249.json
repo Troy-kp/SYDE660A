@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016618",
+    "courseOfferNumber": 1,
+    "termCode": "1249",
+    "termName": "Fall 2024",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "STP",
+    "associatedAcademicOrgCode": "STP",
+    "subjectCode": "INNOV",
+    "catalogNumber": "200",
+    "title": "Theory and Practice of Social Innovation and Impact",
+    "descriptionAbbreviated": "Social Innovation Theory",
+    "description": "This course will introduce students to foundational concepts and methods in social innovation and impact. Social innovation constitutes a range of activities across the world that seek to achieve lasting and positive social change at the systemic level. Students will engage in a series of classroom-based lectures, active learning exercises, and occasional experiential field visits to develop an understanding of how problems are identified and the unique response to such problems provided by the social innovation approach. Students will test out this knowledge by engaging in a team-based project that will apply what they have learned in the course to a particular problem that will be defined for them. Throughout the course, students will be given opportunities to develop their identities as change-makers, rather than knowledge-takers.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

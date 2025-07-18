@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "008301",
+    "courseOfferNumber": 2,
+    "termCode": "1245",
+    "termName": "Spring 2024",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "RS",
+    "subjectCode": "JS",
+    "catalogNumber": "236",
+    "title": "Paul: Life and Letters",
+    "descriptionAbbreviated": "Paul: Life & Letters",
+    "description": "The career and thought of the apostle Paul, at once a Jew, a Graeco-Roman, and a Christ believer, living within the Roman Empire. Attention is given to issues such as spirit, Jewish Law, grace, freedom and slavery, Christ, church, politics, gender, and sexuality. [Note: This course fulfils an Area 2 requirement for Religious Studies majors.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015693",
+    "courseOfferNumber": 1,
+    "termCode": "1231",
+    "termName": "Winter 2023",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "STP",
+    "associatedAcademicOrgCode": "STP",
+    "subjectCode": "CDNST",
+    "catalogNumber": "211",
+    "title": "Canada: Conflict and Unity",
+    "descriptionAbbreviated": "Canada: Conflict & Unity",
+    "description": "An examination of the fundamental dynamics and tensions in Canadian nationhood, including the following oppositions: Indigenous-Settler; French-English; Center-Periphery; Federal-Provincial. Students will also examine the political and institutional strategies that have been used to mediate these oppositions.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

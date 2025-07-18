@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015986",
+    "courseOfferNumber": 1,
+    "termCode": "1215",
+    "termName": "Spring 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "AHS",
+    "associatedAcademicOrgCode": "AHSDEAN",
+    "subjectCode": "AHS",
+    "catalogNumber": "105",
+    "title": "Mental Health Literacy",
+    "descriptionAbbreviated": "Mental Health Literacy",
+    "description": "This course will introduce students to mental health and wellness across the life span, with an emphasis on the postsecondary age group. AHS 105 considers mental health within the broader spectrum of health in our changing world. Through this course, students will increase their ability to recognize, manage, and strengthen mental health. Students will develop greater awareness of their own mental health and wellness through the application of the knowledge and skills learned in this course. In addition to considering mental health at the individual level, this course will focus on how to foster a culture of support and caring in community. This course is not intended to be a substitute for counselling.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

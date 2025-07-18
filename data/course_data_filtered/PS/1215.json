@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013713",
+    "courseOfferNumber": 1,
+    "termCode": "1215",
+    "termName": "Spring 2021",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "ARTSDEAN",
+    "subjectCode": "PS",
+    "catalogNumber": "622",
+    "title": "Major Team Project",
+    "descriptionAbbreviated": "Major Team Project",
+    "description": "In this course, teams of three or four students propose, research and write a major report on a topic that may arise from their co-op work term experience, coursework, or mutual interest in a particular salient, contemporary public issue.  Teams are responsible for organizing regular meetings to coordinate work tasks, keeping a record of individual contributions to the project and producing a professional, thorough analysis which demonstrates the knowledge and skills they have acquired in the MPS program.  This course is restricted to students enrolled in the Master of Public Service program.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "PS Grad Students Only"
+  }
+]

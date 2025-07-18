@@ -1,0 +1,23 @@
+[
+    {
+        "courseId": "011357",
+        "courseOfferNumber": 1,
+        "termCode": "1255",
+        "termName": "Spring 2025",
+        "associatedAcademicCareer": "GRD",
+        "associatedAcademicGroupCode": "MAT",
+        "associatedAcademicOrgCode": "AMATH",
+        "subjectCode": "AMATH",
+        "catalogNumber": "900",
+        "title": "Topics in Applied Mathematics",
+        "descriptionAbbreviated": "Topics in Applied Mathematics",
+        "description": "",
+        "gradingBasis": "NUM",
+        "courseComponentCode": "LEC",
+        "enrollConsentCode": "I",
+        "enrollConsentDescription": "No Consent Required",
+        "dropConsentCode": "N",
+        "dropConsentDescription": "No Consent Required",
+        "requirementsDescription": null
+    }
+]

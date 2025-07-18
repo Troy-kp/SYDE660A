@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016300",
+    "courseOfferNumber": 1,
+    "termCode": "1229",
+    "termName": "Fall 2022",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "VPA",
+    "associatedAcademicOrgCode": "VPA",
+    "subjectCode": "SFM",
+    "catalogNumber": "101",
+    "title": "Introduction to Sustainability and Financial Management",
+    "descriptionAbbreviated": "Intro Sust & Financial Mgmt",
+    "description": "Introduction to foundational concepts in sustainability through an exploration of the interaction between business, society, and the natural environment from multiple perspectives. The course will emphasize ways to mobilize inclusive blended knowledge for sustainability and innovation.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Sustainability and Financial Management students. Antireq: ENBUS 102, ENVS 274 001 fall 2021"
+  }
+]

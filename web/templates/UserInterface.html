@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYDE Interactive Course Planner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Reset and base styles */
+        * {
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Header styles */
+        .header {
+            background: white;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            flex-shrink: 0;
+            z-index: 100;
+        }
+        
+        /* Main layout */
+        .main-container {
+            flex: 1;
+            display: flex;
+            min-height: 0;
+            gap: 1.5rem;
+            padding: 1.5rem;
+        }
+        
+        /* Left column - Course Pool */
+        .left-panel {
+            width: 400px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .course-pool-header {
+            padding: 1.5rem 1.5rem 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            flex-shrink: 0;
+        }
+        
+        .course-pool-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem 1.5rem 1.5rem;
+            min-height: 0;
+        }
+        
+        /* Course cards */
+        .course-card {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            cursor: move;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .course-card:hover {
+            border-color: #3b82f6;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+            transform: translateY(-1px);
+        }
+        
+        .course-card.dragging {
+            opacity: 0.5;
+            transform: scale(0.95);
+        }
+        
+        .course-card h4 {
+            font-weight: 600;
+            color: #1f2937;
+            margin: 0 0 0.5rem 0;
+            font-size: 0.9rem;
+            line-height: 1.3;
+        }
+        
+        .course-card p {
+            color: #6b7280;
+            font-size: 0.75rem;
+            margin: 0;
+            line-height: 1.4;
+        }
+        
+        .requirements-info {
+            margin-top: 0.5rem;
+            padding: 0.375rem;
+            background-color: #f8fafc;
+            border-radius: 4px;
+            border-left: 3px solid #e5e7eb;
+        }
+        
+        .requirements-info strong {
+            color: #374151;
+        }
+        
+        .requirements-info:has(strong:contains("Prerequisites")) {
+            border-left-color: #3b82f6;
+        }
+        
+        .requirements-info:has(strong:contains("Antirequisites")) {
+            border-left-color: #ef4444;
+        }
+        
+        .requirements-info:has(strong:contains("Corequisites")) {
+            border-left-color: #f59e0b;
+        }
+        
+        .course-tags {
+            margin: 0.5rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem;
+        }
+        
+        .course-tag {
+            display: inline-block;
+            padding: 0.125rem 0.375rem;
+            border-radius: 12px;
+            font-size: 0.625rem;
+            font-weight: 500;
+            text-transform: capitalize;
+            letter-spacing: 0.05em;
+        }
+        
+        .tag-required {
+            background-color: #dc2626;
+            color: white;
+        }
+        
+        .tag-choice {
+            background-color: #ea580c;
+            color: white;
+        }
+        
+        .tag-elective {
+            background-color: #059669;
+            color: white;
+        }
+        
+        .tag-graduate {
+            background-color: #7c3aed;
+            color: white;
+        }
+        
+        .tag-default {
+            background-color: #6b7280;
+            color: white;
+        }
+        
+        /* Semester capacity styling */
+        .semester-overlimit {
+            border: 2px dashed #f59e0b !important;
+            background-color: #fffbeb;
+        }
+        
+        .semester-full {
+            opacity: 0.7;
+            border: 2px dashed #dc2626 !important;
+            background-color: #fef2f2;
+        }
+        
+        .semester-full .course-container {
+            pointer-events: none; /* Disable dropping when at hard limit */
+        }
+        
+        .status-normal {
+            color: #059669;
+            font-weight: 500;
+        }
+        
+        .status-error {
+            color: #dc2626;
+            font-weight: 600;
+        }
+        
+        /* Right column - Planning area */
+        .right-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+            overflow-y: auto;
+            padding-right: 0.5rem;
+        }
+        
+        .planning-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        
+        .requirements-summary {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            flex-shrink: 0;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        
+        .semester-slots {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            flex: 1;
+            min-height: 0;
+            overflow-x: auto;
+        }
+        
+        .semester-slot {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            transition: all 0.2s ease;
+            flex: 1;
+            min-width: 250px;
+            min-height: 350px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .semester-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .semester-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: #1f2937;
+        }
+        
+        .semester-status {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+        }
+        
+        .status-warning {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        
+        .status-error {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+        
+        .course-container {
+            min-height: 120px;
+            background: #f9fafb;
+            border: 2px dashed #d1d5db;
+            border-radius: 8px;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            transition: all 0.2s ease;
+            flex: 1;
+            overflow-y: auto;
+        }
+        
+        .course-container.drag-over {
+            background: #eff6ff;
+            border-color: #3b82f6;
+            border-style: solid;
+        }
+        
+        .course-container .course-card {
+            margin-bottom: 0.75rem;
+            flex-shrink: 0;
+            width: 100%;
+            box-sizing: border-box;
+            display: block !important;
+            position: static;
+        }
+        
+        /* Animations */
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+            20%, 40%, 60%, 80% { transform: translateX(2px); }
+        }
+        
+        .animate-shake {
+            animation: shake 0.5s ease-in-out;
+        }
+        
+        /* Form styles */
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            align-items: end;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #374151;
+            margin-bottom: 0.25rem;
+        }
+        
+        .form-input {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: border-color 0.2s;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+        
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        
+        .btn-primary:hover {
+            background: #2563eb;
+        }
+        
+        /* Utility classes */
+        .hidden {
+            display: none !important;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .text-gray-500 {
+            color: #6b7280;
+        }
+        
+        .error-message {
+            background: #fee2e2;
+            border-left: 4px solid #ef4444;
+            color: #dc2626;
+            padding: 1rem;
+            border-radius: 0 6px 6px 0;
+            margin-bottom: 1rem;
+        }
+        
+        /* Scrollbar styling */
+        .course-pool-content::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .course-pool-content::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 3px;
+        }
+        
+        .course-pool-content::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+        
+        .course-pool-content::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+        
+        .right-panel::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .right-panel::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 3px;
+        }
+        
+        .right-panel::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+        
+        .right-panel::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Drag and drop styles */
+        .drag-over {
+            border: 2px dashed #3b82f6;
+            background-color: rgba(59, 130, 246, 0.1);
+        }
+        
+        .drag-invalid {
+            border: 2px dashed #ef4444;
+            background-color: rgba(239, 68, 68, 0.1);
+        }
+        
+        .animate-shake {
+            animation: shake 0.5s ease-in-out;
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+        
+        /* Semester container styling */
+        .course-container {
+            min-height: 120px;
+            padding: 1rem;
+            border: 2px dashed #d1d5db;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            background-color: #fafafa;
+        }
+        
+        .course-container:empty::before {
+            content: "Drop courses here";
+            color: #9ca3af;
+            font-style: italic;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="form-grid">
+            <div class="form-group">
+                <label class="form-label">Program:</label>
+                <select id="program-select" class="form-input">
+                    <option value="">Select a program...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Specialization:</label>
+                <select id="specialization-select" class="form-input" disabled>
+                    <option value="">Select program first</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Start Term:</label>
+                <select id="start-term-select" class="form-input"></select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Semesters:</label>
+                <input type="number" id="semesters-input" value="3" min="1" max="8" class="form-input">
+            </div>
+            <button id="generate-plan-btn" class="btn-primary" disabled>Build Course Board</button>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="left-panel" id="course-pool-panel" style="display: none;">
+            <div class="course-pool-header">
+                <h2 class="semester-title">Course Pool <span id="course-pool-count" class="text-gray-500"></span></h2>
+            </div>
+            <div class="course-pool-content" id="course-pool"></div>
+        </div>
+
+        <div class="right-panel" id="planning-area" style="display: none;">
+            <div id="error-display" class="error-message hidden"></div>
+            
+            <div class="requirements-summary" id="requirements-summary">
+                <!-- Requirements will be populated here -->
+            </div>
+            
+            <div class="planning-content">
+                <div class="semester-slots" id="semester-slots">
+                    <!-- Semester slots will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let planData = null;
+        
+        // DOM elements
+        const generateBtn = document.getElementById('generate-plan-btn');
+        const coursePoolPanel = document.getElementById('course-pool-panel');
+        const planningArea = document.getElementById('planning-area');
+        const coursePool = document.getElementById('course-pool');
+        const semesterSlots = document.getElementById('semester-slots');
+        const requirementsSummary = document.getElementById('requirements-summary');
+        const startTermSelect = document.getElementById('start-term-select');
+        const errorDisplay = document.getElementById('error-display');
+        const coursePoolCount = document.getElementById('course-pool-count');
+        const programSelect = document.getElementById('program-select');
+        const specializationSelect = document.getElementById('specialization-select');
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            populateStartTerms();
+            loadPrograms();
+            setupEventListeners();
+        });
+        
+        // Populate start terms
+        function populateStartTerms() {
+            for (let year = 2023; year <= 2026; year++) {
+                const terms = [
+                    { code: (year - 1900) + '9', name: `Fall ${year}` },
+                    { code: (year - 1900 + 1) + '1', name: `Winter ${year + 1}` },
+                    { code: (year - 1900 + 1) + '5', name: `Spring ${year + 1}` }
+                ];
+                
+                terms.forEach(term => {
+                    const option = document.createElement('option');
+                    option.value = term.code;
+                    option.textContent = term.name;
+                    if (term.code === '1249') option.selected = true;
+                    startTermSelect.appendChild(option);
+                });
+            }
+        }
+        
+        // Load available programs
+        async function loadPrograms() {
+            try {
+                const response = await fetch('/api/v1/programs');
+                const data = await response.json();
+                
+                if (response.ok) {
+                    data.programs.forEach(program => {
+                        const option = document.createElement('option');
+                        option.value = program;
+                        option.textContent = `Master of Engineering (MEng) in ${program}`;
+                        programSelect.appendChild(option);
+                    });
+                } else {
+                    console.error('Failed to load programs:', data.error);
+                }
+            } catch (error) {
+                console.error('Error loading programs:', error);
+            }
+        }
+        
+        // Load specializations for selected program
+        async function loadSpecializations(programName) {
+            try {
+                const response = await fetch('/api/v1/specializations', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ program: programName })
+                });
+                const data = await response.json();
+                
+                // Clear existing options
+                specializationSelect.innerHTML = '<option value="">None</option>';
+                
+                if (response.ok) {
+                    data.specializations.forEach(spec => {
+                        const option = document.createElement('option');
+                        option.value = spec;
+                        option.textContent = spec.replace(/_/g, ' ');
+                        specializationSelect.appendChild(option);
+                    });
+                    specializationSelect.disabled = false;
+                } else {
+                    console.error('Failed to load specializations:', data.error);
+                }
+            } catch (error) {
+                console.error('Error loading specializations:', error);
+            }
+        }
+        
+        // Switch program and update course pool
+        async function switchProgram(programName) {
+            try {
+                const response = await fetch('/api/v1/switch_program', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ program_name: programName })
+                });
+                const data = await response.json();
+                
+                if (response.ok) {
+                    console.log('Successfully switched program:', data.message);
+                    // If there's already a plan displayed, regenerate it with new course pool
+                    if (planData) {
+                        generatePlan();
+                    }
+                } else {
+                    console.error('Failed to switch program:', data.error);
+                    showError('Failed to switch program: ' + data.error);
+                }
+            } catch (error) {
+                console.error('Error switching program:', error);
+                showError('Error switching program: ' + error.message);
+            }
+        }
+        
+        // Setup event listeners
+        function setupEventListeners() {
+            programSelect.addEventListener('change', function() {
+                const selectedProgram = this.value;
+                if (selectedProgram) {
+                    loadSpecializations(selectedProgram);
+                    switchProgram(selectedProgram);  // Switch program and update course pool
+                    updateGenerateButton();
+                } else {
+                    specializationSelect.innerHTML = '<option value="">Select program first</option>';
+                    specializationSelect.disabled = true;
+                    generateBtn.disabled = true;
+                }
+            });
+            
+            specializationSelect.addEventListener('change', updateGenerateButton);
+            generateBtn.addEventListener('click', generatePlan);
+        }
+        
+        // Update generate button state
+        function updateGenerateButton() {
+            const programSelected = programSelect.value !== '';
+            generateBtn.disabled = !programSelected;
+        }
+        
+        // Generate plan
+        async function generatePlan() {
+            try {
+                coursePoolPanel.style.display = 'flex';
+                planningArea.style.display = 'flex';
+                errorDisplay.classList.add('hidden');
+                
+                coursePool.innerHTML = '<div class="text-center text-gray-500" style="padding: 2rem;">Loading courses...</div>';
+                
+                const userInput = {
+                    program: programSelect.value,
+                    specialization: specializationSelect.value,
+                    semesters: parseInt(document.getElementById('semesters-input').value),
+                    start_term: startTermSelect.value
+                };
+                
+                if (userInput.specialization === '' || userInput.specialization === 'None') {
+                    delete userInput.specialization;
+                }
+                
+                const response = await fetch('/api/v1/plan', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(userInput)
+                });
+                
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to generate plan');
+                }
+                
+                planData = await response.json();
+                renderPlan();
+                
+            } catch (error) {
+                errorDisplay.textContent = `Error: ${error.message}`;
+                errorDisplay.classList.remove('hidden');
+            }
+        }
+        
+        // Render the complete plan
+        function renderPlan() {
+            renderRequirements();
+            renderSemesters();
+            renderCoursePool();
+        }
+        
+        // Render requirements summary
+        function renderRequirements() {
+            const formattedReq = planData.formatted_requirements;
+            const fallbackReq = planData.requirements_summary;
+            
+            let html = `
+                <div style="display: flex; align-items: center; margin-bottom: 1rem; padding-bottom: 0.75rem; border-bottom: 2px solid #e2e8f0;">
+                    <h3 style="margin: 0; font-size: 1.1rem; font-weight: 700; color: #1e293b;">📚 Requirements Summary</h3>
+                </div>
+            `;
+            
+            // Use formatted requirements if available
+            if (formattedReq) {
+                const overview = formattedReq.program_overview;
+                
+                // Program Overview Section
+                html += `
+                    <div style="background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%); padding: 1rem; border-radius: 8px; margin-bottom: 1rem; border-left: 4px solid #3b82f6;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                            <div>
+                                <div style="font-weight: 700; color: #1e40af; font-size: 1rem;">${overview.degree_type}</div>
+                                ${overview.specialization ? `<div style="color: #059669; font-size: 0.875rem; font-weight: 600;">🎯 ${overview.specialization}</div>` : ''}
+                            </div>
+                            <div style="background: white; padding: 0.5rem 1rem; border-radius: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                                <span style="font-size: 1.25rem; font-weight: 700; color: #3b82f6;">${overview.total_courses}</span>
+                                <span style="font-size: 0.875rem; color: #64748b; margin-left: 0.25rem;">courses</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // Requirements Grid
+                html += `<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1rem;">`;
+                
+                // Core Requirements
+                if (formattedReq.core_requirements && formattedReq.core_requirements.length > 0) {
+                    const core = formattedReq.core_requirements[0]; // Assuming first is main core
+                    html += `
+                        <div style="background: #fef2f2; padding: 0.75rem; border-radius: 6px; border-left: 3px solid #dc3545;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="background: #dc3545; color: white; padding: 0.125rem 0.375rem; border-radius: 12px; font-size: 0.7rem; font-weight: 600; margin-right: 0.5rem;">Required</span>
+                                <span style="font-weight: 600; color: #7f1d1d; font-size: 0.875rem;">${core.count} courses</span>
+                            </div>
+                            <div style="font-size: 0.75rem; color: #991b1b; line-height: 1.3;">
+                                ${core.courses ? core.courses.slice(0, 3).join(', ') : ''}${core.courses && core.courses.length > 3 ? '...' : ''}
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                // Specialization Requirements  
+                if (formattedReq.specialization_requirements && formattedReq.specialization_requirements.length > 0) {
+                    const spec = formattedReq.specialization_requirements[0];
+                    html += `
+                        <div style="background: #fff7ed; padding: 0.75rem; border-radius: 6px; border-left: 3px solid #fd7e14;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="background: #fd7e14; color: white; padding: 0.125rem 0.375rem; border-radius: 12px; font-size: 0.7rem; font-weight: 600; margin-right: 0.5rem;">Core</span>
+                                <span style="font-weight: 600; color: #9a3412; font-size: 0.875rem;">${spec.title || 'Specialization Requirements'}</span>
+                            </div>
+                            <div style="font-size: 0.75rem; color: #c2410c; line-height: 1.3;">
+                                ${spec.description || `Choose ${spec.selection_count || spec.count || 1} course${(spec.selection_count || spec.count) > 1 ? 's' : ''}`}
+                                ${spec.courses && spec.courses.length > 0 ? `<br><strong>Options:</strong> ${spec.courses.slice(0, 3).join(', ')}${spec.courses.length > 3 ? '...' : ''}` : ''}
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                html += `</div>`; // End grid
+                
+                // Elective Requirements Summary
+                if (formattedReq.elective_requirements && formattedReq.elective_requirements.length > 0) {
+                    html += `
+                        <div style="background: #f0fdf4; padding: 0.75rem; border-radius: 6px; border-left: 3px solid #28a745; margin-bottom: 0.75rem;">
+                            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+                                <div style="display: flex; align-items: center;">
+                                    <span style="background: #28a745; color: white; padding: 0.125rem 0.375rem; border-radius: 12px; font-size: 0.7rem; font-weight: 600; margin-right: 0.5rem;">Elective</span>
+                                    <span style="font-weight: 600; color: #166534; font-size: 0.875rem;">Flexible Requirements</span>
+                                </div>
+                                <span style="font-size: 0.75rem; color: #15803d; font-weight: 600;">${formattedReq.elective_requirements.length} group${formattedReq.elective_requirements.length > 1 ? 's' : ''}</span>
+                            </div>
+                            <div style="font-size: 0.75rem; color: #166534; line-height: 1.3;">
+                                Choose from various elective categories to complete your degree
+                            </div>
+                        </div>
+                    `;
+                }
+
+                // Important Constraints Section
+                if (formattedReq.constraints && Object.keys(formattedReq.constraints).length > 0) {
+                    html += `
+                        <div style="background: #fef2f2; padding: 0.75rem; border-radius: 6px; border-left: 3px solid #ef4444; margin-bottom: 0.75rem;">
+                            <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="background: #ef4444; color: white; padding: 0.125rem 0.375rem; border-radius: 12px; font-size: 0.7rem; font-weight: 600; margin-right: 0.5rem;">⚠️ Constraints</span>
+                                <span style="font-weight: 600; color: #991b1b; font-size: 0.875rem;">Important Limitations</span>
+                            </div>
+                    `;
+                    
+                    if (formattedReq.constraints.level_limits) {
+                        const levelLimit = formattedReq.constraints.level_limits;
+                        html += `
+                            <div style="font-size: 0.75rem; color: #991b1b; line-height: 1.3; margin-bottom: 0.5rem;">
+                                <strong>500-Level Limit:</strong> Maximum ${levelLimit.max_500_level} courses at 500-level
+                                ${levelLimit.description ? ` - ${levelLimit.description}` : ''}
+                            </div>
+                        `;
+                    }
+                    
+                    if (formattedReq.constraints.departmental_requirements) {
+                        const deptReq = formattedReq.constraints.departmental_requirements;
+                        html += `
+                            <div style="font-size: 0.75rem; color: #991b1b; line-height: 1.3;">
+                                <strong>SYDE Requirement:</strong> Minimum ${deptReq.min_syde_courses} SYDE courses required
+                                ${deptReq.description ? ` - ${deptReq.description}` : ''}
+                            </div>
+                        `;
+                    }
+                    
+                    html += `</div>`;
+                }
+
+                // Course Tag Legend Section
+                html += `
+                    <div style="background: #f1f5f9; padding: 0.75rem; border-radius: 6px; border-left: 3px solid #6366f1;">
+                        <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
+                            <span style="background: #6366f1; color: white; padding: 0.125rem 0.375rem; border-radius: 12px; font-size: 0.7rem; font-weight: 600; margin-right: 0.5rem;">🏷️ Tags</span>
+                            <span style="font-weight: 600; color: #3730a3; font-size: 0.875rem;">Course Pool Guide</span>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; font-size: 0.7rem;">
+                            <div style="display: flex; align-items: center;">
+                                <span style="background: #dc3545; color: white; padding: 0.125rem 0.25rem; border-radius: 8px; font-size: 0.65rem; font-weight: 600; margin-right: 0.25rem;">Required</span>
+                                <span style="color: #475569;">Must take all</span>
+                            </div>
+                            <div style="display: flex; align-items: center;">
+                                <span style="background: #fd7e14; color: white; padding: 0.125rem 0.25rem; border-radius: 8px; font-size: 0.65rem; font-weight: 600; margin-right: 0.25rem;">Core</span>
+                                <span style="color: #475569;">Choose from options</span>
+                            </div>
+                            <div style="display: flex; align-items: center;">
+                                <span style="background: #28a745; color: white; padding: 0.125rem 0.25rem; border-radius: 8px; font-size: 0.65rem; font-weight: 600; margin-right: 0.25rem;">Elective</span>
+                                <span style="color: #475569;">Flexible selection</span>
+                            </div>
+                            <div style="display: flex; align-items: center;">
+                                <span style="background: #6c757d; color: white; padding: 0.125rem 0.25rem; border-radius: 8px; font-size: 0.65rem; font-weight: 600; margin-right: 0.25rem;">General</span>
+                                <span style="color: #475569;">Any graduate course</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+            } else if (fallbackReq) {
+                // Fallback to original summary format but with better styling
+                html += `
+                    <div style="background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+                        <div style="font-size: 0.875rem; color: #475569; line-height: 1.5; white-space: pre-wrap;">${fallbackReq}</div>
+                    </div>
+                `;
+            }
+            
+            requirementsSummary.innerHTML = html;
+        }
+        
+        // Render semester slots
+        function renderSemesters() {
+            semesterSlots.innerHTML = '';
+            
+            planData.semester_structure.forEach(semester => {
+                const slot = document.createElement('div');
+                slot.className = 'semester-slot';
+                slot.dataset.termCode = semester.term_code;
+                
+                slot.innerHTML = `
+                    <div class="semester-header">
+                        <h3 class="semester-title">${semester.term_name}</h3>
+                        <div class="semester-status"></div>
+                    </div>
+                    <div class="course-container" ondragover="allowDrop(event)" ondragleave="handleDragLeave(event)" ondrop="dropCourse(event)"></div>
+                `;
+                
+                semesterSlots.appendChild(slot);
+            });
+        }
+        
+        // Render course pool
+        function renderCoursePool() {
+            coursePool.innerHTML = '';
+            
+            // Sort course pool to maintain order - Required first, then Core, etc.
+            const sortedCoursePool = [...planData.course_pool].sort((a, b) => {
+                // Helper function to get sort priority based on tags and category
+                function getSortPriority(item) {
+                    const tags = item.tags || [];
+                    const category = item.category;
+                    
+                    if (tags.includes('Required')) return 1;           // Required courses first
+                    if (category === 'compulsory') return 2;           // Core required courses
+                    if (tags.includes('Choice Required') || category === 'compulsory_choice') return 3;  // Choice required
+                    if (tags.includes('Specified Elective') || category === 'specified_elective') return 4;  // Specified electives
+                    if (tags.includes('Elective') || ['general_elective', 'elective'].includes(category)) return 5;  // General electives
+                    return 6;  // Other courses
+                }
+                
+                // Primary sort: by importance (Required -> Core -> etc.)
+                const aPriority = getSortPriority(a);
+                const bPriority = getSortPriority(b);
+                if (aPriority !== bPriority) {
+                    return aPriority - bPriority;
+                }
+                
+                // Secondary sort: by course code for consistent ordering within same category
+                return a.course.course_code.localeCompare(b.course.course_code);
+            });
+            
+            sortedCoursePool.forEach((item, index) => {
+                const card = createCourseCard(item);
+                // Store original index for repositioning
+                card.dataset.originalIndex = index;
+                coursePool.appendChild(card);
+            });
+            
+            updateCoursePoolCount();
+        }
+        
+        // Create course card
+        function createCourseCard(item) {
+            const course = item.course;
+            const card = document.createElement('div');
+            card.className = 'course-card';
+            card.draggable = true;
+            card.dataset.courseCode = course.course_code;
+            card.id = `course-${course.course_code.replace(/\s+/g, '')}`;
+            
+            // Format availability
+            const availability = (item.availability_notes || []).map(note => {
+                const [termCode, status] = note.split(':');
+                const humanDate = formatTerm(termCode.trim());
+                const statusText = status ? status.trim() : '';
+                return statusText.toLowerCase().includes('confirmed') ? 
+                    humanDate : `${humanDate} (${statusText})`;
+            }).join(', ');
+            
+            // Format prerequisites and antirequisites
+            let requirementsHtml = '';
+            if (item.prerequisites && item.prerequisites.length > 0) {
+                const prereqList = item.prerequisites.map(req => {
+                    if (req.type === 'required') {
+                        return req.description;
+                    } else if (req.type === 'one_of') {
+                        return req.description;
+                    }
+                    return req.description;
+                }).join(', ');
+                requirementsHtml += `<div class="requirements-info"><small><strong>Prerequisites:</strong> ${prereqList}</small></div>`;
+            }
+            
+            if (item.antirequisites && item.antirequisites.length > 0) {
+                const antireqList = item.antirequisites.join(', ');
+                requirementsHtml += `<div class="requirements-info"><small><strong>Antirequisites:</strong> ${antireqList}</small></div>`;
+            }
+            
+            if (item.corequisites && item.corequisites.length > 0) {
+                const coreqList = item.corequisites.join(', ');
+                requirementsHtml += `<div class="requirements-info"><small><strong>Corequisites:</strong> ${coreqList}</small></div>`;
+            }
+
+            // Format tags - use primary tag with color
+            let tagsHtml = '';
+            if (item.tag && item.tag_color) {
+                // Primary tag with exact color matching requirements summary
+                tagsHtml = `<div class="course-tags">
+                    <span class="course-tag" style="background: ${item.tag_color}; color: white; padding: 0.125rem 0.375rem; border-radius: 0.25rem; font-size: 0.75rem; font-weight: 500;">${item.tag}</span>
+                </div>`;
+            } else if (item.tags && item.tags.length > 0) {
+                // Fallback to old tag system
+                const tagElements = item.tags.map(tag => {
+                    let tagClass = 'tag-default';
+                    if (tag === 'Required' || tag === 'Core') tagClass = 'tag-required';
+                    else if (tag.includes('Choice')) tagClass = 'tag-choice';
+                    else if (tag.includes('Elective')) tagClass = 'tag-elective';
+                    else if (tag === 'Graduate Level') tagClass = 'tag-graduate';
+                    return `<span class="course-tag ${tagClass}">${tag}</span>`;
+                }).join('');
+                tagsHtml = `<div class="course-tags">${tagElements}</div>`;
+            }
+
+            card.innerHTML = `
+                <h4>${course.course_code}: ${course.title}</h4>
+                <p><strong>Available:</strong> ${availability || 'No offerings in your schedule'}</p>
+                ${tagsHtml}
+                ${requirementsHtml}
+            `;
+            
+            // Ensure card is visible
+            card.style.display = 'block';
+            card.style.visibility = 'visible';
+            card.style.opacity = '1';
+            
+            // Add drag events
+            card.addEventListener('dragstart', function(e) {
+                console.log('Drag start:', card.id);
+                e.dataTransfer.setData('text/plain', card.id);
+                setTimeout(() => card.classList.add('dragging'), 0);
+            });
+            
+            card.addEventListener('dragend', function() {
+                console.log('Drag end:', card.id);
+                card.classList.remove('dragging');
+                // Ensure card is still visible after drag end
+                card.style.display = 'block';
+                card.style.visibility = 'visible';
+                card.style.opacity = '1';
+            });
+            
+            return card;
+        }
+        
+        // Format term code to human readable
+        function formatTerm(termCode) {
+            if (!termCode) return 'N/A';
+            const year = 1900 + parseInt(termCode.slice(0, -1));
+            const season = termCode.slice(-1);
+            const seasons = { '1': 'Winter', '5': 'Spring', '9': 'Fall' };
+            return `${seasons[season]} ${year}`;
+        }
+        
+        // Drag and drop functions
+        async function dropCourse(event) {
+            event.preventDefault();
+            event.currentTarget.classList.remove('drag-over');
+            
+            const courseId = event.dataTransfer.getData('text/plain');
+            const courseCard = document.getElementById(courseId);
+            const semesterSlot = event.currentTarget.closest('.semester-slot');
+            
+            // IMPORTANT: Save references before async operation
+            const courseContainer = event.currentTarget;
+            
+            console.log('Drop attempt:', {
+                courseId,
+                courseCard: courseCard ? 'found' : 'not found',
+                semesterSlot: semesterSlot ? 'found' : 'not found',
+                targetElement: courseContainer.className
+            });
+            
+            if (!courseCard || !semesterSlot || !courseContainer) {
+                console.error('Missing elements for drop');
+                return;
+            }
+            
+            const courseCode = courseCard.dataset.courseCode;
+            const termCode = semesterSlot.dataset.termCode;
+            
+            console.log('Attempting to move:', courseCode, 'to term:', termCode);
+            
+            // Validate move
+            console.log('About to validate move...');
+            const validation = await validateMove(courseCode, termCode);
+            console.log('Validation completed:', validation);
+            
+            // Check if elements still exist after async operation
+            if (!document.getElementById(courseId)) {
+                console.error('Course card no longer exists after validation');
+                return;
+            }
+            
+            if (!validation.valid) {
+                console.log('Move validation failed:', validation);
+                courseCard.classList.add('animate-shake');
+                setTimeout(() => courseCard.classList.remove('animate-shake'), 500);
+                
+                // Format error message from new validation response
+                const courseCode = courseId.replace('course-', '').replace(/([A-Z]+)(\d+[A-Z]*)/, '$1 $2');
+                let errorMessage = `Cannot place ${courseCode} in this term:\n`;
+                
+                if (validation.issues && validation.issues.length > 0) {
+                    errorMessage += validation.issues.join('\n');
+                } else if (validation.error) {
+                    errorMessage += validation.error;
+                } else if (validation.offering_status && !validation.offering_status.is_offered) {
+                    errorMessage += `Course is not offered in this term (${validation.offering_status.status})`;
+                } else {
+                    errorMessage += 'Unknown validation error';
+                }
+                
+                if (validation.warnings && validation.warnings.length > 0) {
+                    errorMessage += '\n\nWarnings:\n' + validation.warnings.join('\n');
+                }
+                
+                alert(errorMessage);
+                return;
+            }
+            
+            // Show warnings if course is valid but has warnings
+            if (validation.warnings && validation.warnings.length > 0) {
+                const courseCode = courseId.replace('course-', '').replace(/([A-Z]+)(\d+[A-Z]*)/, '$1 $2');
+                const warningMessage = `${courseCode} placed successfully, but note:\n${validation.warnings.join('\n')}`;
+                console.warn(warningMessage);
+                // You can uncomment the next line if you want to show warnings as alerts too
+                // alert(warningMessage);
+            }
+            
+            // Move the card - use saved reference
+            console.log('Moving card to course container');
+            console.log('Container info:', courseContainer.className);
+            console.log('Container children before:', courseContainer.children.length);
+            console.log('Course card before move:', courseCard.id, courseCard.parentElement ? courseCard.parentElement.className : 'no parent');
+            
+            try {
+                courseContainer.appendChild(courseCard);
+                console.log('appendChild successful');
+            } catch (error) {
+                console.error('appendChild failed:', error);
+                return;
+            }
+            
+            // Log after move
+            console.log('Container children after:', courseContainer.children.length);
+            console.log('Card parent after move:', courseCard.parentElement ? courseCard.parentElement.className : 'null');
+            
+            // Force visibility
+            courseCard.style.display = 'block';
+            courseCard.style.visibility = 'visible';
+            courseCard.style.opacity = '1';
+            courseCard.offsetHeight; // Force reflow
+            
+            console.log('Card styles after move:', {
+                display: courseCard.style.display,
+                visibility: courseCard.style.visibility,
+                opacity: courseCard.style.opacity
+            });
+            
+            updateSemesterStatus(semesterSlot);
+            updateCoursePoolCount();
+            
+            // Debug: check all card visibility
+            setTimeout(() => {
+                checkCardVisibility();
+                checkSemesterContainers();
+            }, 100);
+        }
+        
+        // Validate move with backend
+        async function validateMove(courseCode, termCode) {
+            try {
+                // Collect current plan for validation context
+                const currentPlan = {};
+                document.querySelectorAll('.semester-slot').forEach(slot => {
+                    const term = slot.dataset.termCode;
+                    const courseContainer = slot.querySelector('.course-container');
+                    if (courseContainer) {
+                        const courses = Array.from(courseContainer.querySelectorAll('.course-card'))
+                            .map(card => card.dataset.courseCode);
+                        if (courses.length > 0) {
+                            currentPlan[term] = courses;
+                        }
+                    }
+                });
+
+                // Get current program context
+                const programContext = {
+                    program: programSelect.value,
+                    specialization: specializationSelect.value !== '' && specializationSelect.value !== 'None' 
+                        ? specializationSelect.value.replace(/_/g, ' ')  // Convert underscores to spaces for backend
+                        : null
+                };
+
+                const response = await fetch('/api/v1/validate_move', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        course_code: courseCode, 
+                        term_code: termCode,
+                        current_plan: currentPlan,
+                        program_context: programContext
+                    })
+                });
+                return await response.json();
+            } catch (error) {
+                return { valid: false, error: 'Validation failed' };
+            }
+        }
+        
+        // Drag and drop helper functions
+        function allowDrop(event) {
+            event.preventDefault();
+            event.currentTarget.classList.add('drag-over');
+        }
+        
+        function handleDragLeave(event) {
+            // Only remove drag-over if we're actually leaving the container
+            // (not just moving to a child element)
+            if (!event.currentTarget.contains(event.relatedTarget)) {
+                event.currentTarget.classList.remove('drag-over');
+            }
+        }
+        
+        // Update semester status
+        function updateSemesterStatus(semesterSlot) {
+            const courseCount = semesterSlot.querySelectorAll('.course-card').length;
+            const statusEl = semesterSlot.querySelector('.semester-status');
+            const maxCourses = 3; // Maximum courses per semester
+            
+            console.log('Updating semester status, course count:', courseCount);
+            
+            statusEl.className = 'semester-status';
+            
+            // Remove all status classes - never freeze the semester
+            semesterSlot.classList.remove('semester-full', 'semester-overlimit');
+            
+            // Update status text and styling
+            if (courseCount === 0) {
+                statusEl.textContent = '';
+            } else if (courseCount === 1) {
+                statusEl.textContent = `⚠️ Part-time (${courseCount}/${maxCourses})`;
+                statusEl.classList.add('status-warning');
+            } else if (courseCount >= maxCourses) {
+                statusEl.textContent = `✅ Full (${courseCount}/${maxCourses})`;
+                statusEl.classList.add('status-normal');
+                // Note: Don't freeze semester - let validation handle blocking
+            } else if (courseCount === 2) {
+                statusEl.textContent = `⚠️ Near Full (${courseCount}/${maxCourses})`;
+                statusEl.classList.add('status-warning');
+            } else {
+                statusEl.textContent = `${courseCount}/${maxCourses} courses`;
+                statusEl.classList.add('status-normal');
+            }
+        }
+        
+        // Update course pool count
+        function updateCoursePoolCount() {
+            const count = coursePool.querySelectorAll('.course-card').length;
+            coursePoolCount.textContent = `(${count} available)`;
+        }
+        
+        // Debug function to check card visibility
+        function checkCardVisibility() {
+            document.querySelectorAll('.course-card').forEach(card => {
+                const styles = window.getComputedStyle(card);
+                console.log(`Card ${card.id}:`, {
+                    display: styles.display,
+                    visibility: styles.visibility,
+                    opacity: styles.opacity,
+                    parent: card.parentElement ? card.parentElement.className : 'no parent',
+                    rect: card.getBoundingClientRect()
+                });
+            });
+        }
+        
+        // Debug function to check semester containers
+        function checkSemesterContainers() {
+            document.querySelectorAll('.semester-slot').forEach(slot => {
+                const container = slot.querySelector('.course-container');
+                console.log(`Semester ${slot.dataset.termCode}:`, {
+                    containerClass: container.className,
+                    childrenCount: container.children.length,
+                    innerHTML: container.innerHTML.substring(0, 100) + '...'
+                });
+            });
+        }
+        
+        // Allow dropping back to course pool
+        coursePool.addEventListener('dragover', function(event) {
+            event.preventDefault();
+            console.log('Drag over course pool');
+        });
+        
+        coursePool.addEventListener('drop', function(event) {
+            event.preventDefault();
+            console.log('Drop on course pool');
+            const courseId = event.dataTransfer.getData('text/plain');
+            const courseCard = document.getElementById(courseId);
+            
+            if (courseCard) {
+                console.log('Moving card back to course pool:', courseId);
+                
+                // Store the original parent to update its status
+                const originalParent = courseCard.parentElement;
+                const originalSemester = originalParent ? originalParent.closest('.semester-slot') : null;
+                
+                // Get the original index for positioning
+                const originalIndex = parseInt(courseCard.dataset.originalIndex) || 0;
+                
+                // Find the correct position to insert the card
+                const existingCards = Array.from(coursePool.children);
+                let insertPosition = null;
+                
+                for (let i = 0; i < existingCards.length; i++) {
+                    const existingIndex = parseInt(existingCards[i].dataset.originalIndex) || 0;
+                    if (originalIndex < existingIndex) {
+                        insertPosition = existingCards[i];
+                        break;
+                    }
+                }
+                
+                // Insert the card at the correct position
+                if (insertPosition) {
+                    coursePool.insertBefore(courseCard, insertPosition);
+                } else {
+                    coursePool.appendChild(courseCard);
+                }
+                
+                // Force visibility
+                courseCard.style.display = 'block';
+                courseCard.style.visibility = 'visible';
+                courseCard.style.opacity = '1';
+                
+                // Update status of the semester the card came from
+                if (originalSemester) {
+                    updateSemesterStatus(originalSemester);
+                } else {
+                    // Update all semesters to be safe
+                    document.querySelectorAll('.semester-slot').forEach(slot => {
+                        updateSemesterStatus(slot);
+                    });
+                }
+                
+                // Update course pool count
+                updateCoursePoolCount();
+                
+                console.log('Course successfully moved back to original position in pool');
+            }
+        });
+    </script>
+</body>
+</html> 

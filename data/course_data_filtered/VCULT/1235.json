@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013623",
+    "courseOfferNumber": 1,
+    "termCode": "1235",
+    "termName": "Spring 2023",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "FINE",
+    "subjectCode": "VCULT",
+    "catalogNumber": "200",
+    "title": "Visual Studies Across the Discipline",
+    "descriptionAbbreviated": "Vis Studies Across Discipline",
+    "description": "Weekly lectures by visiting faculty introduce students to how visual studies are conducted across and between the disciplines. Recognizing the vastness of the global study of visual culture, this course reinforces how, despite the diversity of media analyzed, various disciplines share related approaches and theories.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Level at least 2A"
+  }
+]

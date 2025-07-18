@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016638",
+    "courseOfferNumber": 1,
+    "termCode": "1239",
+    "termName": "Fall 2023",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "ENV",
+    "associatedAcademicOrgCode": "ENVDEAN",
+    "subjectCode": "FCIT",
+    "catalogNumber": "605",
+    "title": "The Future of Work",
+    "descriptionAbbreviated": "The Future of Work",
+    "description": "This advanced graduate seminar examines the emergent possibilities associated with work in cities of the future. It theorizes the central role that work plays in everyday urban life, highlighting how work is spatially and socially unevenly distributed and how inequality continues to structure labor markets in cities. It engages with `future of work¿ discourses to examine the complex role of technological change in urban labor market transition, as well as questioning the prominence of technological change in such transition. It focuses both on sectors privileged by mainstream theories of urban development (e.g., high technology and the creative industries) and sectors ignored by such theories but that nevertheless remain essential for the functioning of urban centers, including unpaid, informal, and care work. It questions the  role of work in everyday life by highlighting dominant working norms and resistance to them, e.g., in calls for redistributive justice through unionization and collective action, anti-work discourses, and campaigns for a four-day work week.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Master of Future Cities or Geography Graduate students only. Antireq: GEOG 693 topic 3"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016842",
+    "courseOfferNumber": 1,
+    "termCode": "1259",
+    "termName": "Fall 2025",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "ENG",
+    "associatedAcademicOrgCode": "CIVE",
+    "subjectCode": "AE",
+    "catalogNumber": "601",
+    "title": "Comprehensive Building Design Studio",
+    "descriptionAbbreviated": "Comp Building Design Studio",
+    "description": "This Comprehensive Building Design Studio is in collaboration with the School of Architecture. Integration of structure, systems, and enclosure assemblies is explored in the process. Preparation of construction drawings and specifications with a concern for technical material, environmental and legal aspects of architecture will be addressed.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "STU",
+    "enrollConsentCode": "D",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Antireq: AE 400, AE 425"
+  }
+]

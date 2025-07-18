@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "012566",
+    "courseOfferNumber": 1,
+    "termCode": "1235",
+    "termName": "Spring 2023",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "VPA",
+    "associatedAcademicOrgCode": "CECS",
+    "subjectCode": "COOP",
+    "catalogNumber": "601",
+    "title": "Career Success Strategies",
+    "descriptionAbbreviated": "Career Success Strategies",
+    "description": "This course is a combination of career development advice and co-op work search process information.  The topics include navigating the online job system, preparing resumes, developing interview skills and preparing for a successful work term.  COOP 601 is taken the academic term prior to your first work term.  COOP 601 is held with PD1 for undergraduate co-op students.  Must be a grad co-op student.",
+    "gradingBasis": "NON",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "006518",
+    "courseOfferNumber": 1,
+    "termCode": "1245",
+    "termName": "Spring 2024",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "STJ",
+    "associatedAcademicOrgCode": "STJ",
+    "subjectCode": "ITAL",
+    "catalogNumber": "101",
+    "title": "Introduction to Italian Language 1",
+    "descriptionAbbreviated": "Intro Italian Language 1",
+    "description": "An intensive study of the fundamentals of Italian grammar and conversation.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Antireq: ITAL 155"
+  }
+]

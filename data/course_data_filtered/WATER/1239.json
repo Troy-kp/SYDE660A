@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "014566",
+    "courseOfferNumber": 1,
+    "termCode": "1239",
+    "termName": "Fall 2023",
+    "associatedAcademicCareer": "GRD",
+    "associatedAcademicGroupCode": "GRAD",
+    "associatedAcademicOrgCode": "GRAD",
+    "subjectCode": "WATER",
+    "catalogNumber": "602",
+    "title": "Integrated Water Management Project",
+    "descriptionAbbreviated": "Integrated Water Project",
+    "description": "This course builds on WATER 601 and focuses on the Grand River Watershed.  The course normally includes a six to eight day field trip held at the beginning of the term, followed by one or two seminar sessions during the first month of the term.  The field trip will allow students to examine specific watershed components, landscapes, infrastructure and conditions from interdisciplinary perspectives.  Students will travel across the watershed and meet water practitioners, managers, scientists, volunteers and others concerned with watershed health to learn first-hand about watershed issues and management approaches.\n\nBased on the interactive field trips and supporting materials, a multidisciplinary group project will be required where students identify an approach to investigating an emerging watershed issue.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "D",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: WATER 601"
+  }
+]

@@ -1,0 +1,1982 @@
+[
+  {
+    "termCode": "1189",
+    "name": "Fall 2018",
+    "nameShort": "2018 F",
+    "termBeginDate": "2018-09-01T00:00:00",
+    "termEndDate": "2018-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2018-11-01T00:00:00",
+    "associatedAcademicYear": 2019
+  },
+  {
+    "termCode": "1209",
+    "name": "Fall 2020",
+    "nameShort": "2020 F",
+    "termBeginDate": "2020-09-01T00:00:00",
+    "termEndDate": "2020-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2020-11-01T00:00:00",
+    "associatedAcademicYear": 2021
+  },
+  {
+    "termCode": "1169",
+    "name": "Fall 2016",
+    "nameShort": "2016 F",
+    "termBeginDate": "2016-09-01T00:00:00",
+    "termEndDate": "2016-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2016-11-01T00:00:00",
+    "associatedAcademicYear": 2017
+  },
+  {
+    "termCode": "1165",
+    "name": "Spring 2016",
+    "nameShort": "2016 S",
+    "termBeginDate": "2016-05-01T00:00:00",
+    "termEndDate": "2016-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2016-06-30T00:00:00",
+    "associatedAcademicYear": 2017
+  },
+  {
+    "termCode": "1199",
+    "name": "Fall 2019",
+    "nameShort": "2019 F",
+    "termBeginDate": "2019-09-01T00:00:00",
+    "termEndDate": "2019-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2019-11-01T00:00:00",
+    "associatedAcademicYear": 2020
+  },
+  {
+    "termCode": "1205",
+    "name": "Spring 2020",
+    "nameShort": "2020 S",
+    "termBeginDate": "2020-05-01T00:00:00",
+    "termEndDate": "2020-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2020-06-30T00:00:00",
+    "associatedAcademicYear": 2021
+  },
+  {
+    "termCode": "0739",
+    "name": "Fall 1973",
+    "nameShort": "1973 F",
+    "termBeginDate": "1973-09-01T00:00:00",
+    "termEndDate": "1973-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1973-11-01T00:00:00",
+    "associatedAcademicYear": 1974
+  },
+  {
+    "termCode": "0709",
+    "name": "Fall 1970",
+    "nameShort": "1970 F",
+    "termBeginDate": "1970-09-01T00:00:00",
+    "termEndDate": "1970-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1970-11-01T00:00:00",
+    "associatedAcademicYear": 1971
+  },
+  {
+    "termCode": "0679",
+    "name": "Fall 1967",
+    "nameShort": "1967 F",
+    "termBeginDate": "1967-09-01T00:00:00",
+    "termEndDate": "1967-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1967-11-01T00:00:00",
+    "associatedAcademicYear": 1968
+  },
+  {
+    "termCode": "0569",
+    "name": "Fall 1956",
+    "nameShort": "1956 F",
+    "termBeginDate": "1956-09-01T00:00:00",
+    "termEndDate": "1956-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1956-11-01T00:00:00",
+    "associatedAcademicYear": 1957
+  },
+  {
+    "termCode": "1015",
+    "name": "Spring 2001",
+    "nameShort": "2001 S",
+    "termBeginDate": "2001-05-01T00:00:00",
+    "termEndDate": "2001-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2001-06-30T00:00:00",
+    "associatedAcademicYear": 2002
+  },
+  {
+    "termCode": "1025",
+    "name": "Spring 2002",
+    "nameShort": "2002 S",
+    "termBeginDate": "2002-05-01T00:00:00",
+    "termEndDate": "2002-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2002-06-30T00:00:00",
+    "associatedAcademicYear": 2003
+  },
+  {
+    "termCode": "1031",
+    "name": "Winter 2003",
+    "nameShort": "2003 W",
+    "termBeginDate": "2003-01-01T00:00:00",
+    "termEndDate": "2003-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2003-02-01T00:00:00",
+    "associatedAcademicYear": 2003
+  },
+  {
+    "termCode": "1041",
+    "name": "Winter 2004",
+    "nameShort": "2004 W",
+    "termBeginDate": "2004-01-01T00:00:00",
+    "termEndDate": "2004-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2004-02-01T00:00:00",
+    "associatedAcademicYear": 2004
+  },
+  {
+    "termCode": "1051",
+    "name": "Winter 2005",
+    "nameShort": "2005 W",
+    "termBeginDate": "2005-01-01T00:00:00",
+    "termEndDate": "2005-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2005-02-01T00:00:00",
+    "associatedAcademicYear": 2005
+  },
+  {
+    "termCode": "1061",
+    "name": "Winter 2006",
+    "nameShort": "2006 W",
+    "termBeginDate": "2006-01-01T00:00:00",
+    "termEndDate": "2006-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2006-02-01T00:00:00",
+    "associatedAcademicYear": 2006
+  },
+  {
+    "termCode": "1071",
+    "name": "Winter 2007",
+    "nameShort": "2007 W",
+    "termBeginDate": "2007-01-01T00:00:00",
+    "termEndDate": "2007-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2007-02-01T00:00:00",
+    "associatedAcademicYear": 2007
+  },
+  {
+    "termCode": "0865",
+    "name": "Spring 1986",
+    "nameShort": "1986 S",
+    "termBeginDate": "1986-05-01T00:00:00",
+    "termEndDate": "1986-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1986-06-30T00:00:00",
+    "associatedAcademicYear": 1987
+  },
+  {
+    "termCode": "0835",
+    "name": "Spring 1983",
+    "nameShort": "1983 S",
+    "termBeginDate": "1983-05-01T00:00:00",
+    "termEndDate": "1983-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1983-06-30T00:00:00",
+    "associatedAcademicYear": 1984
+  },
+  {
+    "termCode": "0805",
+    "name": "Spring 1980",
+    "nameShort": "1980 S",
+    "termBeginDate": "1980-05-01T00:00:00",
+    "termEndDate": "1980-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1980-06-30T00:00:00",
+    "associatedAcademicYear": 1981
+  },
+  {
+    "termCode": "0775",
+    "name": "Spring 1977",
+    "nameShort": "1977 S",
+    "termBeginDate": "1977-05-01T00:00:00",
+    "termEndDate": "1977-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1977-06-30T00:00:00",
+    "associatedAcademicYear": 1978
+  },
+  {
+    "termCode": "0745",
+    "name": "Spring 1974",
+    "nameShort": "1974 S",
+    "termBeginDate": "1974-05-01T00:00:00",
+    "termEndDate": "1974-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1974-06-30T00:00:00",
+    "associatedAcademicYear": 1975
+  },
+  {
+    "termCode": "0725",
+    "name": "Spring 1972",
+    "nameShort": "1972 S",
+    "termBeginDate": "1972-05-01T00:00:00",
+    "termEndDate": "1972-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1972-06-30T00:00:00",
+    "associatedAcademicYear": 1973
+  },
+  {
+    "termCode": "0695",
+    "name": "Spring 1969",
+    "nameShort": "1969 S",
+    "termBeginDate": "1969-05-01T00:00:00",
+    "termEndDate": "1969-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1969-06-30T00:00:00",
+    "associatedAcademicYear": 1970
+  },
+  {
+    "termCode": "0665",
+    "name": "Spring 1966",
+    "nameShort": "1966 S",
+    "termBeginDate": "1966-05-01T00:00:00",
+    "termEndDate": "1966-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1966-06-30T00:00:00",
+    "associatedAcademicYear": 1967
+  },
+  {
+    "termCode": "0859",
+    "name": "Fall 1985",
+    "nameShort": "1985 F",
+    "termBeginDate": "1985-09-01T00:00:00",
+    "termEndDate": "1985-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1985-11-01T00:00:00",
+    "associatedAcademicYear": 1986
+  },
+  {
+    "termCode": "0829",
+    "name": "Fall 1982",
+    "nameShort": "1982 F",
+    "termBeginDate": "1982-09-01T00:00:00",
+    "termEndDate": "1982-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1982-11-01T00:00:00",
+    "associatedAcademicYear": 1983
+  },
+  {
+    "termCode": "0799",
+    "name": "Fall 1979",
+    "nameShort": "1979 F",
+    "termBeginDate": "1979-09-01T00:00:00",
+    "termEndDate": "1979-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1979-11-01T00:00:00",
+    "associatedAcademicYear": 1980
+  },
+  {
+    "termCode": "0639",
+    "name": "Fall 1963",
+    "nameShort": "1963 F",
+    "termBeginDate": "1963-09-01T00:00:00",
+    "termEndDate": "1963-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1963-11-01T00:00:00",
+    "associatedAcademicYear": 1964
+  },
+  {
+    "termCode": "0609",
+    "name": "Fall 1960",
+    "nameShort": "1960 F",
+    "termBeginDate": "1960-09-01T00:00:00",
+    "termEndDate": "1960-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1960-11-01T00:00:00",
+    "associatedAcademicYear": 1961
+  },
+  {
+    "termCode": "0579",
+    "name": "Fall 1957",
+    "nameShort": "1957 F",
+    "termBeginDate": "1957-09-01T00:00:00",
+    "termEndDate": "1957-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1957-11-01T00:00:00",
+    "associatedAcademicYear": 1958
+  },
+  {
+    "termCode": "0861",
+    "name": "Winter 1986",
+    "nameShort": "1986 W",
+    "termBeginDate": "1986-01-01T00:00:00",
+    "termEndDate": "1986-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1986-02-01T00:00:00",
+    "associatedAcademicYear": 1986
+  },
+  {
+    "termCode": "0831",
+    "name": "Winter 1983",
+    "nameShort": "1983 W",
+    "termBeginDate": "1983-01-01T00:00:00",
+    "termEndDate": "1983-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1983-02-01T00:00:00",
+    "associatedAcademicYear": 1983
+  },
+  {
+    "termCode": "0801",
+    "name": "Winter 1980",
+    "nameShort": "1980 W",
+    "termBeginDate": "1980-01-01T00:00:00",
+    "termEndDate": "1980-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1980-02-01T00:00:00",
+    "associatedAcademicYear": 1980
+  },
+  {
+    "termCode": "0995",
+    "name": "Spring 1999",
+    "nameShort": "1999 S",
+    "termBeginDate": "1999-05-01T00:00:00",
+    "termEndDate": "1999-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1999-06-30T00:00:00",
+    "associatedAcademicYear": 2000
+  },
+  {
+    "termCode": "1151",
+    "name": "Winter 2015",
+    "nameShort": "2015 W",
+    "termBeginDate": "2015-01-01T00:00:00",
+    "termEndDate": "2015-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2015-02-01T00:00:00",
+    "associatedAcademicYear": 2015
+  },
+  {
+    "termCode": "1155",
+    "name": "Spring 2015",
+    "nameShort": "2015 S",
+    "termBeginDate": "2015-05-01T00:00:00",
+    "termEndDate": "2015-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2015-06-30T00:00:00",
+    "associatedAcademicYear": 2016
+  },
+  {
+    "termCode": "0911",
+    "name": "Winter 1991",
+    "nameShort": "1991 W",
+    "termBeginDate": "1991-01-01T00:00:00",
+    "termEndDate": "1991-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1991-02-01T00:00:00",
+    "associatedAcademicYear": 1991
+  },
+  {
+    "termCode": "0901",
+    "name": "Winter 1990",
+    "nameShort": "1990 W",
+    "termBeginDate": "1990-01-01T00:00:00",
+    "termEndDate": "1990-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1990-02-01T00:00:00",
+    "associatedAcademicYear": 1990
+  },
+  {
+    "termCode": "0971",
+    "name": "Winter 1997",
+    "nameShort": "1997 W",
+    "termBeginDate": "1997-01-01T00:00:00",
+    "termEndDate": "1997-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1997-02-01T00:00:00",
+    "associatedAcademicYear": 1997
+  },
+  {
+    "termCode": "0961",
+    "name": "Winter 1996",
+    "nameShort": "1996 W",
+    "termBeginDate": "1996-01-01T00:00:00",
+    "termEndDate": "1996-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1996-02-01T00:00:00",
+    "associatedAcademicYear": 1996
+  },
+  {
+    "termCode": "0941",
+    "name": "Winter 1994",
+    "nameShort": "1994 W",
+    "termBeginDate": "1994-01-01T00:00:00",
+    "termEndDate": "1994-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1994-02-01T00:00:00",
+    "associatedAcademicYear": 1994
+  },
+  {
+    "termCode": "0931",
+    "name": "Winter 1993",
+    "nameShort": "1993 W",
+    "termBeginDate": "1993-01-01T00:00:00",
+    "termEndDate": "1993-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1993-02-01T00:00:00",
+    "associatedAcademicYear": 1993
+  },
+  {
+    "termCode": "1191",
+    "name": "Winter 2019",
+    "nameShort": "2019 W",
+    "termBeginDate": "2019-01-01T00:00:00",
+    "termEndDate": "2019-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2019-02-01T00:00:00",
+    "associatedAcademicYear": 2019
+  },
+  {
+    "termCode": "1201",
+    "name": "Winter 2020",
+    "nameShort": "2020 W",
+    "termBeginDate": "2020-01-01T00:00:00",
+    "termEndDate": "2020-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2020-02-01T00:00:00",
+    "associatedAcademicYear": 2020
+  },
+  {
+    "termCode": "1211",
+    "name": "Winter 2021",
+    "nameShort": "2021 W",
+    "termBeginDate": "2021-01-01T00:00:00",
+    "termEndDate": "2021-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2021-02-01T00:00:00",
+    "associatedAcademicYear": 2021
+  },
+  {
+    "termCode": "1179",
+    "name": "Fall 2017",
+    "nameShort": "2017 F",
+    "termBeginDate": "2017-09-01T00:00:00",
+    "termEndDate": "2017-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2017-11-01T00:00:00",
+    "associatedAcademicYear": 2018
+  },
+  {
+    "termCode": "1195",
+    "name": "Spring 2019",
+    "nameShort": "2019 S",
+    "termBeginDate": "2019-05-01T00:00:00",
+    "termEndDate": "2019-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2019-06-30T00:00:00",
+    "associatedAcademicYear": 2020
+  },
+  {
+    "termCode": "0985",
+    "name": "Spring 1998",
+    "nameShort": "1998 S",
+    "termBeginDate": "1998-05-01T00:00:00",
+    "termEndDate": "1998-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1998-06-30T00:00:00",
+    "associatedAcademicYear": 1999
+  },
+  {
+    "termCode": "0965",
+    "name": "Spring 1996",
+    "nameShort": "1996 S",
+    "termBeginDate": "1996-05-01T00:00:00",
+    "termEndDate": "1996-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1996-06-30T00:00:00",
+    "associatedAcademicYear": 1997
+  },
+  {
+    "termCode": "0955",
+    "name": "Spring 1995",
+    "nameShort": "1995 S",
+    "termBeginDate": "1995-05-01T00:00:00",
+    "termEndDate": "1995-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1995-06-30T00:00:00",
+    "associatedAcademicYear": 1996
+  },
+  {
+    "termCode": "0935",
+    "name": "Spring 1993",
+    "nameShort": "1993 S",
+    "termBeginDate": "1993-05-01T00:00:00",
+    "termEndDate": "1993-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1993-06-30T00:00:00",
+    "associatedAcademicYear": 1994
+  },
+  {
+    "termCode": "0925",
+    "name": "Spring 1992",
+    "nameShort": "1992 S",
+    "termBeginDate": "1992-05-01T00:00:00",
+    "termEndDate": "1992-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1992-06-30T00:00:00",
+    "associatedAcademicYear": 1993
+  },
+  {
+    "termCode": "0905",
+    "name": "Spring 1990",
+    "nameShort": "1990 S",
+    "termBeginDate": "1990-05-01T00:00:00",
+    "termEndDate": "1990-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1990-06-30T00:00:00",
+    "associatedAcademicYear": 1991
+  },
+  {
+    "termCode": "0895",
+    "name": "Spring 1989",
+    "nameShort": "1989 S",
+    "termBeginDate": "1989-05-01T00:00:00",
+    "termEndDate": "1989-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1989-06-30T00:00:00",
+    "associatedAcademicYear": 1990
+  },
+  {
+    "termCode": "0891",
+    "name": "Winter 1989",
+    "nameShort": "1989 W",
+    "termBeginDate": "1989-01-01T00:00:00",
+    "termEndDate": "1989-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1989-02-01T00:00:00",
+    "associatedAcademicYear": 1989
+  },
+  {
+    "termCode": "0871",
+    "name": "Winter 1987",
+    "nameShort": "1987 W",
+    "termBeginDate": "1987-01-01T00:00:00",
+    "termEndDate": "1987-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1987-02-01T00:00:00",
+    "associatedAcademicYear": 1987
+  },
+  {
+    "termCode": "0789",
+    "name": "Fall 1978",
+    "nameShort": "1978 F",
+    "termBeginDate": "1978-09-01T00:00:00",
+    "termEndDate": "1978-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1978-11-01T00:00:00",
+    "associatedAcademicYear": 1979
+  },
+  {
+    "termCode": "0779",
+    "name": "Fall 1977",
+    "nameShort": "1977 F",
+    "termBeginDate": "1977-09-01T00:00:00",
+    "termEndDate": "1977-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1977-11-01T00:00:00",
+    "associatedAcademicYear": 1978
+  },
+  {
+    "termCode": "0769",
+    "name": "Fall 1976",
+    "nameShort": "1976 F",
+    "termBeginDate": "1976-09-01T00:00:00",
+    "termEndDate": "1976-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1976-11-01T00:00:00",
+    "associatedAcademicYear": 1977
+  },
+  {
+    "termCode": "0759",
+    "name": "Fall 1975",
+    "nameShort": "1975 F",
+    "termBeginDate": "1975-09-01T00:00:00",
+    "termEndDate": "1975-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1975-11-01T00:00:00",
+    "associatedAcademicYear": 1976
+  },
+  {
+    "termCode": "0749",
+    "name": "Fall 1974",
+    "nameShort": "1974 F",
+    "termBeginDate": "1974-09-01T00:00:00",
+    "termEndDate": "1974-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1974-11-01T00:00:00",
+    "associatedAcademicYear": 1975
+  },
+  {
+    "termCode": "0729",
+    "name": "Fall 1972",
+    "nameShort": "1972 F",
+    "termBeginDate": "1972-09-01T00:00:00",
+    "termEndDate": "1972-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1972-11-01T00:00:00",
+    "associatedAcademicYear": 1973
+  },
+  {
+    "termCode": "0719",
+    "name": "Fall 1971",
+    "nameShort": "1971 F",
+    "termBeginDate": "1971-09-01T00:00:00",
+    "termEndDate": "1971-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1971-11-01T00:00:00",
+    "associatedAcademicYear": 1972
+  },
+  {
+    "termCode": "0699",
+    "name": "Fall 1969",
+    "nameShort": "1969 F",
+    "termBeginDate": "1969-09-01T00:00:00",
+    "termEndDate": "1969-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1969-11-01T00:00:00",
+    "associatedAcademicYear": 1970
+  },
+  {
+    "termCode": "0689",
+    "name": "Fall 1968",
+    "nameShort": "1968 F",
+    "termBeginDate": "1968-09-01T00:00:00",
+    "termEndDate": "1968-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1968-11-01T00:00:00",
+    "associatedAcademicYear": 1969
+  },
+  {
+    "termCode": "0669",
+    "name": "Fall 1966",
+    "nameShort": "1966 F",
+    "termBeginDate": "1966-09-01T00:00:00",
+    "termEndDate": "1966-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1966-11-01T00:00:00",
+    "associatedAcademicYear": 1967
+  },
+  {
+    "termCode": "1009",
+    "name": "Fall 2000",
+    "nameShort": "2000 F",
+    "termBeginDate": "2000-09-01T00:00:00",
+    "termEndDate": "2000-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2000-11-01T00:00:00",
+    "associatedAcademicYear": 2001
+  },
+  {
+    "termCode": "1011",
+    "name": "Winter 2001",
+    "nameShort": "2001 W",
+    "termBeginDate": "2001-01-01T00:00:00",
+    "termEndDate": "2001-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2001-02-01T00:00:00",
+    "associatedAcademicYear": 2001
+  },
+  {
+    "termCode": "1019",
+    "name": "Fall 2001",
+    "nameShort": "2001 F",
+    "termBeginDate": "2001-09-01T00:00:00",
+    "termEndDate": "2001-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2001-11-01T00:00:00",
+    "associatedAcademicYear": 2002
+  },
+  {
+    "termCode": "1021",
+    "name": "Winter 2002",
+    "nameShort": "2002 W",
+    "termBeginDate": "2002-01-01T00:00:00",
+    "termEndDate": "2002-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2002-02-01T00:00:00",
+    "associatedAcademicYear": 2002
+  },
+  {
+    "termCode": "1029",
+    "name": "Fall 2002",
+    "nameShort": "2002 F",
+    "termBeginDate": "2002-09-01T00:00:00",
+    "termEndDate": "2002-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2002-11-01T00:00:00",
+    "associatedAcademicYear": 2003
+  },
+  {
+    "termCode": "1035",
+    "name": "Spring 2003",
+    "nameShort": "2003 S",
+    "termBeginDate": "2003-05-01T00:00:00",
+    "termEndDate": "2003-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2003-06-30T00:00:00",
+    "associatedAcademicYear": 2004
+  },
+  {
+    "termCode": "1039",
+    "name": "Fall 2003",
+    "nameShort": "2003 F",
+    "termBeginDate": "2003-09-01T00:00:00",
+    "termEndDate": "2003-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2003-11-01T00:00:00",
+    "associatedAcademicYear": 2004
+  },
+  {
+    "termCode": "1045",
+    "name": "Spring 2004",
+    "nameShort": "2004 S",
+    "termBeginDate": "2004-05-01T00:00:00",
+    "termEndDate": "2004-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2004-06-30T00:00:00",
+    "associatedAcademicYear": 2005
+  },
+  {
+    "termCode": "1049",
+    "name": "Fall 2004",
+    "nameShort": "2004 F",
+    "termBeginDate": "2004-09-01T00:00:00",
+    "termEndDate": "2004-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2004-11-01T00:00:00",
+    "associatedAcademicYear": 2005
+  },
+  {
+    "termCode": "1055",
+    "name": "Spring 2005",
+    "nameShort": "2005 S",
+    "termBeginDate": "2005-05-01T00:00:00",
+    "termEndDate": "2005-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2005-06-30T00:00:00",
+    "associatedAcademicYear": 2006
+  },
+  {
+    "termCode": "1059",
+    "name": "Fall 2005",
+    "nameShort": "2005 F",
+    "termBeginDate": "2005-09-01T00:00:00",
+    "termEndDate": "2005-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2005-11-01T00:00:00",
+    "associatedAcademicYear": 2006
+  },
+  {
+    "termCode": "1065",
+    "name": "Spring 2006",
+    "nameShort": "2006 S",
+    "termBeginDate": "2006-05-01T00:00:00",
+    "termEndDate": "2006-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2006-06-30T00:00:00",
+    "associatedAcademicYear": 2007
+  },
+  {
+    "termCode": "1069",
+    "name": "Fall 2006",
+    "nameShort": "2006 F",
+    "termBeginDate": "2006-09-01T00:00:00",
+    "termEndDate": "2006-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2006-11-01T00:00:00",
+    "associatedAcademicYear": 2007
+  },
+  {
+    "termCode": "0875",
+    "name": "Spring 1987",
+    "nameShort": "1987 S",
+    "termBeginDate": "1987-05-01T00:00:00",
+    "termEndDate": "1987-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1987-06-30T00:00:00",
+    "associatedAcademicYear": 1988
+  },
+  {
+    "termCode": "0855",
+    "name": "Spring 1985",
+    "nameShort": "1985 S",
+    "termBeginDate": "1985-05-01T00:00:00",
+    "termEndDate": "1985-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1985-06-30T00:00:00",
+    "associatedAcademicYear": 1986
+  },
+  {
+    "termCode": "0845",
+    "name": "Spring 1984",
+    "nameShort": "1984 S",
+    "termBeginDate": "1984-05-01T00:00:00",
+    "termEndDate": "1984-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1984-06-30T00:00:00",
+    "associatedAcademicYear": 1985
+  },
+  {
+    "termCode": "0825",
+    "name": "Spring 1982",
+    "nameShort": "1982 S",
+    "termBeginDate": "1982-05-01T00:00:00",
+    "termEndDate": "1982-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1982-06-30T00:00:00",
+    "associatedAcademicYear": 1983
+  },
+  {
+    "termCode": "0815",
+    "name": "Spring 1981",
+    "nameShort": "1981 S",
+    "termBeginDate": "1981-05-01T00:00:00",
+    "termEndDate": "1981-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1981-06-30T00:00:00",
+    "associatedAcademicYear": 1982
+  },
+  {
+    "termCode": "0795",
+    "name": "Spring 1979",
+    "nameShort": "1979 S",
+    "termBeginDate": "1979-05-01T00:00:00",
+    "termEndDate": "1979-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1979-06-30T00:00:00",
+    "associatedAcademicYear": 1980
+  },
+  {
+    "termCode": "0785",
+    "name": "Spring 1978",
+    "nameShort": "1978 S",
+    "termBeginDate": "1978-05-01T00:00:00",
+    "termEndDate": "1978-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1978-06-30T00:00:00",
+    "associatedAcademicYear": 1979
+  },
+  {
+    "termCode": "0765",
+    "name": "Spring 1976",
+    "nameShort": "1976 S",
+    "termBeginDate": "1976-05-01T00:00:00",
+    "termEndDate": "1976-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1976-06-30T00:00:00",
+    "associatedAcademicYear": 1977
+  },
+  {
+    "termCode": "0755",
+    "name": "Spring 1975",
+    "nameShort": "1975 S",
+    "termBeginDate": "1975-05-01T00:00:00",
+    "termEndDate": "1975-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1975-06-30T00:00:00",
+    "associatedAcademicYear": 1976
+  },
+  {
+    "termCode": "0735",
+    "name": "Spring 1973",
+    "nameShort": "1973 S",
+    "termBeginDate": "1973-05-01T00:00:00",
+    "termEndDate": "1973-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1973-06-30T00:00:00",
+    "associatedAcademicYear": 1974
+  },
+  {
+    "termCode": "0715",
+    "name": "Spring 1971",
+    "nameShort": "1971 S",
+    "termBeginDate": "1971-05-01T00:00:00",
+    "termEndDate": "1971-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1971-06-30T00:00:00",
+    "associatedAcademicYear": 1972
+  },
+  {
+    "termCode": "0705",
+    "name": "Spring 1970",
+    "nameShort": "1970 S",
+    "termBeginDate": "1970-05-01T00:00:00",
+    "termEndDate": "1970-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1970-06-30T00:00:00",
+    "associatedAcademicYear": 1971
+  },
+  {
+    "termCode": "0685",
+    "name": "Spring 1968",
+    "nameShort": "1968 S",
+    "termBeginDate": "1968-05-01T00:00:00",
+    "termEndDate": "1968-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1968-06-30T00:00:00",
+    "associatedAcademicYear": 1969
+  },
+  {
+    "termCode": "0675",
+    "name": "Spring 1967",
+    "nameShort": "1967 S",
+    "termBeginDate": "1967-05-01T00:00:00",
+    "termEndDate": "1967-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1967-06-30T00:00:00",
+    "associatedAcademicYear": 1968
+  },
+  {
+    "termCode": "0655",
+    "name": "Spring 1965",
+    "nameShort": "1965 S",
+    "termBeginDate": "1965-05-01T00:00:00",
+    "termEndDate": "1965-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1965-06-30T00:00:00",
+    "associatedAcademicYear": 1966
+  },
+  {
+    "termCode": "0645",
+    "name": "Spring 1964",
+    "nameShort": "1964 S",
+    "termBeginDate": "1964-05-01T00:00:00",
+    "termEndDate": "1964-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1964-06-30T00:00:00",
+    "associatedAcademicYear": 1965
+  },
+  {
+    "termCode": "0635",
+    "name": "Spring 1963",
+    "nameShort": "1963 S",
+    "termBeginDate": "1963-05-01T00:00:00",
+    "termEndDate": "1963-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1963-06-30T00:00:00",
+    "associatedAcademicYear": 1964
+  },
+  {
+    "termCode": "0625",
+    "name": "Spring 1962",
+    "nameShort": "1962 S",
+    "termBeginDate": "1962-05-01T00:00:00",
+    "termEndDate": "1962-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1962-06-30T00:00:00",
+    "associatedAcademicYear": 1963
+  },
+  {
+    "termCode": "0615",
+    "name": "Spring 1961",
+    "nameShort": "1961 S",
+    "termBeginDate": "1961-05-01T00:00:00",
+    "termEndDate": "1961-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1961-06-30T00:00:00",
+    "associatedAcademicYear": 1962
+  },
+  {
+    "termCode": "0605",
+    "name": "Spring 1960",
+    "nameShort": "1960 S",
+    "termBeginDate": "1960-05-01T00:00:00",
+    "termEndDate": "1960-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1960-06-30T00:00:00",
+    "associatedAcademicYear": 1961
+  },
+  {
+    "termCode": "0595",
+    "name": "Spring 1959",
+    "nameShort": "1959 S",
+    "termBeginDate": "1959-05-01T00:00:00",
+    "termEndDate": "1959-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1959-06-30T00:00:00",
+    "associatedAcademicYear": 1960
+  },
+  {
+    "termCode": "0585",
+    "name": "Spring 1958",
+    "nameShort": "1958 S",
+    "termBeginDate": "1958-05-01T00:00:00",
+    "termEndDate": "1958-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1958-06-30T00:00:00",
+    "associatedAcademicYear": 1959
+  },
+  {
+    "termCode": "0575",
+    "name": "Spring 1957",
+    "nameShort": "1957 S",
+    "termBeginDate": "1957-05-01T00:00:00",
+    "termEndDate": "1957-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1957-06-30T00:00:00",
+    "associatedAcademicYear": 1958
+  },
+  {
+    "termCode": "0565",
+    "name": "Spring 1956",
+    "nameShort": "1956 S",
+    "termBeginDate": "1956-05-01T00:00:00",
+    "termEndDate": "1956-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1956-06-30T00:00:00",
+    "associatedAcademicYear": 1957
+  },
+  {
+    "termCode": "0989",
+    "name": "Fall 1998",
+    "nameShort": "1998 F",
+    "termBeginDate": "1998-09-01T00:00:00",
+    "termEndDate": "1998-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1998-11-01T00:00:00",
+    "associatedAcademicYear": 1999
+  },
+  {
+    "termCode": "0979",
+    "name": "Fall 1997",
+    "nameShort": "1997 F",
+    "termBeginDate": "1997-09-01T00:00:00",
+    "termEndDate": "1997-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1997-11-01T00:00:00",
+    "associatedAcademicYear": 1998
+  },
+  {
+    "termCode": "0969",
+    "name": "Fall 1996",
+    "nameShort": "1996 F",
+    "termBeginDate": "1996-09-01T00:00:00",
+    "termEndDate": "1996-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1996-11-01T00:00:00",
+    "associatedAcademicYear": 1997
+  },
+  {
+    "termCode": "0959",
+    "name": "Fall 1995",
+    "nameShort": "1995 F",
+    "termBeginDate": "1995-09-01T00:00:00",
+    "termEndDate": "1995-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1995-11-01T00:00:00",
+    "associatedAcademicYear": 1996
+  },
+  {
+    "termCode": "0949",
+    "name": "Fall 1994",
+    "nameShort": "1994 F",
+    "termBeginDate": "1994-09-01T00:00:00",
+    "termEndDate": "1994-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1994-11-01T00:00:00",
+    "associatedAcademicYear": 1995
+  },
+  {
+    "termCode": "0939",
+    "name": "Fall 1993",
+    "nameShort": "1993 F",
+    "termBeginDate": "1993-09-01T00:00:00",
+    "termEndDate": "1993-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1993-11-01T00:00:00",
+    "associatedAcademicYear": 1994
+  },
+  {
+    "termCode": "0929",
+    "name": "Fall 1992",
+    "nameShort": "1992 F",
+    "termBeginDate": "1992-09-01T00:00:00",
+    "termEndDate": "1992-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1992-11-01T00:00:00",
+    "associatedAcademicYear": 1993
+  },
+  {
+    "termCode": "0919",
+    "name": "Fall 1991",
+    "nameShort": "1991 F",
+    "termBeginDate": "1991-09-01T00:00:00",
+    "termEndDate": "1991-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1991-11-01T00:00:00",
+    "associatedAcademicYear": 1992
+  },
+  {
+    "termCode": "0909",
+    "name": "Fall 1990",
+    "nameShort": "1990 F",
+    "termBeginDate": "1990-09-01T00:00:00",
+    "termEndDate": "1990-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1990-11-01T00:00:00",
+    "associatedAcademicYear": 1991
+  },
+  {
+    "termCode": "0899",
+    "name": "Fall 1989",
+    "nameShort": "1989 F",
+    "termBeginDate": "1989-09-01T00:00:00",
+    "termEndDate": "1989-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1989-11-01T00:00:00",
+    "associatedAcademicYear": 1990
+  },
+  {
+    "termCode": "0889",
+    "name": "Fall 1988",
+    "nameShort": "1988 F",
+    "termBeginDate": "1988-09-01T00:00:00",
+    "termEndDate": "1988-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1988-11-01T00:00:00",
+    "associatedAcademicYear": 1989
+  },
+  {
+    "termCode": "0879",
+    "name": "Fall 1987",
+    "nameShort": "1987 F",
+    "termBeginDate": "1987-09-01T00:00:00",
+    "termEndDate": "1987-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1987-11-01T00:00:00",
+    "associatedAcademicYear": 1988
+  },
+  {
+    "termCode": "0869",
+    "name": "Fall 1986",
+    "nameShort": "1986 F",
+    "termBeginDate": "1986-09-01T00:00:00",
+    "termEndDate": "1986-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1986-11-01T00:00:00",
+    "associatedAcademicYear": 1987
+  },
+  {
+    "termCode": "0849",
+    "name": "Fall 1984",
+    "nameShort": "1984 F",
+    "termBeginDate": "1984-09-01T00:00:00",
+    "termEndDate": "1984-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1984-11-01T00:00:00",
+    "associatedAcademicYear": 1985
+  },
+  {
+    "termCode": "0839",
+    "name": "Fall 1983",
+    "nameShort": "1983 F",
+    "termBeginDate": "1983-09-01T00:00:00",
+    "termEndDate": "1983-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1983-11-01T00:00:00",
+    "associatedAcademicYear": 1984
+  },
+  {
+    "termCode": "0819",
+    "name": "Fall 1981",
+    "nameShort": "1981 F",
+    "termBeginDate": "1981-09-01T00:00:00",
+    "termEndDate": "1981-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1981-11-01T00:00:00",
+    "associatedAcademicYear": 1982
+  },
+  {
+    "termCode": "0809",
+    "name": "Fall 1980",
+    "nameShort": "1980 F",
+    "termBeginDate": "1980-09-01T00:00:00",
+    "termEndDate": "1980-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1980-11-01T00:00:00",
+    "associatedAcademicYear": 1981
+  },
+  {
+    "termCode": "0659",
+    "name": "Fall 1965",
+    "nameShort": "1965 F",
+    "termBeginDate": "1965-09-01T00:00:00",
+    "termEndDate": "1965-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1965-11-01T00:00:00",
+    "associatedAcademicYear": 1966
+  },
+  {
+    "termCode": "0649",
+    "name": "Fall 1964",
+    "nameShort": "1964 F",
+    "termBeginDate": "1964-09-01T00:00:00",
+    "termEndDate": "1964-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1964-11-01T00:00:00",
+    "associatedAcademicYear": 1965
+  },
+  {
+    "termCode": "0629",
+    "name": "Fall 1962",
+    "nameShort": "1962 F",
+    "termBeginDate": "1962-09-01T00:00:00",
+    "termEndDate": "1962-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1962-11-01T00:00:00",
+    "associatedAcademicYear": 1963
+  },
+  {
+    "termCode": "0619",
+    "name": "Fall 1961",
+    "nameShort": "1961 F",
+    "termBeginDate": "1961-09-01T00:00:00",
+    "termEndDate": "1961-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1961-11-01T00:00:00",
+    "associatedAcademicYear": 1962
+  },
+  {
+    "termCode": "0599",
+    "name": "Fall 1959",
+    "nameShort": "1959 F",
+    "termBeginDate": "1959-09-01T00:00:00",
+    "termEndDate": "1959-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1959-11-01T00:00:00",
+    "associatedAcademicYear": 1960
+  },
+  {
+    "termCode": "0589",
+    "name": "Fall 1958",
+    "nameShort": "1958 F",
+    "termBeginDate": "1958-09-01T00:00:00",
+    "termEndDate": "1958-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1958-11-01T00:00:00",
+    "associatedAcademicYear": 1959
+  },
+  {
+    "termCode": "0851",
+    "name": "Winter 1985",
+    "nameShort": "1985 W",
+    "termBeginDate": "1985-01-01T00:00:00",
+    "termEndDate": "1985-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1985-02-01T00:00:00",
+    "associatedAcademicYear": 1985
+  },
+  {
+    "termCode": "0841",
+    "name": "Winter 1984",
+    "nameShort": "1984 W",
+    "termBeginDate": "1984-01-01T00:00:00",
+    "termEndDate": "1984-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1984-02-01T00:00:00",
+    "associatedAcademicYear": 1984
+  },
+  {
+    "termCode": "0821",
+    "name": "Winter 1982",
+    "nameShort": "1982 W",
+    "termBeginDate": "1982-01-01T00:00:00",
+    "termEndDate": "1982-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1982-02-01T00:00:00",
+    "associatedAcademicYear": 1982
+  },
+  {
+    "termCode": "0811",
+    "name": "Winter 1981",
+    "nameShort": "1981 W",
+    "termBeginDate": "1981-01-01T00:00:00",
+    "termEndDate": "1981-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1981-02-01T00:00:00",
+    "associatedAcademicYear": 1981
+  },
+  {
+    "termCode": "0991",
+    "name": "Winter 1999",
+    "nameShort": "1999 W",
+    "termBeginDate": "1999-01-01T00:00:00",
+    "termEndDate": "1999-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1999-02-01T00:00:00",
+    "associatedAcademicYear": 1999
+  },
+  {
+    "termCode": "0999",
+    "name": "Fall 1999",
+    "nameShort": "1999 F",
+    "termBeginDate": "1999-09-01T00:00:00",
+    "termEndDate": "1999-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "1999-11-01T00:00:00",
+    "associatedAcademicYear": 2000
+  },
+  {
+    "termCode": "1171",
+    "name": "Winter 2017",
+    "nameShort": "2017 W",
+    "termBeginDate": "2017-01-01T00:00:00",
+    "termEndDate": "2017-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2017-02-01T00:00:00",
+    "associatedAcademicYear": 2017
+  },
+  {
+    "termCode": "1181",
+    "name": "Winter 2018",
+    "nameShort": "2018 W",
+    "termBeginDate": "2018-01-01T00:00:00",
+    "termEndDate": "2018-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2018-02-01T00:00:00",
+    "associatedAcademicYear": 2018
+  },
+  {
+    "termCode": "1175",
+    "name": "Spring 2017",
+    "nameShort": "2017 S",
+    "termBeginDate": "2017-05-01T00:00:00",
+    "termEndDate": "2017-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2017-06-30T00:00:00",
+    "associatedAcademicYear": 2018
+  },
+  {
+    "termCode": "1185",
+    "name": "Spring 2018",
+    "nameShort": "2018 S",
+    "termBeginDate": "2018-05-01T00:00:00",
+    "termEndDate": "2018-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2018-06-30T00:00:00",
+    "associatedAcademicYear": 2019
+  },
+  {
+    "termCode": "1001",
+    "name": "Winter 2000",
+    "nameShort": "2000 W",
+    "termBeginDate": "2000-01-01T00:00:00",
+    "termEndDate": "2000-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2000-02-01T00:00:00",
+    "associatedAcademicYear": 2000
+  },
+  {
+    "termCode": "0791",
+    "name": "Winter 1979",
+    "nameShort": "1979 W",
+    "termBeginDate": "1979-01-01T00:00:00",
+    "termEndDate": "1979-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1979-02-01T00:00:00",
+    "associatedAcademicYear": 1979
+  },
+  {
+    "termCode": "1075",
+    "name": "Spring 2007",
+    "nameShort": "2007 S",
+    "termBeginDate": "2007-05-01T00:00:00",
+    "termEndDate": "2007-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2007-06-30T00:00:00",
+    "associatedAcademicYear": 2008
+  },
+  {
+    "termCode": "1079",
+    "name": "Fall 2007",
+    "nameShort": "2007 F",
+    "termBeginDate": "2007-09-01T00:00:00",
+    "termEndDate": "2007-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2007-11-01T00:00:00",
+    "associatedAcademicYear": 2008
+  },
+  {
+    "termCode": "1081",
+    "name": "Winter 2008",
+    "nameShort": "2008 W",
+    "termBeginDate": "2008-01-01T00:00:00",
+    "termEndDate": "2008-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2008-02-01T00:00:00",
+    "associatedAcademicYear": 2008
+  },
+  {
+    "termCode": "1085",
+    "name": "Spring 2008",
+    "nameShort": "2008 S",
+    "termBeginDate": "2008-05-01T00:00:00",
+    "termEndDate": "2008-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2008-06-30T00:00:00",
+    "associatedAcademicYear": 2009
+  },
+  {
+    "termCode": "1089",
+    "name": "Fall 2008",
+    "nameShort": "2008 F",
+    "termBeginDate": "2008-09-01T00:00:00",
+    "termEndDate": "2008-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2008-11-01T00:00:00",
+    "associatedAcademicYear": 2009
+  },
+  {
+    "termCode": "1091",
+    "name": "Winter 2009",
+    "nameShort": "2009 W",
+    "termBeginDate": "2009-01-01T00:00:00",
+    "termEndDate": "2009-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2009-02-01T00:00:00",
+    "associatedAcademicYear": 2009
+  },
+  {
+    "termCode": "1005",
+    "name": "Spring 2000",
+    "nameShort": "2000 S",
+    "termBeginDate": "2000-05-01T00:00:00",
+    "termEndDate": "2000-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2000-06-30T00:00:00",
+    "associatedAcademicYear": 2001
+  },
+  {
+    "termCode": "0781",
+    "name": "Winter 1978",
+    "nameShort": "1978 W",
+    "termBeginDate": "1978-01-01T00:00:00",
+    "termEndDate": "1978-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1978-02-01T00:00:00",
+    "associatedAcademicYear": 1978
+  },
+  {
+    "termCode": "0771",
+    "name": "Winter 1977",
+    "nameShort": "1977 W",
+    "termBeginDate": "1977-01-01T00:00:00",
+    "termEndDate": "1977-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1977-02-01T00:00:00",
+    "associatedAcademicYear": 1977
+  },
+  {
+    "termCode": "0761",
+    "name": "Winter 1976",
+    "nameShort": "1976 W",
+    "termBeginDate": "1976-01-01T00:00:00",
+    "termEndDate": "1976-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1976-02-01T00:00:00",
+    "associatedAcademicYear": 1976
+  },
+  {
+    "termCode": "0751",
+    "name": "Winter 1975",
+    "nameShort": "1975 W",
+    "termBeginDate": "1975-01-01T00:00:00",
+    "termEndDate": "1975-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1975-02-01T00:00:00",
+    "associatedAcademicYear": 1975
+  },
+  {
+    "termCode": "0741",
+    "name": "Winter 1974",
+    "nameShort": "1974 W",
+    "termBeginDate": "1974-01-01T00:00:00",
+    "termEndDate": "1974-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1974-02-01T00:00:00",
+    "associatedAcademicYear": 1974
+  },
+  {
+    "termCode": "0731",
+    "name": "Winter 1973",
+    "nameShort": "1973 W",
+    "termBeginDate": "1973-01-01T00:00:00",
+    "termEndDate": "1973-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1973-02-01T00:00:00",
+    "associatedAcademicYear": 1973
+  },
+  {
+    "termCode": "0721",
+    "name": "Winter 1972",
+    "nameShort": "1972 W",
+    "termBeginDate": "1972-01-01T00:00:00",
+    "termEndDate": "1972-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1972-02-01T00:00:00",
+    "associatedAcademicYear": 1972
+  },
+  {
+    "termCode": "0701",
+    "name": "Winter 1970",
+    "nameShort": "1970 W",
+    "termBeginDate": "1970-01-01T00:00:00",
+    "termEndDate": "1970-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1970-02-01T00:00:00",
+    "associatedAcademicYear": 1970
+  },
+  {
+    "termCode": "0691",
+    "name": "Winter 1969",
+    "nameShort": "1969 W",
+    "termBeginDate": "1969-01-01T00:00:00",
+    "termEndDate": "1969-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1969-02-01T00:00:00",
+    "associatedAcademicYear": 1969
+  },
+  {
+    "termCode": "0671",
+    "name": "Winter 1967",
+    "nameShort": "1967 W",
+    "termBeginDate": "1967-01-01T00:00:00",
+    "termEndDate": "1967-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1967-02-01T00:00:00",
+    "associatedAcademicYear": 1967
+  },
+  {
+    "termCode": "0651",
+    "name": "Winter 1965",
+    "nameShort": "1965 W",
+    "termBeginDate": "1965-01-01T00:00:00",
+    "termEndDate": "1965-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1965-02-01T00:00:00",
+    "associatedAcademicYear": 1965
+  },
+  {
+    "termCode": "0641",
+    "name": "Winter 1964",
+    "nameShort": "1964 W",
+    "termBeginDate": "1964-01-01T00:00:00",
+    "termEndDate": "1964-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1964-02-01T00:00:00",
+    "associatedAcademicYear": 1964
+  },
+  {
+    "termCode": "0621",
+    "name": "Winter 1962",
+    "nameShort": "1962 W",
+    "termBeginDate": "1962-01-01T00:00:00",
+    "termEndDate": "1962-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1962-02-01T00:00:00",
+    "associatedAcademicYear": 1962
+  },
+  {
+    "termCode": "0611",
+    "name": "Winter 1961",
+    "nameShort": "1961 W",
+    "termBeginDate": "1961-01-01T00:00:00",
+    "termEndDate": "1961-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1961-02-01T00:00:00",
+    "associatedAcademicYear": 1961
+  },
+  {
+    "termCode": "0591",
+    "name": "Winter 1959",
+    "nameShort": "1959 W",
+    "termBeginDate": "1959-01-01T00:00:00",
+    "termEndDate": "1959-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1959-02-01T00:00:00",
+    "associatedAcademicYear": 1959
+  },
+  {
+    "termCode": "0581",
+    "name": "Winter 1958",
+    "nameShort": "1958 W",
+    "termBeginDate": "1958-01-01T00:00:00",
+    "termEndDate": "1958-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1958-02-01T00:00:00",
+    "associatedAcademicYear": 1958
+  },
+  {
+    "termCode": "0561",
+    "name": "Winter 1956",
+    "nameShort": "1956 W",
+    "termBeginDate": "1956-01-01T00:00:00",
+    "termEndDate": "1956-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1956-02-01T00:00:00",
+    "associatedAcademicYear": 1956
+  },
+  {
+    "termCode": "1095",
+    "name": "Spring 2009",
+    "nameShort": "2009 S",
+    "termBeginDate": "2009-05-01T00:00:00",
+    "termEndDate": "2009-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2009-06-30T00:00:00",
+    "associatedAcademicYear": 2010
+  },
+  {
+    "termCode": "1099",
+    "name": "Fall 2009",
+    "nameShort": "2009 F",
+    "termBeginDate": "2009-09-01T00:00:00",
+    "termEndDate": "2009-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2009-11-01T00:00:00",
+    "associatedAcademicYear": 2010
+  },
+  {
+    "termCode": "1105",
+    "name": "Spring 2010",
+    "nameShort": "2010 S",
+    "termBeginDate": "2010-05-01T00:00:00",
+    "termEndDate": "2010-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2010-06-30T00:00:00",
+    "associatedAcademicYear": 2011
+  },
+  {
+    "termCode": "1109",
+    "name": "Fall 2010",
+    "nameShort": "2010 F",
+    "termBeginDate": "2010-09-01T00:00:00",
+    "termEndDate": "2010-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2010-11-01T00:00:00",
+    "associatedAcademicYear": 2011
+  },
+  {
+    "termCode": "1111",
+    "name": "Winter 2011",
+    "nameShort": "2011 W",
+    "termBeginDate": "2011-01-01T00:00:00",
+    "termEndDate": "2011-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2011-02-01T00:00:00",
+    "associatedAcademicYear": 2011
+  },
+  {
+    "termCode": "1115",
+    "name": "Spring 2011",
+    "nameShort": "2011 S",
+    "termBeginDate": "2011-05-01T00:00:00",
+    "termEndDate": "2011-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2011-06-30T00:00:00",
+    "associatedAcademicYear": 2012
+  },
+  {
+    "termCode": "1121",
+    "name": "Winter 2012",
+    "nameShort": "2012 W",
+    "termBeginDate": "2012-01-01T00:00:00",
+    "termEndDate": "2012-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2012-02-01T00:00:00",
+    "associatedAcademicYear": 2012
+  },
+  {
+    "termCode": "1129",
+    "name": "Fall 2012",
+    "nameShort": "2012 F",
+    "termBeginDate": "2012-09-01T00:00:00",
+    "termEndDate": "2012-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2012-11-01T00:00:00",
+    "associatedAcademicYear": 2013
+  },
+  {
+    "termCode": "1131",
+    "name": "Winter 2013",
+    "nameShort": "2013 W",
+    "termBeginDate": "2013-01-01T00:00:00",
+    "termEndDate": "2013-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2013-02-01T00:00:00",
+    "associatedAcademicYear": 2013
+  },
+  {
+    "termCode": "1141",
+    "name": "Winter 2014",
+    "nameShort": "2014 W",
+    "termBeginDate": "2014-01-01T00:00:00",
+    "termEndDate": "2014-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2014-02-01T00:00:00",
+    "associatedAcademicYear": 2014
+  },
+  {
+    "termCode": "1145",
+    "name": "Spring 2014",
+    "nameShort": "2014 S",
+    "termBeginDate": "2014-05-01T00:00:00",
+    "termEndDate": "2014-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2014-06-30T00:00:00",
+    "associatedAcademicYear": 2015
+  },
+  {
+    "termCode": "1139",
+    "name": "Fall 2013",
+    "nameShort": "2013 F",
+    "termBeginDate": "2013-09-01T00:00:00",
+    "termEndDate": "2013-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2013-11-01T00:00:00",
+    "associatedAcademicYear": 2014
+  },
+  {
+    "termCode": "1149",
+    "name": "Fall 2014",
+    "nameShort": "2014 F",
+    "termBeginDate": "2014-09-01T00:00:00",
+    "termEndDate": "2014-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2014-11-01T00:00:00",
+    "associatedAcademicYear": 2015
+  },
+  {
+    "termCode": "1161",
+    "name": "Winter 2016",
+    "nameShort": "2016 W",
+    "termBeginDate": "2016-01-01T00:00:00",
+    "termEndDate": "2016-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2016-02-01T00:00:00",
+    "associatedAcademicYear": 2016
+  },
+  {
+    "termCode": "1159",
+    "name": "Fall 2015",
+    "nameShort": "2015 F",
+    "termBeginDate": "2015-09-01T00:00:00",
+    "termEndDate": "2015-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2015-11-01T00:00:00",
+    "associatedAcademicYear": 2016
+  },
+  {
+    "termCode": "0711",
+    "name": "Winter 1971",
+    "nameShort": "1971 W",
+    "termBeginDate": "1971-01-01T00:00:00",
+    "termEndDate": "1971-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1971-02-01T00:00:00",
+    "associatedAcademicYear": 1971
+  },
+  {
+    "termCode": "0681",
+    "name": "Winter 1968",
+    "nameShort": "1968 W",
+    "termBeginDate": "1968-01-01T00:00:00",
+    "termEndDate": "1968-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1968-02-01T00:00:00",
+    "associatedAcademicYear": 1968
+  },
+  {
+    "termCode": "0661",
+    "name": "Winter 1966",
+    "nameShort": "1966 W",
+    "termBeginDate": "1966-01-01T00:00:00",
+    "termEndDate": "1966-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1966-02-01T00:00:00",
+    "associatedAcademicYear": 1966
+  },
+  {
+    "termCode": "0631",
+    "name": "Winter 1963",
+    "nameShort": "1963 W",
+    "termBeginDate": "1963-01-01T00:00:00",
+    "termEndDate": "1963-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1963-02-01T00:00:00",
+    "associatedAcademicYear": 1963
+  },
+  {
+    "termCode": "0601",
+    "name": "Winter 1960",
+    "nameShort": "1960 W",
+    "termBeginDate": "1960-01-01T00:00:00",
+    "termEndDate": "1960-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1960-02-01T00:00:00",
+    "associatedAcademicYear": 1960
+  },
+  {
+    "termCode": "0571",
+    "name": "Winter 1957",
+    "nameShort": "1957 W",
+    "termBeginDate": "1957-01-01T00:00:00",
+    "termEndDate": "1957-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1957-02-01T00:00:00",
+    "associatedAcademicYear": 1957
+  },
+  {
+    "termCode": "1101",
+    "name": "Winter 2010",
+    "nameShort": "2010 W",
+    "termBeginDate": "2010-01-01T00:00:00",
+    "termEndDate": "2010-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2010-02-01T00:00:00",
+    "associatedAcademicYear": 2010
+  },
+  {
+    "termCode": "1119",
+    "name": "Fall 2011",
+    "nameShort": "2011 F",
+    "termBeginDate": "2011-09-01T00:00:00",
+    "termEndDate": "2011-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2011-11-01T00:00:00",
+    "associatedAcademicYear": 2012
+  },
+  {
+    "termCode": "1125",
+    "name": "Spring 2012",
+    "nameShort": "2012 S",
+    "termBeginDate": "2012-05-01T00:00:00",
+    "termEndDate": "2012-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2012-06-30T00:00:00",
+    "associatedAcademicYear": 2013
+  },
+  {
+    "termCode": "1135",
+    "name": "Spring 2013",
+    "nameShort": "2013 S",
+    "termBeginDate": "2013-05-01T00:00:00",
+    "termEndDate": "2013-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2013-06-30T00:00:00",
+    "associatedAcademicYear": 2014
+  },
+  {
+    "termCode": "0981",
+    "name": "Winter 1998",
+    "nameShort": "1998 W",
+    "termBeginDate": "1998-01-01T00:00:00",
+    "termEndDate": "1998-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1998-02-01T00:00:00",
+    "associatedAcademicYear": 1998
+  },
+  {
+    "termCode": "0951",
+    "name": "Winter 1995",
+    "nameShort": "1995 W",
+    "termBeginDate": "1995-01-01T00:00:00",
+    "termEndDate": "1995-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1995-02-01T00:00:00",
+    "associatedAcademicYear": 1995
+  },
+  {
+    "termCode": "0921",
+    "name": "Winter 1992",
+    "nameShort": "1992 W",
+    "termBeginDate": "1992-01-01T00:00:00",
+    "termEndDate": "1992-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1992-02-01T00:00:00",
+    "associatedAcademicYear": 1992
+  },
+  {
+    "termCode": "0975",
+    "name": "Spring 1997",
+    "nameShort": "1997 S",
+    "termBeginDate": "1997-05-01T00:00:00",
+    "termEndDate": "1997-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1997-06-30T00:00:00",
+    "associatedAcademicYear": 1998
+  },
+  {
+    "termCode": "0945",
+    "name": "Spring 1994",
+    "nameShort": "1994 S",
+    "termBeginDate": "1994-05-01T00:00:00",
+    "termEndDate": "1994-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1994-06-30T00:00:00",
+    "associatedAcademicYear": 1995
+  },
+  {
+    "termCode": "0915",
+    "name": "Spring 1991",
+    "nameShort": "1991 S",
+    "termBeginDate": "1991-05-01T00:00:00",
+    "termEndDate": "1991-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1991-06-30T00:00:00",
+    "associatedAcademicYear": 1992
+  },
+  {
+    "termCode": "0885",
+    "name": "Spring 1988",
+    "nameShort": "1988 S",
+    "termBeginDate": "1988-05-01T00:00:00",
+    "termEndDate": "1988-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "1988-06-30T00:00:00",
+    "associatedAcademicYear": 1989
+  },
+  {
+    "termCode": "0881",
+    "name": "Winter 1988",
+    "nameShort": "1988 W",
+    "termBeginDate": "1988-01-01T00:00:00",
+    "termEndDate": "1988-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "1988-02-01T00:00:00",
+    "associatedAcademicYear": 1988
+  },
+  {
+    "termCode": "1221",
+    "name": "Winter 2022",
+    "nameShort": "2022 W",
+    "termBeginDate": "2022-01-01T00:00:00",
+    "termEndDate": "2022-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2022-02-01T00:00:00",
+    "associatedAcademicYear": 2022
+  },
+  {
+    "termCode": "1219",
+    "name": "Fall 2021",
+    "nameShort": "2021 F",
+    "termBeginDate": "2021-09-01T00:00:00",
+    "termEndDate": "2021-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2021-11-01T00:00:00",
+    "associatedAcademicYear": 2022
+  },
+  {
+    "termCode": "1231",
+    "name": "Winter 2023",
+    "nameShort": "2023 W",
+    "termBeginDate": "2023-01-01T00:00:00",
+    "termEndDate": "2023-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2023-02-01T00:00:00",
+    "associatedAcademicYear": 2023
+  },
+  {
+    "termCode": "1215",
+    "name": "Spring 2021",
+    "nameShort": "2021 S",
+    "termBeginDate": "2021-05-01T00:00:00",
+    "termEndDate": "2021-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2021-06-30T00:00:00",
+    "associatedAcademicYear": 2022
+  },
+  {
+    "termCode": "1229",
+    "name": "Fall 2022",
+    "nameShort": "2022 F",
+    "termBeginDate": "2022-09-01T00:00:00",
+    "termEndDate": "2022-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2022-11-01T00:00:00",
+    "associatedAcademicYear": 2023
+  },
+  {
+    "termCode": "1235",
+    "name": "Spring 2023",
+    "nameShort": "2023 S",
+    "termBeginDate": "2023-05-01T00:00:00",
+    "termEndDate": "2023-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2023-06-30T00:00:00",
+    "associatedAcademicYear": 2024
+  },
+  {
+    "termCode": "1239",
+    "name": "Fall 2023",
+    "nameShort": "2023 F",
+    "termBeginDate": "2023-09-01T00:00:00",
+    "termEndDate": "2023-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2023-11-01T00:00:00",
+    "associatedAcademicYear": 2024
+  },
+  {
+    "termCode": "1225",
+    "name": "Spring 2022",
+    "nameShort": "2022 S",
+    "termBeginDate": "2022-05-01T00:00:00",
+    "termEndDate": "2022-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2022-06-30T00:00:00",
+    "associatedAcademicYear": 2023
+  },
+  {
+    "termCode": "1241",
+    "name": "Winter 2024",
+    "nameShort": "2024 W",
+    "termBeginDate": "2024-01-01T00:00:00",
+    "termEndDate": "2024-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2024-02-01T00:00:00",
+    "associatedAcademicYear": 2024
+  },
+  {
+    "termCode": "1251",
+    "name": "Winter 2025",
+    "nameShort": "2025 W",
+    "termBeginDate": "2025-01-01T00:00:00",
+    "termEndDate": "2025-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2025-02-01T00:00:00",
+    "associatedAcademicYear": 2025
+  },
+  {
+    "termCode": "1245",
+    "name": "Spring 2024",
+    "nameShort": "2024 S",
+    "termBeginDate": "2024-05-01T00:00:00",
+    "termEndDate": "2024-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2024-06-30T00:00:00",
+    "associatedAcademicYear": 2025
+  },
+  {
+    "termCode": "1249",
+    "name": "Fall 2024",
+    "nameShort": "2024 F",
+    "termBeginDate": "2024-09-01T00:00:00",
+    "termEndDate": "2024-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2024-11-01T00:00:00",
+    "associatedAcademicYear": 2025
+  },
+  {
+    "termCode": "1261",
+    "name": "Winter 2026",
+    "nameShort": "2026 W",
+    "termBeginDate": "2026-01-01T00:00:00",
+    "termEndDate": "2026-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2026-02-01T00:00:00",
+    "associatedAcademicYear": 2026
+  },
+  {
+    "termCode": "1255",
+    "name": "Spring 2025",
+    "nameShort": "2025 S",
+    "termBeginDate": "2025-05-01T00:00:00",
+    "termEndDate": "2025-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2025-06-30T00:00:00",
+    "associatedAcademicYear": 2026
+  },
+  {
+    "termCode": "1275",
+    "name": "Spring 2027",
+    "nameShort": "2027 S",
+    "termBeginDate": "2027-05-01T00:00:00",
+    "termEndDate": "2027-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2027-06-30T00:00:00",
+    "associatedAcademicYear": 2028
+  },
+  {
+    "termCode": "1281",
+    "name": "Winter 2028",
+    "nameShort": "2028 W",
+    "termBeginDate": "2028-01-01T00:00:00",
+    "termEndDate": "2028-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2028-02-01T00:00:00",
+    "associatedAcademicYear": 2028
+  },
+  {
+    "termCode": "1269",
+    "name": "Fall 2026",
+    "nameShort": "2026 F",
+    "termBeginDate": "2026-09-01T00:00:00",
+    "termEndDate": "2026-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2026-11-01T00:00:00",
+    "associatedAcademicYear": 2027
+  },
+  {
+    "termCode": "1271",
+    "name": "Winter 2027",
+    "nameShort": "2027 W",
+    "termBeginDate": "2027-01-01T00:00:00",
+    "termEndDate": "2027-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2027-02-01T00:00:00",
+    "associatedAcademicYear": 2027
+  },
+  {
+    "termCode": "1285",
+    "name": "Spring 2028",
+    "nameShort": "2028 S",
+    "termBeginDate": "2028-05-01T00:00:00",
+    "termEndDate": "2028-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2028-06-30T00:00:00",
+    "associatedAcademicYear": 2029
+  },
+  {
+    "termCode": "1259",
+    "name": "Fall 2025",
+    "nameShort": "2025 F",
+    "termBeginDate": "2025-09-01T00:00:00",
+    "termEndDate": "2025-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2025-11-01T00:00:00",
+    "associatedAcademicYear": 2026
+  },
+  {
+    "termCode": "1265",
+    "name": "Spring 2026",
+    "nameShort": "2026 S",
+    "termBeginDate": "2026-05-01T00:00:00",
+    "termEndDate": "2026-08-31T00:00:00",
+    "sixtyPercentCompleteDate": "2026-06-30T00:00:00",
+    "associatedAcademicYear": 2027
+  },
+  {
+    "termCode": "1279",
+    "name": "Fall 2027",
+    "nameShort": "2027 F",
+    "termBeginDate": "2027-09-01T00:00:00",
+    "termEndDate": "2027-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2027-11-01T00:00:00",
+    "associatedAcademicYear": 2028
+  },
+  {
+    "termCode": "1289",
+    "name": "Fall 2028",
+    "nameShort": "2028 F",
+    "termBeginDate": "2028-09-01T00:00:00",
+    "termEndDate": "2028-12-31T00:00:00",
+    "sixtyPercentCompleteDate": "2028-11-01T00:00:00",
+    "associatedAcademicYear": 2029
+  },
+  {
+    "termCode": "1291",
+    "name": "Winter 2029",
+    "nameShort": "2029 W",
+    "termBeginDate": "2029-01-01T00:00:00",
+    "termEndDate": "2029-04-30T00:00:00",
+    "sixtyPercentCompleteDate": "2029-02-01T00:00:00",
+    "associatedAcademicYear": 2029
+  }
+]

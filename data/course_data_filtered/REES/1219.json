@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013653",
+    "courseOfferNumber": 2,
+    "termCode": "1219",
+    "termName": "Fall 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "REES",
+    "catalogNumber": "220",
+    "title": "Once Upon a Fairy Tale: Fairy Tales, Then and Now",
+    "descriptionAbbreviated": "Fairy Tales, Then and Now",
+    "description": "This course studies fairy tales in the broader context of the history of childhood and practices of education and socialization. The course will concentrate on the German and Russian context and in particular on the work of the Brothers Grimm and Alexander Afanasyev, and will also consider fairy tales drawn from a number of different national traditions and historical periods. [Note: Taught in English.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

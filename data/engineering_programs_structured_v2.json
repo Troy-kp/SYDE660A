@@ -1,0 +1,252 @@
+[
+  {
+    "program_name": "Master of Engineering (MEng) in Chemical Engineering",
+    "department": "Chemical Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/Bysg1CAon?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Chemical%20Engineering&bcGroup=Chemical%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "CHE 600"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "level_constraints": {
+          "max_500_level": 2
+        },
+        "departmental_constraints": {
+          "min_dept_courses": 7
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Chemical Engineering - Co-operative Program (direct entry)",
+    "department": "Chemical Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/rJixyCCs3?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Chemical%20Engineering%20-%20Co-operative%20Program%20(direct%20entry)&bcGroup=Chemical%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "CHE 600",
+        "WIL 601"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "level_constraints": {
+          "max_500_level": 2
+        },
+        "departmental_constraints": {
+          "min_dept_courses": 7
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Chemical Engineering - Health Technologies - Co-operative Program (direct entry)",
+    "department": "Chemical Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/HyJub_6Jgl?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Chemical%20Engineering%20-%20Health%20Technologies%20-%20Co-operative%20Program%20(direct%20entry)&bcGroup=Chemical%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "CHE 600",
+        "WIL 601"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "level_constraints": {
+          "max_500_level": 2
+        },
+        "departmental_constraints": {
+          "min_dept_courses": 600
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Civil Engineering",
+    "department": "Civil and Environmental Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/Syig1A0s3?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Civil%20Engineering&bcGroup=Civil%20and%20Environmental%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "AE 601"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "departmental_constraints": {
+          "min_dept_courses": 4
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Civil Engineering - Co-operative Program (direct entry)",
+    "department": "Civil and Environmental Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/Syly8tXsR?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Civil%20Engineering%20-%20Co-operative%20Program%20(direct%20entry)&bcGroup=Civil%20and%20Environmental%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "WIL 601",
+        "AE 601"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "departmental_constraints": {
+          "min_dept_courses": 4
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Civil Engineering - Nuclear Engineering",
+    "department": "Civil and Environmental Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/HJlseJCRsn?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Civil%20Engineering%20-%20Nuclear%20Engineering&bcGroup=Civil%20and%20Environmental%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {}
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Electrical and Computer Engineering",
+    "department": "Electrical and Computer Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/B17slJCRs3?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Electrical%20and%20Computer%20Engineering&bcGroup=Electrical%20and%20Computer%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "ECE 699A"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "departmental_constraints": {
+          "min_dept_courses": 5
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Electrical and Computer Engineering - Co-operative Program (direct entry)",
+    "department": "Electrical and Computer Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/S1ig1RCo2?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Electrical%20and%20Computer%20Engineering%20-%20Co-operative%20Program%20(direct%20entry)&bcGroup=Electrical%20and%20Computer%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "WIL 601",
+        "ECE 699A"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "departmental_constraints": {
+          "min_dept_courses": 5
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Electrical and Computer Engineering - Electric Power Engineering",
+    "department": "Electrical and Computer Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/r1lilk0Aih?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Electrical%20and%20Computer%20Engineering%20-%20Electric%20Power%20Engineering&bcGroup=Electrical%20and%20Computer%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {}
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Mechanical and Mechatronics Engineering",
+    "department": "Mechanical and Mechatronics Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/rkNjl10Rjn?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Mechanical%20and%20Mechatronics%20Engineering&bcGroup=Mechanical%20and%20Mechatronics%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "ME 600"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "level_constraints": {
+          "max_500_level": 1
+        },
+        "departmental_constraints": {
+          "min_dept_courses": 2
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Mechanical and Mechatronics Engineering - Co-operative Program (direct entry)",
+    "department": "Mechanical and Mechatronics Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/r1Vol1ARi2?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Mechanical%20and%20Mechatronics%20Engineering%20-%20Co-operative%20Program%20(direct%20entry)&bcGroup=Mechanical%20and%20Mechatronics%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "ME 600",
+        "WIL 601"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "level_constraints": {
+          "max_500_level": 1
+        },
+        "departmental_constraints": {
+          "min_dept_courses": 2
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Mechanical and Mechatronics Engineering - Health Technologies - Co-operative Program (direct entry)",
+    "department": "Mechanical and Mechatronics Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/HkEheKpkee?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Mechanical%20and%20Mechatronics%20Engineering%20-%20Health%20Technologies%20-%20Co-operative%20Program%20(direct%20entry)&bcGroup=Mechanical%20and%20Mechatronics%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [
+        "ME 600",
+        "WIL 601"
+      ],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {
+        "departmental_constraints": {
+          "min_dept_courses": 3
+        }
+      }
+    },
+    "specializations": []
+  },
+  {
+    "program_name": "Master of Engineering (MEng) in Systems Design Engineering",
+    "department": "Systems Design Engineering",
+    "url": "https://uwaterloo.ca/academic-calendar/graduate-studies/catalog#/programs/r1fjl10Cj2?bc=true&bcCurrent=Master%20of%20Engineering%20(MEng)%20in%20Systems%20Design%20Engineering&bcGroup=Systems%20Design%20Engineering&bcItemType=programs",
+    "degree_rules": {
+      "total_courses": 8,
+      "compulsory_courses": [],
+      "compulsory_choices": [],
+      "elective_requirements": [],
+      "constraints": {}
+    },
+    "specializations": []
+  }
+]

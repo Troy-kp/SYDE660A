@@ -1,0 +1,23 @@
+[
+    {
+        "courseId": "016830",
+        "courseOfferNumber": 1,
+        "termCode": "1251",
+        "termName": "Winter 2025",
+        "associatedAcademicCareer": "GRD",
+        "associatedAcademicGroupCode": "ENG",
+        "associatedAcademicOrgCode": "ENGDEAN",
+        "subjectCode": "BME",
+        "catalogNumber": "602",
+        "title": "Foundations in Biomechanical Engineering",
+        "descriptionAbbreviated": "Foundations Biomechanical Eng",
+        "description": "This course focuses on equipping students with foundational knowledge in the biomechanics of human physiology, pathology, and treatment. The overarching aim of this course is to develop students' literacy in applying biomechanics principles and modern tools towards understanding the human body. The course will build on existing knowledge in mathematics and physics to develop new expertise and hands-on experience in the biomechanical modeling and analysis of physiological systems.",
+        "gradingBasis": "NUM",
+        "courseComponentCode": "LEC",
+        "enrollConsentCode": "N",
+        "enrollConsentDescription": "No Consent Required",
+        "dropConsentCode": "N",
+        "dropConsentDescription": "No Consent Required",
+        "requirementsDescription": null
+    }
+]

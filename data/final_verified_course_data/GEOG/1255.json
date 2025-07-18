@@ -1,0 +1,23 @@
+[
+    {
+        "courseId": "001403",
+        "courseOfferNumber": 1,
+        "termCode": "1255",
+        "termName": "Spring 2025",
+        "associatedAcademicCareer": "GRD",
+        "associatedAcademicGroupCode": "ENV",
+        "associatedAcademicOrgCode": "GEOG",
+        "subjectCode": "GEOG",
+        "catalogNumber": "675",
+        "title": "Selected Topics in Geography",
+        "descriptionAbbreviated": "Selected Topics in Geography",
+        "description": "Topic(s) to be negotiated on an individual basis with faculty members. An outline for this course, approved by the professor in charge, must be submitted to the Program Director, within three weeks of registration.",
+        "gradingBasis": "NUM",
+        "courseComponentCode": "RDG",
+        "enrollConsentCode": "I",
+        "enrollConsentDescription": "No Consent Required",
+        "dropConsentCode": "N",
+        "dropConsentDescription": "No Consent Required",
+        "requirementsDescription": null
+    }
+]

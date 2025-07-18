@@ -1,0 +1,23 @@
+[
+    {
+        "courseId": "012351",
+        "courseOfferNumber": 1,
+        "termCode": "1255",
+        "termName": "Spring 2025",
+        "associatedAcademicCareer": "GRD",
+        "associatedAcademicGroupCode": "REN",
+        "associatedAcademicOrgCode": "REN",
+        "subjectCode": "EMLS",
+        "catalogNumber": "601R",
+        "title": "Speaking English for Professional Purposes",
+        "descriptionAbbreviated": "Speaking Engl for Prof Purpose",
+        "description": "A focus on speaking, pronunciation, vocabulary, and listening skills helps second language speakers of English in both academic and professional contexts.  The course targets pronunciation errors that prevent comprehensibility and develops delivery skills for teaching, presenting  papers, and defending theses.  It includes strategies for reducing errors in speech and improving listening comprehension.",
+        "gradingBasis": "CNC",
+        "courseComponentCode": "LEC",
+        "enrollConsentCode": "N",
+        "enrollConsentDescription": "No Consent Required",
+        "dropConsentCode": "N",
+        "dropConsentDescription": "No Consent Required",
+        "requirementsDescription": null
+    }
+]

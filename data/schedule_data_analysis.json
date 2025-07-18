@@ -1,0 +1,479 @@
+{
+  "analysis_timestamp": "2025-07-01T14:54:20.732542",
+  "methodology": "基于课程表数据验证学期有效性",
+  "total_terms_checked": 220,
+  "valid_terms": 17,
+  "invalid_terms": 203,
+  "validity_rate": 0.07727272727272727,
+  "year_validity": {
+    "2029": {
+      "valid_count": 0,
+      "total_count": 1,
+      "validity_rate": 0.0
+    },
+    "2028": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2027": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2026": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2025": {
+      "valid_count": 3,
+      "total_count": 3,
+      "validity_rate": 1.0
+    },
+    "2024": {
+      "valid_count": 3,
+      "total_count": 3,
+      "validity_rate": 1.0
+    },
+    "2023": {
+      "valid_count": 3,
+      "total_count": 3,
+      "validity_rate": 1.0
+    },
+    "2022": {
+      "valid_count": 3,
+      "total_count": 3,
+      "validity_rate": 1.0
+    },
+    "2021": {
+      "valid_count": 3,
+      "total_count": 3,
+      "validity_rate": 1.0
+    },
+    "2020": {
+      "valid_count": 2,
+      "total_count": 3,
+      "validity_rate": 0.6666666666666666
+    },
+    "2019": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2018": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2017": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2016": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2015": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2014": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2013": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2012": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2011": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2010": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2009": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2008": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2007": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2006": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2005": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2004": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2003": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2002": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2001": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "2000": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1999": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1998": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1997": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1996": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1995": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1994": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1993": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1992": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1991": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1990": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1989": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1988": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1987": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1986": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1985": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1984": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1983": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1982": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1981": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1980": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1979": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1978": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1977": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1976": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1975": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1974": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1973": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1972": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1971": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1970": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1969": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1968": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1967": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1966": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1965": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1964": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1963": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1962": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1961": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1960": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1959": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1958": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1957": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    },
+    "1956": {
+      "valid_count": 0,
+      "total_count": 3,
+      "validity_rate": 0.0
+    }
+  },
+  "valid_terms_details": [
+    {
+      "term_code": "1251",
+      "term_name": "Winter 2025",
+      "year": 2025
+    },
+    {
+      "term_code": "1255",
+      "term_name": "Spring 2025",
+      "year": 2025
+    },
+    {
+      "term_code": "1259",
+      "term_name": "Fall 2025",
+      "year": 2025
+    },
+    {
+      "term_code": "1241",
+      "term_name": "Winter 2024",
+      "year": 2024
+    },
+    {
+      "term_code": "1245",
+      "term_name": "Spring 2024",
+      "year": 2024
+    },
+    {
+      "term_code": "1249",
+      "term_name": "Fall 2024",
+      "year": 2024
+    },
+    {
+      "term_code": "1231",
+      "term_name": "Winter 2023",
+      "year": 2023
+    },
+    {
+      "term_code": "1235",
+      "term_name": "Spring 2023",
+      "year": 2023
+    },
+    {
+      "term_code": "1239",
+      "term_name": "Fall 2023",
+      "year": 2023
+    },
+    {
+      "term_code": "1221",
+      "term_name": "Winter 2022",
+      "year": 2022
+    },
+    {
+      "term_code": "1229",
+      "term_name": "Fall 2022",
+      "year": 2022
+    },
+    {
+      "term_code": "1225",
+      "term_name": "Spring 2022",
+      "year": 2022
+    },
+    {
+      "term_code": "1211",
+      "term_name": "Winter 2021",
+      "year": 2021
+    },
+    {
+      "term_code": "1219",
+      "term_name": "Fall 2021",
+      "year": 2021
+    },
+    {
+      "term_code": "1215",
+      "term_name": "Spring 2021",
+      "year": 2021
+    },
+    {
+      "term_code": "1209",
+      "term_name": "Fall 2020",
+      "year": 2020
+    },
+    {
+      "term_code": "1205",
+      "term_name": "Spring 2020",
+      "year": 2020
+    }
+  ],
+  "recommended_ranges": {
+    "recent_data": {
+      "start_year": 2021,
+      "end_year": 2025,
+      "terms_count": 15
+    },
+    "comprehensive": {
+      "start_year": 2020,
+      "end_year": 2025,
+      "terms_count": 17
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015232",
+    "courseOfferNumber": 1,
+    "termCode": "1211",
+    "termName": "Winter 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ENV",
+    "associatedAcademicOrgCode": "STP",
+    "subjectCode": "SVENT",
+    "catalogNumber": "225P",
+    "title": "Social Entrepreneurship: Exploring Social Change",
+    "descriptionAbbreviated": "Social Entrep: Social Change",
+    "description": "This is a live-in experiential learning course at St. Paul's GreenHouse. Students will explore the entrepreneurial journey with an emphasis on the process of identifying a pressing problem, validating the problem and generating ideas to tackle the problem. Students will also engage in work to help them identify their own values and goals for affecting change, develop teamwork and collaboration skills and begin envisioning their own social venture or change initiative. [Note: student must enrol and be accepted in the live-in GreenHouse Community at St. Paul's University College]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "WSP",
+    "enrollConsentCode": "I",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Antireq: ENBUS 403A/B"
+  }
+]

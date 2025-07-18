@@ -1,0 +1,577 @@
+{
+  "programs": [
+    {
+      "program_id": "accounting__doctor_of_philosophy_phd_phd",
+      "basic_info": {
+        "program_name": "Accounting - Doctor of Philosophy (PhD",
+        "degree_type": "PhD",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 48,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/accounting-doctor-philosophy-phd",
+        "description": "If you're motivated and have a high degree of intellectual curiosity, the PhD in Accounting program will prepare you for a challenging and rewarding academic career. You'll receive the training necessary to develop expertise in a specialty area of accounting research."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "actuarial_science__master_of_actuarial_science_mactsc_msc",
+      "basic_info": {
+        "program_name": "Actuarial Science - Master of Actuarial Science (MActSc)",
+        "degree_type": "MSc",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 12,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/actuarial-science-master-actuarial-science-mactsc",
+        "description": "Fast-track your career in actuarial science with the Master of Actuarial Science (MActSc) program. Take your quantitative background and get the skill and knowledge to be a professional actuary."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "actuarial_science__master_of_math_mmath_msc",
+      "basic_info": {
+        "program_name": "Actuarial Science - Master of Math (MMath)",
+        "degree_type": "MSc",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 16,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/actuarial-science-master-math-mmath",
+        "description": "Join a vibrant research environment and deepen your knowledge in one of our four areas of study with the Master of Mathematics in Actuarial Science."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "actuarial_science_and_quantitative_finance__doctor_of_philosophy_phd_phd",
+      "basic_info": {
+        "program_name": "Actuarial Science and Quantitative Finance - Doctor of Philosophy (PhD)",
+        "degree_type": "PhD",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 48,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/mathematics/actuarial-science-and-quantitative-finance-doctor-philosophy",
+        "description": "Join a vibrant research environment and generate new knowledge in one of our four areas of study with the PhD in Actuarial Science and Quantitative Finance."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "anthropology public_issues__master_of_arts_ma_master",
+      "basic_info": {
+        "program_name": "Anthropology (Public Issues) - Master of Arts (MA)",
+        "degree_type": "Master",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 16,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/anthropology-public-issues-master-arts-ma",
+        "description": "Please be advised that this program has extended the application deadline beyond what is listed below. For more details, including the new deadline, see theHow to apply webpage."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "applied_mathematics__master_of_math_mmath_master",
+      "basic_info": {
+        "program_name": "Applied Mathematics - Master of Math (MMath)",
+        "degree_type": "Master",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 24,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-master-math-mmath",
+        "description": "Deepen your knowledge and undertake mathematics-based research in a multidisciplinary environment with the Master of Applied Mathematics program."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "applied_mathematics aeronautics__master_of_math_mmath_master",
+      "basic_info": {
+        "program_name": "Applied Mathematics (Aeronautics) - Master of Math (MMath)",
+        "degree_type": "Master",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 24,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-aeronautics-master-math-mmath",
+        "description": "Deepen your knowledge and undertake mathematics-based research in a multidisciplinary environment. Tackle challenges facing the future of aviation, aerospace and space with the Master of Applied Mathematics Collaborative Aeronautics program."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "applied_mathematics quantum_information__master_of_math_mmath_master",
+      "basic_info": {
+        "program_name": "Applied Mathematics (Quantum Information) - Master of Math (MMath)",
+        "degree_type": "Master",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 24,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-quantum-information-master-math-mmath",
+        "description": "The Mike and Ophelia Lazaridis Quantum-Nano Centre, home to the Institute for Quantum Computing and the Waterloo Institute for Nanotechnology, located on Waterloo's main campus."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "applied_mathematics water__master_of_math_mmath_master",
+      "basic_info": {
+        "program_name": "Applied Mathematics (Water) - Master of Math (MMath)",
+        "degree_type": "Master",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 24,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-water-master-math-mmath",
+        "description": "Deepen your knowledge and undertake mathematics-based research in a multidisciplinary environment while discovering innovative ways to tackle global water challenges with the Master of Applied Mathematics Collaborative Water program."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.821208",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "applied_mathematics__doctor_of_philosophy_phd_phd",
+      "basic_info": {
+        "program_name": "Applied Mathematics - Doctor of Philosophy (PhD)",
+        "degree_type": "PhD",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 48,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-doctor-philosophy-phd",
+        "description": "Conduct mathematics-based research and generate new knowledge in a multidisciplinary environment with the PhD in Applied Mathematics program."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.822204",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "applied_mathematics aeronautics__doctor_of_philosophy_phd_phd",
+      "basic_info": {
+        "program_name": "Applied Mathematics (Aeronautics) - Doctor of Philosophy (PhD)",
+        "degree_type": "PhD",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 48,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-aeronautics-doctor-philosophy-phd",
+        "description": "Conduct mathematics-based research and generate new knowledge in a multidisciplinary environment while tackling challenges facing the future of aviation, aerospace and space with the PhD in Applied Mathematics Collaborative Aeronautics program."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.822204",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "applied_mathematics quantum_information__doctor_of_philosophy_phd_phd",
+      "basic_info": {
+        "program_name": "Applied Mathematics (Quantum Information) - Doctor of Philosophy (PhD)",
+        "degree_type": "PhD",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 48,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-quantum-information-doctor-philosophy",
+        "description": "The Mike and Ophelia Lazaridis Quantum-Nano Centre, home to the Institute for Quantum Computing and the Waterloo Institute for Nanotechnology, located on Waterloo's main campus."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.822204",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "applied_mathematics_water__doctor_of_philosophy_phd_phd",
+      "basic_info": {
+        "program_name": "Applied Mathematics (Water) - Doctor of Philosophy (PhD)",
+        "degree_type": "PhD",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 48,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-water-doctor-philosophy-phd",
+        "description": "Conduct mathematics-based research and generate new knowledge in a multidisciplinary environment while discovering innovative ways to tackle global water challenges with the PhD in Applied Mathematics Collaborative Water program."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.822204",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "architecture__master_of_architecture_march_master",
+      "basic_info": {
+        "program_name": "Architecture - Master of Architecture (MArch)",
+        "degree_type": "Master",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 24,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/architecture-master-architecture-march",
+        "description": "Explore questions in architecture, landscape, urbanism, technology, sustainability, and fabrication in a global context with the Master of Architecture program."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.822204",
+        "data_quality_score": 48
+      }
+    },
+    {
+      "program_id": "architecture_water__master_of_architecture_march_master",
+      "basic_info": {
+        "program_name": "Architecture (Water) - Master of Architecture (MArch)",
+        "degree_type": "Master",
+        "academic_level": "",
+        "faculty": "",
+        "duration": {
+          "value": 24,
+          "unit": "months"
+        },
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/architecture-water-master-architecture-march",
+        "description": "Explore questions in architecture, landscape, urbanism, technology, sustainability, and fabrication in a global context while discovering innovative ways to tackle global water challenges with the Master of Architecture program."
+      },
+      "requirements": {
+        "categorized_requirements": {
+          "core_courses": [],
+          "elective_courses": [],
+          "credit_requirements": [],
+          "prerequisite_courses": [],
+          "general_requirements": []
+        },
+        "numeric_requirements": {},
+        "all_courses": []
+      },
+      "specializations": [],
+      "application_info": {
+        "application_deadlines": "",
+        "funding_opportunities": []
+      },
+      "metadata": {
+        "source": "academic_calendar",
+        "scraped_timestamp": "",
+        "last_updated": "2025-07-01T17:51:04.822204",
+        "data_quality_score": 48
+      }
+    }
+  ],
+  "statistics": {
+    "degree_distribution": {
+      "PhD": 6,
+      "MSc": 2,
+      "Master": 7
+    },
+    "faculty_distribution": {
+      "": 15
+    },
+    "avg_quality_score": 48.0,
+    "total_courses_found": 0,
+    "specializations_count": 0
+  },
+  "metadata": {
+    "total_programs": 15,
+    "processed_timestamp": "2025-07-01T17:51:04.822204",
+    "source_file": "enhanced_programs_20250701_172036.json"
+  }
+}

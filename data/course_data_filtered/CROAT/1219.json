@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "004344",
+    "courseOfferNumber": 1,
+    "termCode": "1219",
+    "termName": "Fall 2021",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "GERSLAV",
+    "subjectCode": "CROAT",
+    "catalogNumber": "101",
+    "title": "Elementary Croatian 1",
+    "descriptionAbbreviated": "Elementary Croatian 1",
+    "description": "For students with little or no knowledge of Croatian. The basic elements of Croatian grammar with emphasis on oral practice and pronunciation.\n[Note: CROAT 101 is not open to students with native, near-native, or similar advanced ability.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

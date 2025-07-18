@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "004280",
+    "courseOfferNumber": 2,
+    "termCode": "1251",
+    "termName": "Winter 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "CLASSICS",
+    "subjectCode": "MEDVL",
+    "catalogNumber": "205",
+    "title": "Medieval Society",
+    "descriptionAbbreviated": "Medieval Society",
+    "description": "A survey of Medieval civilization featuring such topics as the individual, political institutions, art, architecture, religion, philosophy, literature, social life, and leisure activities.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

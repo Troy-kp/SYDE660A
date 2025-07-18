@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "016301",
+    "courseOfferNumber": 1,
+    "termCode": "1231",
+    "termName": "Winter 2023",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "VPA",
+    "associatedAcademicOrgCode": "VPA",
+    "subjectCode": "SFM",
+    "catalogNumber": "102",
+    "title": "Sustainability Economics",
+    "descriptionAbbreviated": "Sustainability Economics",
+    "description": "This course provides an introduction to the basic concepts and tools of microeconomics and macroeconomics from the perspective of economic approaches to the environment.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: Sustainability and Financial Management students. Antireq: ECON\n100/COMM 103, ECON 101, ECON 102, ENVS 220, ENVS 274 001 winter 2022"
+  }
+]

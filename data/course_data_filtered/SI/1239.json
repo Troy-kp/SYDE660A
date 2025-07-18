@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013340",
+    "courseOfferNumber": 1,
+    "termCode": "1239",
+    "termName": "Fall 2023",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "REN",
+    "associatedAcademicOrgCode": "REN",
+    "subjectCode": "SI",
+    "catalogNumber": "121R",
+    "title": "Islam in the World",
+    "descriptionAbbreviated": "Islam in the World",
+    "description": "An introduction to the caliphates, cities, and cultures of Islam, through film and selected texts, including the experience of Islam in Canada as revealed through its writers. This course provides a foundation for Studies in Islam, establishing a context for multidisciplinary approaches to a wide variety of topics.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

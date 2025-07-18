@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "013200",
+    "courseOfferNumber": 2,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "PHIL",
+    "subjectCode": "GSJ",
+    "catalogNumber": "260",
+    "title": "Social Determinants of Health",
+    "descriptionAbbreviated": "Social Determinants of Health",
+    "description": "Enormous inequalities in health persist both within and between countries. These inequalities can be seen across various axes including gender, ethnicity, and access to material resources. As such, those relatively deprived/underprivileged have substantially poorer health than those better off. The course will demonstrate the extent of inequalities in health, and it will explore current theories explaining how inequalities arise, focusing on behavioural/cultural, psychosocial, and structural/material explanations. The course will also investigate the role of various approaches to economic and social policy in creating or reducing inequalities.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

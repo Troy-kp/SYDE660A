@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "007052",
+    "courseOfferNumber": 3,
+    "termCode": "1229",
+    "termName": "Fall 2022",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "CGC",
+    "associatedAcademicOrgCode": "CGC",
+    "subjectCode": "CMW",
+    "catalogNumber": "364",
+    "title": "Worship and its Music",
+    "descriptionAbbreviated": "Worship & its Music",
+    "description": "The nature of worship and the role of music within worship in historical, theological, and cultural perspectives. Field trips to services of various traditions. [Note: This course fulfils an Area 2 requirement for Religious Studies majors.]",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "LEC",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": null
+  }
+]

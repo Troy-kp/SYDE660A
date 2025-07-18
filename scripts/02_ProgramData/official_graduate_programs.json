@@ -1,0 +1,1346 @@
+[
+    {
+        "program_name": "Actuarial Science",
+        "degree": "MActSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/actuarial-science-master-actuarial-science-mactsc"
+    },
+    {
+        "program_name": "Actuarial Science",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/actuarial-science-master-math-mmath"
+    },
+    {
+        "program_name": "Anthropology (Public Issues)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/anthropology-public-issues-master-arts-ma"
+    },
+    {
+        "program_name": "Applied Mathematics",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-master-math-mmath"
+    },
+    {
+        "program_name": "Applied Mathematics (Aeronautics)",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-aeronautics-master-math-mmath"
+    },
+    {
+        "program_name": "Applied Mathematics (Quantum Information)",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-quantum-information-master-math-mmath"
+    },
+    {
+        "program_name": "Applied Mathematics (Water)",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-water-master-math-mmath"
+    },
+    {
+        "program_name": "Architecture",
+        "degree": "MArch",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/architecture-master-architecture-march"
+    },
+    {
+        "program_name": "Architecture (Water)",
+        "degree": "MArch",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/architecture-water-master-architecture-march"
+    },
+    {
+        "program_name": "Biology",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/biology-master-science-msc"
+    },
+    {
+        "program_name": "Biology (Water)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/biology-water-master-science-msc"
+    },
+    {
+        "program_name": "Biomedical Engineering",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/biomedical-engineering-master-applied-science-masc"
+    },
+    {
+        "program_name": "Biostatistics",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/biostatistics-master-math-mmath"
+    },
+    {
+        "program_name": "Business, Entrepreneurship and Technology",
+        "degree": "MBET",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/business-entrepreneurship-and-technology-master-business"
+    },
+    {
+        "program_name": "Chemical Engineering",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-master-applied-science-masc"
+    },
+    {
+        "program_name": "Chemical Engineering (Nanotechnology)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-nanotechnology-master-applied-science"
+    },
+    {
+        "program_name": "Chemical Engineering (Water)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-water-master-applied-science-masc"
+    },
+    {
+        "program_name": "Chemical Engineering",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-master-engineering-meng"
+    },
+    {
+        "program_name": "Chemical Engineering (Co-op)",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-co-op-master-engineering-meng"
+    },
+    {
+        "program_name": "Chemical Engineering (Health Technologies) (Co-op)",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-health-technologies-co-op-master"
+    },
+    {
+        "program_name": "Chemistry",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-master-science-msc"
+    },
+    {
+        "program_name": "Chemistry (Co-op)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-co-op-master-science-msc"
+    },
+    {
+        "program_name": "Chemistry (Nanotechnology)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-nanotechnology-master-science-msc"
+    },
+    {
+        "program_name": "Chemistry (Quantum Information)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-quantum-information-master-science-msc"
+    },
+    {
+        "program_name": "Civil Engineering",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-master-applied-science-masc"
+    },
+    {
+        "program_name": "Civil Engineering (Water)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-water-master-applied-science-masc"
+    },
+    {
+        "program_name": "Civil Engineering",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-master-engineering-meng"
+    },
+    {
+        "program_name": "Civil Engineering (Co-op)",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-co-op-master-engineering-meng"
+    },
+    {
+        "program_name": "Civil Engineering (Nuclear Engineering)",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-nuclear-engineering-master-engineering"
+    },
+    {
+        "program_name": "Classical Studies",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/classical-studies-master-arts-ma"
+    },
+    {
+        "program_name": "Climate Change",
+        "degree": "Master of Climate Change (MCC",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/climate-change-master-climate-change-mcc"
+    },
+    {
+        "program_name": "Combinatorics and Optimization",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-master-math-mmath"
+    },
+    {
+        "program_name": "Combinatorics and Optimization (Co-op)",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-co-op-master-mathematics"
+    },
+    {
+        "program_name": "Combinatorics and Optimization (Quantum Information)",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-quantum-information-master"
+    },
+    {
+        "program_name": "Computational Mathematics",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computational-mathematics-master-mathematics-mmath"
+    },
+    {
+        "program_name": "Computational Mathematics (Co-op)",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computational-mathematics-co-op-master-mathematics-mmath"
+    },
+    {
+        "program_name": "Computer Science",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-master-math-mmath"
+    },
+    {
+        "program_name": "Computer Science (Quantum Information)",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-quantum-information-master-math-mmath"
+    },
+    {
+        "program_name": "Data Science",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/data-science-master-math-mmath"
+    },
+    {
+        "program_name": "Data Science and Artificial Intelligence",
+        "degree": "Master of Data Science and Artificial Intelligence (MDSAI",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/data-science-and-artificial-intelligence-master-data-science"
+    },
+    {
+        "program_name": "Data Science and Artificial Intelligence (Co-op)",
+        "degree": "MDSAI",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/data-science-and-artificial-intelligence-co-op-master-data"
+    },
+    {
+        "program_name": "Development Practice",
+        "degree": "MDP",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/development-practice-master-development-practice-mdp"
+    },
+    {
+        "program_name": "Digital Experience Innovation",
+        "degree": "MDEI",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/digital-experience-innovation-master-digital-experience-mdei"
+    },
+    {
+        "program_name": "Earth Sciences",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/earth-sciences-master-science-msc"
+    },
+    {
+        "program_name": "Earth Sciences (Water)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/earth-sciences-water-master-science-msc"
+    },
+    {
+        "program_name": "Economic Development and Innovation",
+        "degree": "Master of Economic Development and Innovation (MEDI",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/economic-development-and-innovation-master-economic"
+    },
+    {
+        "program_name": "Economics",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-master-arts-ma"
+    },
+    {
+        "program_name": "Economics (Co-op)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-co-op-master-arts-ma"
+    },
+    {
+        "program_name": "Economics (Water)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-water-master-arts-ma"
+    },
+    {
+        "program_name": "Economics (Water) (Co-op)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-water-co-op-master-arts-ma"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-master-applied-science"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering (Aeronautics)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-aeronautics-master"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering (Nanotechnology)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-nanotechnology-master"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering (Quantum Information)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-quantum-information-masc"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-master-engineering-meng"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering (Co-op)",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-co-op-master-engineering"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering (Electric Power Engineering)",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-electric-power"
+    },
+    {
+        "program_name": "English (Experimental Digital Media)- Master of Arts (MA)",
+        "degree": "Unknown",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-experimental-digital-media-master-arts-ma"
+    },
+    {
+        "program_name": "English (Experimental Digital Media) (Co-op)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-experimental-digital-media-co-op-master-arts-ma"
+    },
+    {
+        "program_name": "English (Literary Studies)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-literary-studies-master-arts-ma"
+    },
+    {
+        "program_name": "English (Literary Studies) (Co-op)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-literary-studies-co-op-master-arts-ma"
+    },
+    {
+        "program_name": "English (Rhetoric and Communication Design)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-rhetoric-and-communication-design-master-arts-ma"
+    },
+    {
+        "program_name": "English (Rhetoric and Communication Design) (Co-op)- Master of Arts (MA)",
+        "degree": "Unknown",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-rhetoric-and-communication-design-co-op-master-arts"
+    },
+    {
+        "program_name": "Environment and Business",
+        "degree": "MEB",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/environment-and-business-master-environment-and-business-meb"
+    },
+    {
+        "program_name": "Fine Arts (Studio Art)",
+        "degree": "MFA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/fine-arts-studio-art-master-fine-arts-mfa"
+    },
+    {
+        "program_name": "French Studies",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/french-studies-master-arts-ma"
+    },
+    {
+        "program_name": "Future Cities",
+        "degree": "MFC",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/future-cities-master-future-cities-mfc-online"
+    },
+    {
+        "program_name": "Geography",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-master-arts-ma"
+    },
+    {
+        "program_name": "Geography (Aeronautics)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-aeronautics-master-arts-ma"
+    },
+    {
+        "program_name": "Geography (Water)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-water-master-arts-ma"
+    },
+    {
+        "program_name": "Geography",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-master-environmental-studies-mes"
+    },
+    {
+        "program_name": "Geography (Aeronautics)",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-aeronautics-master-environmental-studies-mes"
+    },
+    {
+        "program_name": "Geography (Water)",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-water-master-environmental-studies-mes"
+    },
+    {
+        "program_name": "Geography",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-master-science-msc"
+    },
+    {
+        "program_name": "Geography (Aeronautics)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-aeronautics-master-science-msc"
+    },
+    {
+        "program_name": "Geography (Water)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-water-master-science-msc"
+    },
+    {
+        "program_name": "German",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/german-master-arts-ma"
+    },
+    {
+        "program_name": "German (Intercultural German Studies)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/german-intercultural-german-studies-master-arts-ma"
+    },
+    {
+        "program_name": "Global Governance",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/global-governance-master-arts-ma"
+    },
+    {
+        "program_name": "Global Governance (Aeronautics)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/global-governance-aeronautics-master-arts-ma"
+    },
+    {
+        "program_name": "Health Evaluation",
+        "degree": "MHE",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/health-evaluation-master-health-evaluation-mhe-online"
+    },
+    {
+        "program_name": "Health Informatics and Analytics",
+        "degree": "MHIA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/health-informatics-and-analytics-master-health-informatics"
+    },
+    {
+        "program_name": "History",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/history-master-arts-ma"
+    },
+    {
+        "program_name": "Kinesiology",
+        "degree": "MKin",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/kinesiology-master-kinesiology-mkin"
+    },
+    {
+        "program_name": "Kinesiology and Health Sciences",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/kinesiology-and-health-sciences-master-science-msc"
+    },
+    {
+        "program_name": "Kinesiology and Health Sciences (Aeronautics)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/kinesiology-and-health-sciences-aeronautics-master-science"
+    },
+    {
+        "program_name": "Management Science and Engineering",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/management-science-and-engineering-master-applied-science"
+    },
+    {
+        "program_name": "Management Science",
+        "degree": "MMSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/management-science-master-management-science-mmsc"
+    },
+    {
+        "program_name": "Management Science (Co-op)",
+        "degree": "MMSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/management-science-co-op-master-management-science-mmsc"
+    },
+    {
+        "program_name": "Management Science (Health Technologies) (Co-op)",
+        "degree": "MMSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/management-science-health-technologies-co-op-master"
+    },
+    {
+        "program_name": "Management Science (Management of Technology)",
+        "degree": "MMSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/management-science-management-technology-master-management"
+    },
+    {
+        "program_name": "Mathematics for Teachers",
+        "degree": "MMT",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/mathematics/mathematics-teachers-master-mathematics-teachers-mmt-online"
+    },
+    {
+        "program_name": "Mechanical and Mechatronics Engineering",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-master-applied"
+    },
+    {
+        "program_name": "Mechanical and Mechatronics Engineering (Nanotechnology)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-nanotechnology"
+    },
+    {
+        "program_name": "Mechanical and Mechatronics Engineering",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-master-engineering"
+    },
+    {
+        "program_name": "Mechanical and Mechatronics Engineering (Co-op)",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-co-op-master"
+    },
+    {
+        "program_name": "Mechanical and Mechatronics Engineering (Health Technologies) (Co-op) – Master of Engineering (MEng)",
+        "degree": "Unknown",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-health-technologies"
+    },
+    {
+        "program_name": "Peace and Conflict Studies",
+        "degree": "MPACS",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/peace-and-conflict-studies-mpacs-master-peace-and-conflict"
+    },
+    {
+        "program_name": "Pharmacy",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/pharmacy-master-science-msc"
+    },
+    {
+        "program_name": "Philosophy",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/philosophy-master-arts-ma"
+    },
+    {
+        "program_name": "Physics",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-master-science-msc"
+    },
+    {
+        "program_name": "Physics (Nanotechnology)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-nanotechnology-master-science-msc"
+    },
+    {
+        "program_name": "Physics (Quantum Information)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-quantum-information-master-science-msc"
+    },
+    {
+        "program_name": "Planning",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/planning-master-arts-ma"
+    },
+    {
+        "program_name": "Planning (Aeronautics)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/planning-aeronautics-master-arts-ma"
+    },
+    {
+        "program_name": "Planning",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/planning-master-environmental-studies-mes"
+    },
+    {
+        "program_name": "Planning (Aeronautics)",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/planning-aeronautics-master-environmental-studies-mes"
+    },
+    {
+        "program_name": "Political Science",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/political-science-master-arts-ma"
+    },
+    {
+        "program_name": "Political Science (Co-op)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/political-science-co-op-master-arts-ma"
+    },
+    {
+        "program_name": "Psychology",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/psychology-master-arts-ma"
+    },
+    {
+        "program_name": "Psychology (Aeronautics)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/psychology-aeronautics-master-arts-ma"
+    },
+    {
+        "program_name": "Psychology  (Developmental and Communication Science)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/psychology-developmental-and-communication-science-master"
+    },
+    {
+        "program_name": "Psychology (Industrial and Organizational Psychology)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/psychology-industrial-and-organizational-psychology-master"
+    },
+    {
+        "program_name": "Public Health",
+        "degree": "MPH",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-master-public-health-mph-online"
+    },
+    {
+        "program_name": "Public Health Sciences",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-sciences-master-science-msc"
+    },
+    {
+        "program_name": "Public Health Sciences (Water)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-sciences-water-master-science-msc"
+    },
+    {
+        "program_name": "Public Service",
+        "degree": "Master of Public Service (MPS",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/public-service-master-public-service-mps"
+    },
+    {
+        "program_name": "Public Service (Co-op) - Master of Public Service (MPS)",
+        "degree": "Unknown",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/public-service-co-op-master-public-service-mps"
+    },
+    {
+        "program_name": "Pure Mathematics",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-master-mathematics-mmath"
+    },
+    {
+        "program_name": "Pure Mathematics (Quantum Information)",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-quantum-information-master-mathematics"
+    },
+    {
+        "program_name": "Quantitative Finance",
+        "degree": "MQF",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/mathematics/quantitative-finance-master-quantitative-finance-mqf"
+    },
+    {
+        "program_name": "Recreation and Leisure Studies - Master of Arts (MA)",
+        "degree": "Unknown",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/recreation-and-leisure-studies-master-arts-ma"
+    },
+    {
+        "program_name": "Social and Ecological Sustainability - Master of Environmental Studies (MES)",
+        "degree": "Unknown",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/social-and-ecological-sustainability-master-environmental"
+    },
+    {
+        "program_name": "Social and Ecological Sustainability",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/social-and-ecological-sustainability-master-environmental-0"
+    },
+    {
+        "program_name": "Social and Ecological Sustainability (Water)",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/social-and-ecological-sustainability-water-master"
+    },
+    {
+        "program_name": "Social and Legal Studies",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/social-and-legal-studies-master-arts-ma"
+    },
+    {
+        "program_name": "Social and Legal Studies (Co-op)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/social-and-legal-studies-co-op-master-arts-ma"
+    },
+    {
+        "program_name": "Social Work",
+        "degree": "MSW",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/social-work-master-social-work-msw-online"
+    },
+    {
+        "program_name": "Sociology",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/sociology-master-arts-ma"
+    },
+    {
+        "program_name": "Sociology (Co-op)",
+        "degree": "MA",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/sociology-co-op-master-arts-ma"
+    },
+    {
+        "program_name": "Statistics",
+        "degree": "MMath",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/statistics-master-math-mmath"
+    },
+    {
+        "program_name": "Sustainability Management",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/sustainability-management-master-environmental-studies-mes"
+    },
+    {
+        "program_name": "Sustainability Management (Aeronautics)",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/sustainability-management-aeronautics-master-environmental"
+    },
+    {
+        "program_name": "Sustainability Management (Water)",
+        "degree": "MES",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/sustainability-management-water-master-environmental-studies"
+    },
+    {
+        "program_name": "Systems Design Engineering",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-master-applied-science-masc"
+    },
+    {
+        "program_name": "Systems Design Engineering (Aeronautics)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-aeronautics-master-applied"
+    },
+    {
+        "program_name": "Systems Design Engineering (Nanotechnology)",
+        "degree": "MASc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-nanotechnology-master-applied"
+    },
+    {
+        "program_name": "Systems Design Engineering",
+        "degree": "MEng",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-master-engineering-meng"
+    },
+    {
+        "program_name": "Taxation",
+        "degree": "MTax",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/taxation-master-taxation-mtax"
+    },
+    {
+        "program_name": "Taxation (Co-op)",
+        "degree": "Master of Taxation (MTax",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/taxation-co-op-master-taxation-mtax"
+    },
+    {
+        "program_name": "Theological Studies",
+        "degree": "MTS",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/theological-studies-master-theological-studies-mts-conrad"
+    },
+    {
+        "program_name": "Vision Science",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/vision-science-master-science-msc"
+    },
+    {
+        "program_name": "Vision Science (Aeronautics)",
+        "degree": "MSc",
+        "academic_level": "Master's",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/vision-science-aeronautics-master-science-msc"
+    },
+    {
+        "program_name": "Accounting",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/accounting-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Actuarial Science and Quantitative Finance",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/mathematics/actuarial-science-and-quantitative-finance-doctor-philosophy"
+    },
+    {
+        "program_name": "Applied Mathematics",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Applied Mathematisc (Aeronautics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-aeronautics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Applied Mathematics (Quantum Information)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-quantum-information-doctor-philosophy"
+    },
+    {
+        "program_name": "Applied Mathematics (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Biology",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/biology-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Biology (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/biology-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Biomedical Engineering",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/biomedical-engineering-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Chemical Engineering",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Chemical Engineering (Nanotechnology)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-nanotechnology-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Chemical Engineering (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Chemistry",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Chemistry (Co-op)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-co-op-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Chemistry (Nanotechnology)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-nanotechnology-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Chemistry (Quantum Information)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-quantum-information-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Civil Engineering",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Civil Engineering (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Combinatorics and Optimization",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Combinatorics and Optimization (Quantum Information)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-quantum-information-doctor"
+    },
+    {
+        "program_name": "Computer Science",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Computer Science (Quantum Information)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-quantum-information-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Earth Sciences",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/earth-sciences-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Earth Sciences (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/earth-sciences-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Economics (Applied Economics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-applied-economics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Economics (Applied Economics - Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-applied-economics-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering (Aeronautics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-aeronautics-doctor"
+    },
+    {
+        "program_name": "​Electrical and Computer Engineering (Nanotechnology)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-nanotechnology-doctor"
+    },
+    {
+        "program_name": "Electrical and Computer Engineering (Quantum Information)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-quantum-information-phd"
+    },
+    {
+        "program_name": "English",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Entrepreneurship and Organization",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/entrepreneurship-and-organization-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "French Studies",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/french-studies-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Geography",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Geography (Aeronautics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-aeronautics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Geography (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "German",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/german-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Global Governance",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/global-governance-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "History",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/history-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Kinesiology and Health Sciences",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/kinesiology-and-health-sciences-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Kinesiology and Health Sciences (Aeronautics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/kinesiology-and-health-sciences-aeronautics-doctor"
+    },
+    {
+        "program_name": "Kinesiology and Health Sciences (Aging, Health and Well-Being)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/kinesiology-and-health-sciences-aging-health-and-well-being"
+    },
+    {
+        "program_name": "Management Science and Engineering",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/management-science-and-engineering-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Mechanical and Mechatronics Engineering",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-doctor-philosophy"
+    },
+    {
+        "program_name": "Mechanical and Mechatronics Engineering (Nanotechnology)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-nanotechnology-phd"
+    },
+    {
+        "program_name": "Pharmacy",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/pharmacy-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Philosophy",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/philosophy-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Philosophy (Applied Philosophy)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/philosophy-applied-philosophy-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Physics",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Physics (Nanotechnology)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-nanotechnology-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Physics (Quantum Information)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-quantum-information-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Planning",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/planning-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Planning (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/planning-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Political Science",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/political-science-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Psychology",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/psychology-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Public Health Sciences",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-sciences-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Public Health Sciences (Aging, Health and Well-Being)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-sciences-aging-health-and-well-being-doctor"
+    },
+    {
+        "program_name": "Public Health Sciences (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-sciences-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Pure Mathematics",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Pure Mathematics (Quantum Information)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-quantum-information-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Recreation and Leisure Studies",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/recreation-and-leisure-studies-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Recreation and Leisure Studies (Aging, Health and Well-Being)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/recreation-and-leisure-studies-aging-health-and-well-being"
+    },
+    {
+        "program_name": "Religious Studies",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/religious-studies-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Social and Ecological Sustainability",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/social-and-ecological-sustainability-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Social and Ecological Sustainability (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/social-and-ecological-sustainability-water-doctor-philosophy"
+    },
+    {
+        "program_name": "Sociology",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/sociology-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Sociology (Co-op)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/sociology-co-op-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Statistics",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/statistics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Statistics (Biostatistics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/statistics-biostatistics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Sustainability Management",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/sustainability-management-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Sustainability Management (Aeronautics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/sustainability-management-aeronautics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Sustainability Management (Water)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/sustainability-management-water-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Systems Design Engineering",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Systems Design Engineering (Aeronautics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-aeronautics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Systems Design Engineering (Nanotechnology)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-nanotechnology-doctor-philosophy"
+    },
+    {
+        "program_name": "Vision Science",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/vision-science-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Vision Science (Aeronautics)",
+        "degree": "PhD",
+        "academic_level": "Doctoral",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/vision-science-aeronautics-doctor-philosophy-phd"
+    },
+    {
+        "program_name": "Business and Entrepreneurship",
+        "degree": "GDip",
+        "academic_level": "Diploma",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/business-and-entrepreneurship-graduate-diploma-gdip"
+    },
+    {
+        "program_name": "Climate Risk Management",
+        "degree": "GDip",
+        "academic_level": "Diploma",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/climate-risk-management-graduate-diploma-gdip-online"
+    },
+    {
+        "program_name": "Data Analytics",
+        "degree": "GDip",
+        "academic_level": "Diploma",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/data-analytics-graduate-diploma-gdip"
+    },
+    {
+        "program_name": "Electric Power Engineering",
+        "degree": "GDip",
+        "academic_level": "Diploma",
+        "program_url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electric-power-engineering-graduate-diploma-gdip-online"
+    }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "courseId": "015177",
+    "courseOfferNumber": 1,
+    "termCode": "1255",
+    "termName": "Spring 2025",
+    "associatedAcademicCareer": "UG",
+    "associatedAcademicGroupCode": "ART",
+    "associatedAcademicOrgCode": "FINE",
+    "subjectCode": "VCULT",
+    "catalogNumber": "400",
+    "title": "Visual Culture Seminar",
+    "descriptionAbbreviated": "Visual Culture Seminar",
+    "description": "This fourth-year honours seminar leads students through a variety of topics in the theory and history of visual culture. Through class discussions, readings, and presentations, students will engage in an interdisciplinary dialogue around what constitutes visual culture today and how to analyze it.",
+    "gradingBasis": "NUM",
+    "courseComponentCode": "SEM",
+    "enrollConsentCode": "N",
+    "enrollConsentDescription": "No Consent Required",
+    "dropConsentCode": "N",
+    "dropConsentDescription": "No Consent Required",
+    "requirementsDescription": "Prereq: VCULT 300; Level at least 3B Visual Culture Honours students. Antireq: FINE 490, 496"
+  }
+]
